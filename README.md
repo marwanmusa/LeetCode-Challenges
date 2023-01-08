@@ -14,4 +14,5 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|1|[Two Sum](https://leetcode.com/problems/two-sum/) | [Python](roman_to_int.py)|Medium|
+|1|[Two Sum](https://leetcode.com/problems/two-sum/) | [Python](two_sum.py)|Easy|
+|13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](roman_to_int.py)|Easy|
