@@ -4,7 +4,7 @@
 # ***Exploring LeetCode***
 [![marwanmusa github](https://img.shields.io/badge/GitHub-marwanmusa-181717.svg?style=flat&logo=github)](https://github.com/marwanmusa)
 
-<a href="https://www.leetcode.com/marwanmusa" target="blank"><img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/000000/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo.png" alt="priyankeshraj" height="100" width="100" /></a>
+<a href="https://www.leetcode.com/marwanmusa" target="blank"><img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/000000/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo.png" alt="marwanmusa" height="100" width="100" /></a>
 
 </div>
 
