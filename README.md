@@ -16,4 +16,7 @@
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/) | [Python](two_sum.py)|Easy|
+|9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python](palindrome_number.py)|Easy|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](roman_to_int.py)|Easy|
+|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Python](longest_common_prefix.py)|Easy|
+|2236|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | [Python](root_equals_sum_of_children.py)|Easy|
