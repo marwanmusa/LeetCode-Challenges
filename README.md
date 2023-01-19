@@ -23,4 +23,5 @@
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Python](merge_two_sorted_lists.py)|Easy|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](removes_duplicates_from_sorted_arrays.py)|Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/) | [Python](removes_element.py)|Easy|
+|35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](search_insert_position.py)|Easy|
 |2236|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | [Python](root_equals_sum_of_children.py)|Easy|
