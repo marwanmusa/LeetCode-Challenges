@@ -25,4 +25,5 @@
 |27|[Remove Element](https://leetcode.com/problems/remove-element/) | [Python](removes_element.py)|Easy|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](search_insert_position.py)|Easy|
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Python](length_of_last_world.py)|Easy|
+|66|[Plus One](https://leetcode.com/problems/plus-one/) | [Python](plus_one.py)|Easy|
 |2236|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | [Python](root_equals_sum_of_children.py)|Easy|
