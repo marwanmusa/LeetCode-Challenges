@@ -29,5 +29,6 @@
 |67|[Add Binary](https://leetcode.com/problems/add-binary/) | [Python](add_binary.py)|Easy|
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Python](sqrtx.py) |Easy|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Python](climbing_stairs.py) |Easy|
+|83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Python](remove_duplicates_from_sorted_list.py) |Easy|
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Python](binary_tree_inorder_traversal.py) |Easy|
 |2236|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | [Python](root_equals_sum_of_children.py)|Easy|
