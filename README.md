@@ -34,4 +34,5 @@
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Python](binary_tree_inorder_traversal.py) |Easy|
 |100|[Same Tree](https://leetcode.com/problems/same-tree/) | [Python](same_tree.py) |Easy|
 |101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Python](symmetric_tree.py) |Easy|
+|104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Python](max_depth_of_binary_tree.py) |Easy|
 |2236|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | [Python](root_equals_sum_of_children.py)|Easy|
