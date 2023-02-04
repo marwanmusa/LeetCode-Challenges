@@ -39,4 +39,5 @@
 |110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Python](balanced_binary_tree.py) |Easy|
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Python](min_depth_of_binary_tree.py) |Easy|
 |112|[Path Sum](https://leetcode.com/problems/path-sum/) | [Python](path_sum.py) |Easy|
+|118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](pascal_triangle.py) |Easy|
 |2236|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | [Python](root_equals_sum_of_children.py)|Easy|
