@@ -42,4 +42,5 @@
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](pascal_triangle.py) |Easy|
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [Python](pascal_triangle2.py) |Easy|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](buy_and_sell_stock.py) |Easy|
+|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Python](valid_palindrome.py) |Easy|
 |2236|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | [Python](root_equals_sum_of_children.py)|Easy|
