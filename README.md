@@ -44,6 +44,7 @@
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](buy_and_sell_stock.py) |Easy|
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Python](valid_palindrome.py) |Easy|
 |136|[Single Number](https://leetcode.com/problems/single-number/) | [Python](single_number.py) |Easy|
-|141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](linked-list-cycle.py) |Easy|
-|141|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [Python](linked-list-cycle2.py) |Easy|
+|141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](linked_list_cycle.py) |Easy|
+|141|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [Python](linked_list_cycle2.py) |Easy|
+|217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](contains_duplicate.py) |Easy|
 |2236|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | [Python](root_equals_sum_of_children.py)|Easy|
