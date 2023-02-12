@@ -46,5 +46,6 @@
 |136|[Single Number](https://leetcode.com/problems/single-number/) | [Python](single_number.py) |Easy|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](linked_list_cycle.py) |Easy|
 |141|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [Python](linked_list_cycle2.py) |Easy|
+|144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Python](binary_tree_preorder_traversal.py) |Easy|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](contains_duplicate.py) |Easy|
 |2236|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | [Python](root_equals_sum_of_children.py)|Easy|
