@@ -26,7 +26,7 @@ class Solution:
                 new_mat.append(flatten[row_index * c : row_index * c + c])
             return new_mat
 
-    # using assiging
+    # using assigning
     def matrixReshape(self, mat: list[list[int]], r: int, c: int) -> list[list[int]]:
         m = len(mat)
         n = len(mat[0])
