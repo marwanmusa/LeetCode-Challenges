@@ -51,6 +51,7 @@
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Python](binary_tree_postorder_traversal.py) |Easy|
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Python](intersection_of_two_lists.py) |Easy|
 |168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | [Python](excel_sheet_column_title.py) |Easy|
+|169|[Majority Element](https://leetcode.com/problems/majority-element/) | [Python](majority_element.py) |Easy|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](contains_duplicate.py) |Easy|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Python](intersection_of_two_arrays.py) |Easy|
 |566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [Python](matrix_reshape.py) |Easy|
