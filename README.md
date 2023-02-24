@@ -24,6 +24,7 @@
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](removes_duplicates_from_sorted_arrays.py)|Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/) | [Python](removes_element.py)|Easy|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](search_insert_position.py)|Easy|
+|36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](valid_sudoku.py)|Medium|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Python](maximum_subarray.py)|Medium|
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Python](length_of_last_world.py)|Easy|
 |66|[Plus One](https://leetcode.com/problems/plus-one/) | [Python](plus_one.py)|Easy|
@@ -54,6 +55,9 @@
 |169|[Majority Element](https://leetcode.com/problems/majority-element/) | [Python](majority_element.py) |Easy|
 |171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [Python](excel_sheet_column_number.py) |Easy|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](contains_duplicate.py) |Easy|
+|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](valid_anagram.py) |Easy|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Python](intersection_of_two_arrays.py) |Easy|
+|383|[Ransom Note](https://leetcode.com/problems/ransom-note/) | [Python](ransom_note.py) |Easy|
+|387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Python](first_unique_char.py) |Easy|
 |566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [Python](matrix_reshape.py) |Easy|
 |2236|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | [Python](root_equals_sum_of_children.py)|Easy|
