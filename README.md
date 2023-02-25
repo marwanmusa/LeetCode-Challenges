@@ -54,6 +54,7 @@
 |168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | [Python](excel_sheet_column_title.py) |Easy|
 |169|[Majority Element](https://leetcode.com/problems/majority-element/) | [Python](majority_element.py) |Easy|
 |171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [Python](excel_sheet_column_number.py) |Easy|
+|190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [Python](reverse_bits.py) |Easy|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](contains_duplicate.py) |Easy|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](valid_anagram.py) |Easy|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Python](intersection_of_two_arrays.py) |Easy|
