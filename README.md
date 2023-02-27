@@ -56,6 +56,7 @@
 |171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [Python](excel_sheet_column_number.py) |Easy|
 |190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [Python](reverse_bits.py) |Easy|
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Python](number_of_1_bits.py) |Easy|
+|202|[Happy Number](https://leetcode.com/problems/happy-number/) | [Python](happy_number.py) |Easy|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](contains_duplicate.py) |Easy|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](valid_anagram.py) |Easy|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/) | [Python](counting_bits,py.py) |Easy|
