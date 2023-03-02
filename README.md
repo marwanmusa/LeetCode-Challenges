@@ -58,6 +58,7 @@
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Python](number_of_1_bits.py) |Easy|
 |202|[Happy Number](https://leetcode.com/problems/happy-number/) | [Python](happy_number.py) |Easy|
 |203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Python](remove_linked_list_elements.py) |Easy|
+|205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [Python](isomorphic_strings.py) |Easy|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](contains_duplicate.py) |Easy|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](valid_anagram.py) |Easy|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/) | [Python](counting_bits,py.py) |Easy|
