@@ -63,6 +63,7 @@
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](contains_duplicate.py) |Easy|
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Python](contains_duplicate2.py) |Easy|
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [Python](stack_using_queues.py) |Easy|
+|226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Python](invert_binary_tree.py) |Easy|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [Python](queue_using_stacks.py) |Easy|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](valid_anagram.py) |Easy|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/) | [Python](counting_bits,py.py) |Easy|
