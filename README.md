@@ -35,6 +35,7 @@
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Python](remove_duplicates_from_sorted_list.py) |Easy|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Python](merge_sorted_array.py) |Easy|
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Python](binary_tree_inorder_traversal.py) |Easy|
+|98[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python](validate_binary_search_tree.py) |Medium|
 |100|[Same Tree](https://leetcode.com/problems/same-tree/) | [Python](same_tree.py) |Easy|
 |101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Python](symmetric_tree.py) |Easy|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Python](binary_tree_level_order_traversal.py) |Medium|
@@ -67,10 +68,14 @@
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [Python](stack_using_queues.py) |Easy|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Python](invert_binary_tree.py) |Easy|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [Python](queue_using_stacks.py) |Easy|
+|235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](bst_lowest_common_ancestor.py) |Medium|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](valid_anagram.py) |Easy|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/) | [Python](counting_bits,py.py) |Easy|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Python](intersection_of_two_arrays.py) |Easy|
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/) | [Python](ransom_note.py) |Easy|
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Python](first_unique_char.py) |Easy|
 |566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [Python](matrix_reshape.py) |Easy|
+|653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [Python](two_sum_iv_input_is_a_bst.py) |Easy|
+|700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Python](search_in_a_binary_search_tree.py) |Easy|
+|701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [Python](insert_into_a_binary_search_tree.py) |Medium|
 |2236|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | [Python](root_equals_sum_of_children.py)|Easy|
