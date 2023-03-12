@@ -23,7 +23,8 @@
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Python](merge_two_sorted_lists.py)|Easy|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](removes_duplicates_from_sorted_arrays.py)|Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/) | [Python](removes_element.py)|Easy|
-|35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](search_insert_position.py)|Easy|
+|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/remove-element/) | [Python](search_in_rotated_sorted_array.py)|Medium|
+|35|[Search Insert Position](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](search_insert_position.py)|Easy|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](valid_sudoku.py)|Medium|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Python](maximum_subarray.py)|Medium|
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Python](length_of_last_world.py)|Easy|
