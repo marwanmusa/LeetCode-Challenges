@@ -87,5 +87,6 @@
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Python](search_in_a_binary_search_tree.py) |Easy|
 |701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [Python](insert_into_a_binary_search_tree.py) |Medium|
 |704|[Binary Search](https://leetcode.com/problems/binary-search/) | [Python](binary_search.py) |Easy|
+|876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](middle_of_linked_list.py) |Easy|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python](squares_of_sorted_array.py) |Easy|
 |2236|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | [Python](root_equals_sum_of_children.py)|Easy|
