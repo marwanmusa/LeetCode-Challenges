@@ -85,6 +85,7 @@
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Python](first_unique_char.py) |Easy|
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Python](reverse_word_in_string_iii.py) |Easy|
 |566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [Python](matrix_reshape.py) |Easy|
+|567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [Python](permutation_in_string.py) |Medium|
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [Python](two_sum_iv_input_is_a_bst.py) |Easy|
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Python](search_in_a_binary_search_tree.py) |Easy|
 |701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [Python](insert_into_a_binary_search_tree.py) |Medium|
