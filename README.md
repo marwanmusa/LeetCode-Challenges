@@ -81,6 +81,7 @@
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/) | [Python](counting_bits.py) |Easy|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/) | [Python](reverse_string.py) |Easy|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Python](intersection_of_two_arrays.py) |Easy|
+|367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | [Python](perfect_square.py) |Easy|
 |374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Python](guess_number_higher_or_lower.py) |Easy|
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/) | [Python](ransom_note.py) |Easy|
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Python](first_unique_char.py) |Easy|
