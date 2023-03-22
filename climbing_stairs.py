@@ -11,3 +11,11 @@ class Solution:
         for i in range(n):
             init_val, second_val = second_val, init_val + second_val
         return second_val
+
+    def climbStairs(self, n: int) -> int:
+        if n==1:
+            return 1
+        ans = [1,2]
+        for i in range(2,n):
+            ans.append(ans[i-1]+ans[i-2])
+        return ans[len(ans)-1]

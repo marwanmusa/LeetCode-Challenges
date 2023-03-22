@@ -28,6 +28,7 @@
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/remove-element/) | [Python](search_in_rotated_sorted_array.py)|Medium|
 |35|[Search Insert Position](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](search_insert_position.py)|Easy|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](valid_sudoku.py)|Medium|
+|46|[Permutations](https://leetcode.com/problems/permutations/) | [Python](permutations.py)|Medium|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Python](maximum_subarray.py)|Medium|
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Python](length_of_last_world.py)|Easy|
 |66|[Plus One](https://leetcode.com/problems/plus-one/) | [Python](plus_one.py)|Easy|
@@ -35,6 +36,7 @@
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Python](sqrtx.py) |Easy|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Python](climbing_stairs.py) |Easy|
 |74|[Search 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](search_a_2d_matrix.py) |Easy|
+|77|[Combinations](https://leetcode.com/problems/combinations/) | [Python](combinations.py) |Medium|
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Python](remove_duplicates_from_sorted_list.py) |Easy|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Python](merge_sorted_array.py) |Easy|
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Python](binary_tree_inorder_traversal.py) |Easy|
@@ -81,6 +83,7 @@
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/) | [Python](counting_bits.py) |Easy|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/) | [Python](reverse_string.py) |Easy|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Python](intersection_of_two_arrays.py) |Easy|
+|367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | [Python](perfect_square.py) |Easy|
 |374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Python](guess_number_higher_or_lower.py) |Easy|
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/) | [Python](ransom_note.py) |Easy|
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Python](first_unique_char.py) |Easy|
@@ -97,4 +100,5 @@
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](middle_of_linked_list.py) |Easy|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python](squares_of_sorted_array.py) |Easy|
 |2236|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | [Python](root_equals_sum_of_children.py)|Easy|
+|2348|[Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/) | [Python](number_of_zero_filled_subarray.py)|Medium|
 |2492|[Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | [Python](minimum_score_of_a_path_between_two_cities.py)|Medium|
