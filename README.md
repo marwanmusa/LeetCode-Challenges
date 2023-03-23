@@ -88,6 +88,7 @@
 |374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Python](guess_number_higher_or_lower.py) |Easy|
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/) | [Python](ransom_note.py) |Easy|
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Python](first_unique_char.py) |Easy|
+|542|[01 Matrix](https://leetcode.com/problems/01-matrix/) | [Python](update_matrix.py) |Medium|
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Python](reverse_word_in_string_iii.py) |Easy|
 |566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [Python](matrix_reshape.py) |Easy|
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [Python](permutation_in_string.py) |Medium|
