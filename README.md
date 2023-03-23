@@ -52,6 +52,7 @@
 |116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [Python](populating_next_right_pointers.py) |Medium|
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](pascal_triangle.py) |Easy|
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [Python](pascal_triangle2.py) |Easy|
+|120|[Triangle](https://leetcode.com/problems/triangle/) | [Python](triangle.py) |Medium|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](buy_and_sell_stock.py) |Easy|
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Python](valid_palindrome.py) |Easy|
 |136|[Single Number](https://leetcode.com/problems/single-number/) | [Python](single_number.py) |Easy|
