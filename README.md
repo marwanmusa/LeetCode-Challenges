@@ -99,6 +99,7 @@
 |701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [Python](insert_into_a_binary_search_tree.py) |Medium|
 |704|[Binary Search](https://leetcode.com/problems/binary-search/) | [Python](binary_search.py) |Easy|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/) | [Python](flood_fill.py) |Easy|
+|784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | [Python](letter_case_permutation.py) |Medium|
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](middle_of_linked_list.py) |Easy|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python](squares_of_sorted_array.py) |Easy|
 |994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [Python](rotting_oranges.py) |Medium|
