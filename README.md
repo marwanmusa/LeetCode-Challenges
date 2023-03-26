@@ -109,4 +109,5 @@
 |2236|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | [Python](root_equals_sum_of_children.py)|Easy|
 |2316|[Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/) | [Python](count_unreacheable_pairs_of_nodes_in_an_undirected_graph.py)|Medium|
 |2348|[Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/) | [Python](number_of_zero_filled_subarray.py)|Medium|
+|2360|[Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/) | [Python](longest_cycle_in_a_graph.py)|Hard|
 |2492|[Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | [Python](minimum_score_of_a_path_between_two_cities.py)|Medium|
