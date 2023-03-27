@@ -26,3 +26,7 @@ class Solution:
             if i not in m or r.count(i)>m.count(i):
                 return False
         return True
+
+    # Method 3
+    def canConstruct(self, r: str, m: str) -> bool:
+        return (Counter(r) - Counter(m)) == {}
