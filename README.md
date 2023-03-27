@@ -31,6 +31,7 @@
 |46|[Permutations](https://leetcode.com/problems/permutations/) | [Python](permutations.py)|Medium|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Python](maximum_subarray.py)|Medium|
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Python](length_of_last_world.py)|Easy|
+|64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Python](minimum_path_sum.py)|Medium|
 |66|[Plus One](https://leetcode.com/problems/plus-one/) | [Python](plus_one.py)|Easy|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/) | [Python](add_binary.py)|Easy|
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Python](sqrtx.py) |Easy|
