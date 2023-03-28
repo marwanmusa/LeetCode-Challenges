@@ -108,6 +108,7 @@
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](middle_of_linked_list.py) |Easy|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python](squares_of_sorted_array.py) |Easy|
 |994|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/rotting-oranges/) | [Python](rotting_oranges.py) |Medium|
+|1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/) | [Python](duplicate_zeros.py) |Easy|
 |1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | [Python](find_numbers_with_even_number_of_digits.py) |Easy|
 |1343|[Rotting Oranges](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Python](number_of_steps_to_reduce_a_number_to_zero.py) |Easy|
 |1466|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | [Python](reorder_routes_to_make_all_paths_lead_to_city_zero.py) |Medium|
