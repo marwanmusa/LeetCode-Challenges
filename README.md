@@ -111,7 +111,8 @@
 |994|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/rotting-oranges/) | [Python](rotting_oranges.py) |Medium|
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/) | [Python](duplicate_zeros.py) |Easy|
 |1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | [Python](find_numbers_with_even_number_of_digits.py) |Easy|
-|1343|[Rotting Oranges](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Python](number_of_steps_to_reduce_a_number_to_zero.py) |Easy|
+|1343|[Rotting Oranges](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Python]
+|1402|[Reducing Dishes](https://leetcode.com/problems/reducing-dishes/) | [Python](reducing_dishes.py) |Hard|
 |1466|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | [Python](reorder_routes_to_make_all_paths_lead_to_city_zero.py) |Medium|
 |1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [Python](running_sum_of_1d_array.py) |Easy|
 |1672|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | [Python](richest_customer_wealth.py) |Easy|
