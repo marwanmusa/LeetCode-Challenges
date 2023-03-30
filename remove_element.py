@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     """
     Task:
@@ -15,6 +17,18 @@ class Solution:
     Do not allocate extra space for another array. You must do this by modifying
     the input array in-place with O(1) extra memory.
     """
+    def removeElement(self, nums: List[int], val: int) -> int:
+        val_idx = []
+        k = len(nums) - len(val_idx)
+        for i in range(len(nums)):
+            if nums[i] == val: val_idx.append(i)
+        offset = 0
+        for j in val_idx:
+            nums.pop(offset + j)
+            offset -= 1
+        return k
+
+    # Use python built-in functions
     def removeElement(self, nums: list[int], val: int) -> int:
         nums[:] = list(filter((val).__ne__, nums))
         return len(nums)
