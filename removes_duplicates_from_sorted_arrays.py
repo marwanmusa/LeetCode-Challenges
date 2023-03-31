@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     """
     Task:
@@ -16,6 +18,18 @@ class Solution:
     Do not allocate extra space for another array.
     You must do this by modifying the input array in-place with O(1) extra memory.
     """
-    def removeDuplicates(self, nums: list[int]) -> int:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        if len(nums) == 0:
+            return 0
+        c = 0
+        for i in range(1, len(nums)):
+            if nums[c] != nums[i]:
+                nums[c+1] = nums[i]
+                c += 1
+        return c + 1
+
+
+    # Using python built-in function
+    def removeDuplicates(self, nums: List[int]) -> int:
         nums[:] = sorted(set(nums))
         return len(nums)
