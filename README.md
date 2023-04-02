@@ -113,6 +113,7 @@
 |994|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/rotting-oranges/) | [Python](rotting_oranges.py) |Medium|
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/) | [Python](duplicate_zeros.py) |Easy|
 |1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | [Python](find_numbers_with_even_number_of_digits.py) |Easy|
+|1299|[ Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | [Python](replace_elements_with_greatest_element_on_right_side.py) |Easy|
 |1343|[Rotting Oranges](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Python](rotting_oranges.py) |Hard|
 |1346|[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | [Python](check_if_n_and_its_double_exist.py) |Easy|
 |1402|[Reducing Dishes](https://leetcode.com/problems/reducing-dishes/) | [Python](reducing_dishes.py) |Hard|
