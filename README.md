@@ -107,13 +107,14 @@
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/) | [Python](flood_fill.py) |Easy|
 |784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | [Python](letter_case_permutation.py) |Medium|
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](middle_of_linked_list.py) |Easy|
+|905|[Sort Array by Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Python](sort_array_by_parity.py) |Easy|
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | [Python](valid_mountain_array.py) |Easy|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python](squares_of_sorted_array.py) |Easy|
 |983|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | [Python](minimum_costs_for_tickets.py) |Medium|
 |994|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/rotting-oranges/) | [Python](rotting_oranges.py) |Medium|
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/) | [Python](duplicate_zeros.py) |Easy|
 |1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | [Python](find_numbers_with_even_number_of_digits.py) |Easy|
-|1299|[ Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | [Python](replace_elements_with_greatest_element_on_right_side.py) |Easy|
+|1299|[Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | [Python](replace_elements_with_greatest_element_on_right_side.py) |Easy|
 |1343|[Rotting Oranges](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Python](rotting_oranges.py) |Hard|
 |1346|[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | [Python](check_if_n_and_its_double_exist.py) |Easy|
 |1402|[Reducing Dishes](https://leetcode.com/problems/reducing-dishes/) | [Python](reducing_dishes.py) |Hard|
