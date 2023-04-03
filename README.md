@@ -107,6 +107,7 @@
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/) | [Python](flood_fill.py) |Easy|
 |784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | [Python](letter_case_permutation.py) |Medium|
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](middle_of_linked_list.py) |Easy|
+|881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | [Python](boats_to_save_people.py) |Medium|
 |905|[Sort Array by Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Python](sort_array_by_parity.py) |Easy|
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | [Python](valid_mountain_array.py) |Easy|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python](squares_of_sorted_array.py) |Easy|
