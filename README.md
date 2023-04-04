@@ -93,6 +93,7 @@
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/) | [Python](ransom_note.py) |Easy|
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Python](first_unique_char.py) |Easy|
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Python](fizz_buzz.py) |Easy|
+|414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | [Python](third_maximum_number.py) |Easy|
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [Python](max_consecutive_ones.py) |Easy|
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/) | [Python](update_matrix.py) |Medium|
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Python](reverse_word_in_string_iii.py) |Easy|
