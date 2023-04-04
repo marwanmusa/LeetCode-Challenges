@@ -17,6 +17,7 @@ class Solution:
     Do not allocate extra space for another array. You must do this by modifying
     the input array in-place with O(1) extra memory.
     """
+    # Store all val idx in nums, then remove all val by idx and -1 the idx each loop
     def removeElement(self, nums: List[int], val: int) -> int:
         val_idx = []
         k = len(nums) - len(val_idx)
@@ -27,6 +28,15 @@ class Solution:
             nums.pop(offset + j)
             offset -= 1
         return k
+
+    # Swap all val to the end of the array
+    def removeElement(self, nums: List[int], val: int) -> int:
+        writeIdx = 0
+        for readIdx in range(0, len(nums)):
+            if nums[readIdx] != val:
+                nums[readIdx], nums[writeIdx] = nums[writeIdx], nums[readIdx]
+                writeIdx += 1
+        return writeIdx
 
     # Use python built-in functions
     def removeElement(self, nums: list[int], val: int) -> int:
