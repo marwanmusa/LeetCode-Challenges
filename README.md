@@ -133,4 +133,5 @@
 |2348|[Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/) | [Python](number_of_zero_filled_subarray.py)|Medium|
 |2360|[Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/) | [Python](longest_cycle_in_a_graph.py)|Hard|
 |2405|[Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/) | [Python](optimal_partition_of_string.py)|Medium|
+|2439|[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/) | [Python](minimize_maximum_of_array.py)|Medium|
 |2492|[Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | [Python](minimum_score_of_a_path_between_two_cities.py)|Medium|
