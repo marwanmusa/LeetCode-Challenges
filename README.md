@@ -106,6 +106,7 @@
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Python](search_in_a_binary_search_tree.py) |Easy|
 |701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [Python](insert_into_a_binary_search_tree.py) |Medium|
 |704|[Binary Search](https://leetcode.com/problems/binary-search/) | [Python](binary_search.py) |Easy|
+|724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [Python](find_pivot_index.py) |Easy|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/) | [Python](flood_fill.py) |Easy|
 |784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | [Python](letter_case_permutation.py) |Medium|
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](middle_of_linked_list.py) |Easy|
