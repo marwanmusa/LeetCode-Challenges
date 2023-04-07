@@ -119,6 +119,7 @@
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python](squares_of_sorted_array.py) |Easy|
 |983|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | [Python](minimum_costs_for_tickets.py) |Medium|
 |994|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/rotting-oranges/) | [Python](rotting_oranges.py) |Medium|
+|1020|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) | [Python](number_of_enclaves.py) |Medium|
 |1051|[Height Checker](https://leetcode.com/problems/height-checker/) | [Python](height_checker.py) |Easy|
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/) | [Python](duplicate_zeros.py) |Easy|
 |1254|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | [Python](number_of_closed_islands.py) |Medium|
