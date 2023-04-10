@@ -102,6 +102,7 @@
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Python](diagonal_traverse.py) |Medium|
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/) | [Python](update_matrix.py) |Medium|
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Python](reverse_word_in_string_iii.py) |Easy|
+|561|[Array Position](https://leetcode.com/problems/array-partition/) | [Python](array_position.py) |Easy|
 |566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [Python](matrix_reshape.py) |Easy|
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [Python](permutation_in_string.py) |Medium|
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [Python](merge_two_binary_trees.py) |Easy|
