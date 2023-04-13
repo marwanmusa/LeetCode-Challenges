@@ -62,7 +62,7 @@
 |133|[Clone Graph](https://leetcode.com/problems/clone-graph/) | [Python](clone_graph.py) |Medium|
 |136|[Single Number](https://leetcode.com/problems/single-number/) | [Python](single_number.py) |Easy|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](linked_list_cycle.py) |Easy|
-|141|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [Python](linked_list_cycle2.py) |Medium|
+|142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [Python](linked_list_cycle2.py) |Medium|
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Python](binary_tree_preorder_traversal.py) |Easy|
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Python](binary_tree_postorder_traversal.py) |Easy|
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Python](reverse_word_in_string.py) |Medium|
