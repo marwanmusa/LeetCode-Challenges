@@ -113,6 +113,7 @@
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Python](search_in_a_binary_search_tree.py) |Easy|
 |701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [Python](insert_into_a_binary_search_tree.py) |Medium|
 |704|[Binary Search](https://leetcode.com/problems/binary-search/) | [Python](binary_search.py) |Easy|
+|705|[Design HashSet](https://leetcode.com/problems/design-hashset/) | [Python](design_HashSet.py) |Easy|
 |724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [Python](find_pivot_index.py) |Easy|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/) | [Python](flood_fill.py) |Easy|
 |747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | [Python](largest_number_at_least_twice_of_others.py) |Easy|
