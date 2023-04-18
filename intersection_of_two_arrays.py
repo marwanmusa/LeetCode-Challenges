@@ -14,7 +14,8 @@ class Solution:
         i,j = 0,0
         while i<m and j<n:
             if nums1[i] == nums2[j]:
-                intersection.append(nums1[i])
+                if nums1[i] not in intersection:
+                    intersection.append(nums1[i])
                 i += 1
                 j += 1
             elif nums1[i] < nums2[j]:
