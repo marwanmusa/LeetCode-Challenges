@@ -92,7 +92,8 @@
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](move_zeroes.py) |Easy|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/) | [Python](counting_bits.py) |Easy|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/) | [Python](reverse_string.py) |Easy|
-|350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Python](intersection_of_two_arrays.py) |Easy|
+|349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [Python](intersection_of_two_arrays.py) |Easy|
+|350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Python](intersection_of_two_arrays2.py) |Easy|
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | [Python](perfect_square.py) |Easy|
 |374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Python](guess_number_higher_or_lower.py) |Easy|
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/) | [Python](ransom_note.py) |Easy|
@@ -114,6 +115,7 @@
 |701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [Python](insert_into_a_binary_search_tree.py) |Medium|
 |704|[Binary Search](https://leetcode.com/problems/binary-search/) | [Python](binary_search.py) |Easy|
 |705|[Design HashSet](https://leetcode.com/problems/design-hashset/) | [Python](design_HashSet.py) |Easy|
+|706|[Design HashMap](https://leetcode.com/problems/design-hashmap/) | [Python](design_HashMap.py) |Easy|
 |724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [Python](find_pivot_index.py) |Easy|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/) | [Python](flood_fill.py) |Easy|
 |747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | [Python](largest_number_at_least_twice_of_others.py) |Easy|

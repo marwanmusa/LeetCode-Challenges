@@ -2,7 +2,8 @@ class Solution:
     """
     Task:
     Given two integer arrays nums1 and nums2, return an array of their intersection.
-    Each element in the result must be unique and you may return the result in any order.
+    Each element in the result must appear as many times as it shows in both arrays and
+    you may return the result in any order.
     """
     def intersect(self, nums1: list[int], nums2: list[int]) -> list[int]:
         # Solution 1 : Sorting and two-pointer approach
@@ -13,8 +14,7 @@ class Solution:
         i,j = 0,0
         while i<m and j<n:
             if nums1[i] == nums2[j]:
-                if nums1[i] not in intersection:
-                    intersection.append(nums1[i])
+                intersection.append(nums1[i])
                 i += 1
                 j += 1
             elif nums1[i] < nums2[j]:

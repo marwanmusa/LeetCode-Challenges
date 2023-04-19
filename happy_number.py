@@ -22,7 +22,6 @@ class Solution:
             if n in s:
                 return False
             s.add(n)
-        return False
 
     # Method 2 using list loop modulo and division to calculate sum of square each digit
     def isHappy(self, n: int) -> bool:
@@ -35,7 +34,6 @@ class Solution:
             if n in s:
                 return False
             s.add(n)
-        return False
 
     def sumDigitSquare(self, n):
         sq = 0
