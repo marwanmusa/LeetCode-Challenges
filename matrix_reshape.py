@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     """
     Task:
@@ -14,7 +16,7 @@ class Solution:
     output the new reshaped matrix; Otherwise, output the original matrix.
     """
     # Using slicing
-    def matrixReshape(self, mat: list[list[int]], r: int, c: int) -> list[list[int]]:
+    def matrixReshape(self, mat: List[List[int]], r: int, c: int) -> List[List[int]]:
         flatten, new_mat = [], []
         for row in mat:
             flatten.extend(row)
@@ -27,7 +29,7 @@ class Solution:
             return new_mat
 
     # using assigning
-    def matrixReshape(self, mat: list[list[int]], r: int, c: int) -> list[list[int]]:
+    def matrixReshape(self, mat: List[List[int]], r: int, c: int) -> List[List[int]]:
         m = len(mat)
         n = len(mat[0])
 

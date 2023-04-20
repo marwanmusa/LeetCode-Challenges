@@ -2,10 +2,10 @@
 Task:
 Given an integer rowIndex, return the rowIndexth (0-indexed) row of the Pascal's triangle.
 """
-
+from typing import List
 class Solution:
     # Method I
-    def getRow(self, rowIndex: int) -> list[int]:
+    def getRow(self, rowIndex: int) -> List[int]:
         target_row = []
         target_row.append(1)
 
@@ -23,7 +23,7 @@ class Solution:
         return target_row
 
     # Method II
-    def getRow(self, rowIndex: int) -> list[int]:
+    def getRow(self, rowIndex: int) -> List[int]:
         target_row = [1]
         prev = 1
         for i in range(1, rowIndex+1):

@@ -1,9 +1,11 @@
+from typing import List
+
 class Solution:
     """
     Task:
     Given an integer numRows, return the first numRows of Pascal's triangle.
     """
-    def generate(self, numRows: int) -> list[list[int]]:
+    def generate(self, numRows: int) -> List[List[int]]:
         numSeries = [[1]]
         if numRows == 1:
             return numSeries

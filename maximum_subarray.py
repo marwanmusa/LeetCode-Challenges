@@ -1,6 +1,8 @@
+from typing import List
+
 class Solution:
     # Using Kadane's Algorithm
-    def maxSubArray(self, nums: list[int]) -> int:
+    def maxSubArray(self, nums: List[int]) -> int:
         n = len(nums)
         max_sum = -1e8
         cur_sum = 0
