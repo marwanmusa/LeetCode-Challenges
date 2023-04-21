@@ -108,6 +108,7 @@
 |561|[Array Position](https://leetcode.com/problems/array-partition/) | [Python](array_position.py) |Easy|
 |566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [Python](matrix_reshape.py) |Easy|
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [Python](permutation_in_string.py) |Medium|
+|599|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | [Python](minimum_index_sum_of_two_lists.py) |Easy|
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [Python](merge_two_binary_trees.py) |Easy|
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [Python](two_sum_iv_input_is_a_bst.py) |Easy|
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Python](max_area_of_island.py) |Medium|
