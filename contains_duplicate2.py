@@ -22,6 +22,5 @@ class Solution:
         for i, n in enumerate(nums):
             if n in hm and abs(hm[n]-i)<=k:
                 return True
-            else:
-                hm[n] = i
+            hm[n] = i
         return False
