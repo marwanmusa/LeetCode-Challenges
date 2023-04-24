@@ -32,7 +32,7 @@ class Solution:
                 block[board[rc][cc]] = 1
         return True
 
-        # Solution 2 using defaultdict to save temporary row cols and submatrices
+    # Solution 2 using defaultdict to save temporary row cols and submatrices
     def isValidSudoku(self, board: list[list[str]]) -> bool:
         rows=defaultdict(set)
         cols=defaultdict(set)
