@@ -122,6 +122,7 @@
 |724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [Python](find_pivot_index.py) |Easy|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/) | [Python](flood_fill.py) |Easy|
 |747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | [Python](largest_number_at_least_twice_of_others.py) |Easy|
+|771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [Python](jewels_and_stones.py) |Easy|
 |784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | [Python](letter_case_permutation.py) |Medium|
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](middle_of_linked_list.py) |Easy|
 |881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | [Python](boats_to_save_people.py) |Medium|
