@@ -14,3 +14,18 @@ class Solution:
             charSet.add(s[r])
             res = max(res, r-l+1)
         return res
+
+
+    # optimized solution using dict
+    def lengthOfLongestSubstring(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        longest_len, start, chars = 0, -1, {}
+        for i, v in enumerate(s):
+            if v in chars and chars[v] > start:
+                start = chars[v]
+            elif i-start > longest_len:
+                longest_len = i-start
+            chars[v] = i
