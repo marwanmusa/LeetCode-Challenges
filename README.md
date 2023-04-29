@@ -93,6 +93,7 @@
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](move_zeroes.py) |Easy|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/) | [Python](counting_bits.py) |Easy|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/) | [Python](reverse_string.py) |Easy|
+|347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Python](top_k_freq_element.py) |Medium|
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [Python](intersection_of_two_arrays.py) |Easy|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Python](intersection_of_two_arrays2.py) |Easy|
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | [Python](perfect_square.py) |Easy|
