@@ -8,8 +8,19 @@ class Solution:
 
     Return the letter that was added to t.
     """
+    # method 1
     def findTheDifference(self, s: str, t: str) -> str:
         t = Counter(t)
         for w in s:
             t[w] -= 1
         return max(t, key=t.get)
+
+
+    # method 2
+    def findTheDifference(self, s: str, t: str) -> str:
+        c=0
+        for i in s:
+            c=c^ord(i)
+        for i in t:
+            c=c^ord(i)
+        return chr(c)
