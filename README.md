@@ -101,6 +101,7 @@
 |380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Python](insert_delete_getrandom_o1.py) |Medium|
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/) | [Python](ransom_note.py) |Easy|
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Python](first_unique_char.py) |Easy|
+|389|[Find the Difference](https://leetcode.com/problems/find-the-difference/) | [Python](find_the_difference.py) |Easy|
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Python](fizz_buzz.py) |Easy|
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | [Python](third_maximum_number.py) |Easy|
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Python](find_all_numbers_disappeared_in_an_array.py) |Easy|
