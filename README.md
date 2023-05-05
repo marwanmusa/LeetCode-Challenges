@@ -85,6 +85,7 @@
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Python](contains_duplicate2.py) |Easy|
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [Python](stack_using_queues.py) |Easy|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Python](invert_binary_tree.py) |Easy|
+|228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/) | [Python](summary_ranges.py) |Easy|
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/) | [Python](power_of_two.py) |Easy|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [Python](queue_using_stacks.py) |Easy|
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](bst_lowest_common_ancestor.py) |Medium|
@@ -115,6 +116,7 @@
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [Python](permutation_in_string.py) |Medium|
 |599|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | [Python](minimum_index_sum_of_two_lists.py) |Easy|
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [Python](merge_two_binary_trees.py) |Easy|
+|622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [Python](design_circular_queue.py) |Medium|
 |652|[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | [Python](find_duplicate_subtrees.py) |Medium|
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [Python](two_sum_iv_input_is_a_bst.py) |Easy|
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Python](max_area_of_island.py) |Medium|
@@ -123,6 +125,7 @@
 |704|[Binary Search](https://leetcode.com/problems/binary-search/) | [Python](binary_search.py) |Easy|
 |705|[Design HashSet](https://leetcode.com/problems/design-hashset/) | [Python](design_HashSet.py) |Easy|
 |706|[Design HashMap](https://leetcode.com/problems/design-hashmap/) | [Python](design_HashMap.py) |Easy|
+|707|[Design Linked List](https://leetcode.com/problems/design-linked-list/) | [Python](design_linked_list.py) |Medium|
 |724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [Python](find_pivot_index.py) |Easy|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/) | [Python](flood_fill.py) |Easy|
 |747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | [Python](largest_number_at_least_twice_of_others.py) |Easy|
