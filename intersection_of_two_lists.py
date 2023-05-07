@@ -7,6 +7,7 @@ class ListNode:
         self.next = None
 
 class Solution:
+    # Method 1
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
         c1 = self.get_count(headA)
         c2 = self.get_count(headB)
@@ -40,3 +41,31 @@ class Solution:
             count += 1
             cur = cur.next
         return count
+
+
+    # Method 2
+    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
+        sack=set()
+        cur=headA
+        while cur:
+            sack.add(cur)
+            cur=cur.next
+
+        cur=headB
+
+        while cur:
+            if cur in sack:
+                return cur
+            cur=cur.next
+        return None
+
+
+    # Method 3
+    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
+        first = headA
+        second = headB
+
+        while first != second:
+            first = headB if first is None else first.next
+            second = headA if second is None else second.next
+        return first
