@@ -15,23 +15,20 @@ class Solution:
     """
     # Method 1
     def removeElements(self, head: Optional[ListNode], val: int) -> Optional[ListNode]:
-        if head == None: return head
+        if head == None: return
         cur = head
-        while cur != None and cur.val == val:
+        while cur and cur.val == val:
             head = cur.next
             cur = head
 
         prev = None
-        while cur != None:
-            while cur!= None and cur.val != val:
+        while cur:
+            while cur and cur.val != val:
                 prev = cur
                 cur = cur.next
-
-            if cur == None: return head
-
+            if cur == None : return head
             prev.next = cur.next
             cur = prev.next
-
         return head
 
     # Method 2

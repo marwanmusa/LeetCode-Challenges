@@ -26,11 +26,11 @@ class Solution:
 
     # Using iteration
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        new_ll = None
+        prev = None
         curr = head
         while curr:
             next_node = curr.next
-            curr.next = new_ll
-            new_ll = curr
+            curr.next = prev
+            prev = curr
             curr = next_node
-        return new_ll
+        return prev
