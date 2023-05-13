@@ -9,41 +9,41 @@ class ListNode:
 
 class Solution:
     def isPalindrome(self, head: Optional[ListNode]) -> bool:
-        if head is None:
-            return True
+        if not head: return True
 
-        # Find the end of first half and reverse second half.
+        # Find the end of the first half and
+        # reverse second half
         first_half_end = self.end_of_first_half(head)
         second_half_start = self.reverse_list(first_half_end.next)
 
-        # Check whether or not there's a palindrome.
-        result = True
+        # check whether or not there's a palindrome
+        res = True
         first_position = head
         second_position = second_half_start
-        while result and second_position is not None:
+        while res and second_position:
             if first_position.val != second_position.val:
-                result = False
+                res = False
             first_position = first_position.next
             second_position = second_position.next
 
         # Restore the list and return the result.
         first_half_end.next = self.reverse_list(second_half_start)
-        return result
+        return res
 
     def end_of_first_half(self, head):
         fast = head
         slow = head
-        while fast.next is not None and fast.next.next is not None:
+        while fast.next and fast.next.next:
             fast = fast.next.next
             slow = slow.next
         return slow
 
     def reverse_list(self, head):
-        previous = None
-        current = head
-        while current is not None:
-            next_node = current.next
-            current.next = previous
-            previous = current
-            current = next_node
-        return previous
+        prev = None
+        cur = head
+        while cur:
+            next_node = cur.next
+            cur.next = prev
+            prev = cur
+            cur = next_node
+        return prev
