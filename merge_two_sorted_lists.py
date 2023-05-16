@@ -26,7 +26,7 @@ class Solution:
                 break
             if list2 is None:
                 tail.next = list1
-                break 
+                break
 
             if list1.val <= list2.val:
                 tail.next = list1
@@ -36,3 +36,33 @@ class Solution:
                 list2 = list2.next
             tail = tail.next
         return dummyNode.next
+
+
+    # Method 2
+    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+        head = ListNode()
+        cur = ListNode()
+        head.next = cur
+
+        if list1 is None:
+            return list2
+
+        elif list2 is None:
+            return list1
+
+        while list1 and list2:
+            if list1.val <= list2.val:
+                cur.next = list1
+                cur = cur.next
+                list1 = list1.next
+            else:
+                cur.next = list2
+                cur = cur.next
+                list2 = list2.next
+
+        if list1:
+            cur.next = list1
+        elif list2:
+            cur.next = list2
+
+        return head.next.next
