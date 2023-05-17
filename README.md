@@ -16,6 +16,7 @@
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/) | [Python](two_sum.py)|Easy|
+|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](add_two_numbers.py)|Medium|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](longest_substring_without_repeating_character.py)|Medium|
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python](palindrome_number.py)|Easy|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](roman_to_int.py)|Easy|
