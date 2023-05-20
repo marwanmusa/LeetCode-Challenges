@@ -96,6 +96,7 @@
 |258|[Add Digits](https://leetcode.com/problems/add-digits/) | [Python](add_digits.py) |Easy|
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Python](first_bad_version.py) |Easy|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](move_zeroes.py) |Easy|
+|326|[Power of Three](https://leetcode.com/problems/power-of-three/) | [Python](power_of_three.py) |Easy|
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Python](odd_even_linked_list.py) |Medium|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/) | [Python](counting_bits.py) |Easy|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/) | [Python](reverse_string.py) |Easy|
