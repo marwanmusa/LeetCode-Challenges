@@ -79,6 +79,7 @@
 |190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [Python](reverse_bits.py) |Easy|
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Python](number_of_1_bits.py) |Easy|
 |198|[House Robber](https://leetcode.com/problems/house-robber/) | [Python](house_robber.py) |Medium|
+|200|[Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python](number_of_islands.py) |Medium|
 |202|[Happy Number](https://leetcode.com/problems/happy-number/) | [Python](happy_number.py) |Easy|
 |203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Python](remove_linked_list_elements.py) |Easy|
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [Python](isomorphic_strings.py) |Easy|
