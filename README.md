@@ -96,6 +96,7 @@
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](bst_lowest_common_ancestor.py) |Medium|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](valid_anagram.py) |Easy|
 |258|[Add Digits](https://leetcode.com/problems/add-digits/) | [Python](add_digits.py) |Easy|
+|263|[Ugly Number](https://leetcode.com/problems/ugly-number/) | [Python](ugly_number.py) |Easy|
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Python](first_bad_version.py) |Easy|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](move_zeroes.py) |Easy|
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/) | [Python](power_of_three.py) |Easy|
