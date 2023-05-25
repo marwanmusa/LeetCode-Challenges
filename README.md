@@ -79,7 +79,7 @@
 |190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [Python](reverse_bits.py) |Easy|
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Python](number_of_1_bits.py) |Easy|
 |198|[House Robber](https://leetcode.com/problems/house-robber/) | [Python](house_robber.py) |Medium|
-|200|[Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python](number_of_islands.py) |Medium|
+|200|[Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python](./Queue%20&%20Stack/number_of_islands.py) |Medium|
 |202|[Happy Number](https://leetcode.com/problems/happy-number/) | [Python](happy_number.py) |Easy|
 |203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Python](remove_linked_list_elements.py) |Easy|
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [Python](isomorphic_strings.py) |Easy|
@@ -139,6 +139,7 @@
 |724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [Python](find_pivot_index.py) |Easy|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/) | [Python](flood_fill.py) |Easy|
 |747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | [Python](largest_number_at_least_twice_of_others.py) |Easy|
+|752|[Open the Lock](https://leetcode.com/problems/open-the-lock/) | [Python](./Queue%20&%20Stack/open_the_lock.py) |Medium|
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [Python](jewels_and_stones.py) |Easy|
 |784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | [Python](letter_case_permutation.py) |Medium|
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](middle_of_linked_list.py) |Easy|
