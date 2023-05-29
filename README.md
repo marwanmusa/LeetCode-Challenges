@@ -95,6 +95,7 @@
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Python](palindrome_linked_list.py) |Easy|
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](bst_lowest_common_ancestor.py) |Medium|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](valid_anagram.py) |Easy|
+|249|[Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [Python](./Queue%20&%20Stack/perfect_squares.py) |Medium|
 |258|[Add Digits](https://leetcode.com/problems/add-digits/) | [Python](add_digits.py) |Easy|
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number/) | [Python](ugly_number.py) |Easy|
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Python](first_bad_version.py) |Easy|
