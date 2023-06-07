@@ -62,7 +62,7 @@
 |120|[Triangle](https://leetcode.com/problems/triangle/) | [Python](triangle.py) |Medium|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](buy_and_sell_stock.py) |Easy|
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Python](valid_palindrome.py) |Easy|
-|133|[Clone Graph](https://leetcode.com/problems/clone-graph/) | [Python](clone_graph.py) |Medium|
+|133|[Clone Graph](https://leetcode.com/problems/clone-graph/) | [Python](./Queue%20&%20Stack/clone_graph.py) |Medium|
 |136|[Single Number](https://leetcode.com/problems/single-number/) | [Python](single_number.py) |Easy|
 |138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Python](copy_list_with_random_pointer.py) |Medium|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](linked_list_cycle.py) |Easy|
