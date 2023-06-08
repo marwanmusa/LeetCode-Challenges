@@ -62,7 +62,7 @@
 |120|[Triangle](https://leetcode.com/problems/triangle/) | [Python](triangle.py) |Medium|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](buy_and_sell_stock.py) |Easy|
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Python](valid_palindrome.py) |Easy|
-|133|[Clone Graph](https://leetcode.com/problems/clone-graph/) | [Python](clone_graph.py) |Medium|
+|133|[Clone Graph](https://leetcode.com/problems/clone-graph/) | [Python](./Queue%20&%20Stack/clone_graph.py) |Medium|
 |136|[Single Number](https://leetcode.com/problems/single-number/) | [Python](single_number.py) |Easy|
 |138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Python](copy_list_with_random_pointer.py) |Medium|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](linked_list_cycle.py) |Easy|
@@ -124,6 +124,7 @@
 |430|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [Python](flatten_multilevel_doubly_linkedlist.py) |Medium|
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Python](find_all_numbers_disappeared_in_an_array.py) |Easy|
 |454|[4Sum II](https://leetcode.com/problems/4sum-ii/) | [Python](4sum_ii.py) |Medium|
+|461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [Python](hamming_distance.py) |Easy|
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [Python](max_consecutive_ones.py) |Easy|
 |494|[Target Sum](https://leetcode.com/problems/target-sum/) | [Python](./Queue%20&%20Stack/target_sum.py.py) |Medium|
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Python](diagonal_traverse.py) |Medium|
