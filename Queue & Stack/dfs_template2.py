@@ -7,10 +7,22 @@ class ListNode:
         self.next = None
 
 
-def dfs(cur: Optional[ListNode], target: Optional[ListNode], visited: set) -> bool:
-    pass
+def dfs(root: Optional[ListNode], target: int) -> bool:
+    visited = set()
+    stack = list()
 
+    stack.append(root)
+    while stack:
+        cur = stack.pop()
+        if cur is target: return True
+        while cur.next:
+            cur = cur.next
+            if cur not in visited:
+                visited.add(cur)
+                stack.append(cur)
+    return False
 
+# Original code in Java
 """
 boolean DFS(int root, int target) {
     Set<Node> visited;
