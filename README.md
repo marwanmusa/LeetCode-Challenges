@@ -46,7 +46,7 @@
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Python](remove_duplicates_from_sorted_list.py) |Easy|
 |87|[Scramble String](https://leetcode.com/problems/scramble-string/) | [Python](scramble_string.py) |Hard|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Python](merge_sorted_array.py) |Easy|
-|94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Python](binary_tree_inorder_traversal.py) |Easy|
+|94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Python](./Queue%20&%20Stack/binary_tree_inorder_traversal.py) |Easy|
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python](validate_binary_search_tree.py) |Medium|
 |100|[Same Tree](https://leetcode.com/problems/same-tree/) | [Python](same_tree.py) |Easy|
 |101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Python](symmetric_tree.py) |Easy|
