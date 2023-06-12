@@ -89,7 +89,7 @@
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Python](minimum_size_subarray_sum.py) |Medium|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](contains_duplicate.py) |Easy|
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Python](contains_duplicate2.py) |Easy|
-|225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [Python](stack_using_queues.py) |Easy|
+|225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [Python](./Queue%20&%20Stack/implement_stack_using_queues.py) |Easy|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Python](invert_binary_tree.py) |Easy|
 |228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/) | [Python](summary_ranges.py) |Easy|
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/) | [Python](power_of_two.py) |Easy|
