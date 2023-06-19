@@ -4,7 +4,7 @@ Given an integer rowIndex, return the rowIndexth (0-indexed) row of the Pascal's
 """
 from typing import List
 class Solution:
-    # Method I
+    # Method I - recursion
     def getRow(self, rowIndex: int) -> List[int]:
         target_row = []
         target_row.append(1)

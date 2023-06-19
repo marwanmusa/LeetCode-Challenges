@@ -59,7 +59,7 @@
 |112|[Path Sum](https://leetcode.com/problems/path-sum/) | [Python](path_sum.py) |Easy|
 |116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [Python](populating_next_right_pointers.py) |Medium|
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](pascal_triangle.py) |Easy|
-|119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [Python](pascal_triangle2.py) |Easy|
+|119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [Python](./Recursion-1/pascal_triangle2.py) |Easy|
 |120|[Triangle](https://leetcode.com/problems/triangle/) | [Python](triangle.py) |Medium|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](buy_and_sell_stock.py) |Easy|
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Python](valid_palindrome.py) |Easy|
@@ -86,7 +86,7 @@
 |202|[Happy Number](https://leetcode.com/problems/happy-number/) | [Python](happy_number.py) |Easy|
 |203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Python](remove_linked_list_elements.py) |Easy|
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [Python](isomorphic_strings.py) |Easy|
-|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](reverse_linked_list.py) |Easy|
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](./Recursion-1/reverse_linked_list.py) |Easy|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Python](minimum_size_subarray_sum.py) |Medium|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](contains_duplicate.py) |Easy|
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Python](contains_duplicate2.py) |Easy|
