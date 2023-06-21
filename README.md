@@ -41,7 +41,7 @@
 |66|[Plus One](https://leetcode.com/problems/plus-one/) | [Python](plus_one.py)|Easy|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/) | [Python](add_binary.py)|Easy|
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Python](sqrtx.py) |Easy|
-|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Python](climbing_stairs.py) |Easy|
+|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Python](./Recursion-1/climbing_stairs.py) |Easy|
 |74|[Search 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](search_a_2d_matrix.py) |Easy|
 |77|[Combinations](https://leetcode.com/problems/combinations/) | [Python](combinations.py) |Medium|
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Python](remove_duplicates_from_sorted_list.py) |Easy|

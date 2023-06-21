@@ -19,3 +19,17 @@ class Solution:
         for i in range(2,n):
             ans.append(ans[i-1]+ans[i-2])
         return ans[len(ans)-1]
+
+    # with memoization
+    def climbStairs(self, n: int) -> int:
+        cache = {}
+        def recur_climb(n):
+            if n in cache:
+                return cache[n]
+            if n <= 2:
+                res = n
+            else:
+                res = recur_climb(n-1) + recur_climb(n-2)
+            cache[n] = res
+            return res
+        return recur_climb(n)
