@@ -16,12 +16,12 @@
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/) | [Python](two_sum.py)|Easy|
-|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](add_two_numbers.py)|Medium|
+|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](./LinkedList/add_two_numbers.py)|Medium|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](longest_substring_without_repeating_character.py)|Medium|
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python](palindrome_number.py)|Easy|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](roman_to_int.py)|Easy|
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Python](longest_common_prefix.py)|Easy|
-|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Python](remove_nth_node_from_end_of_linkedlist.py)|Medium|
+|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Python](./LinkedList/remove_nth_node_from_end_of_linkedlist.py)|Medium|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Python](./Queue%20&%20Stack/valid_parentheses.py)|Easy|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Python](./Recursion-1/merge_two_sorted_lists.py)|Easy|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [Python](./Recursion-1/swap_nodes_in_pairs.py)|Medium|
@@ -37,7 +37,7 @@
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Python](maximum_subarray.py)|Medium|
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](spiral_matrix.py)|Medium|
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Python](length_of_last_world.py)|Easy|
-|61|[Rotate List](https://leetcode.com/problems/rotate-list/) | [Python](rotate_list.py)|Medium|
+|61|[Rotate List](https://leetcode.com/problems/rotate-list/) | [Python](./LinkedList/rotate_list.py)|Medium|
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Python](minimum_path_sum.py)|Medium|
 |66|[Plus One](https://leetcode.com/problems/plus-one/) | [Python](plus_one.py)|Easy|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/) | [Python](add_binary.py)|Easy|
@@ -67,15 +67,15 @@
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Python](valid_palindrome.py) |Easy|
 |133|[Clone Graph](https://leetcode.com/problems/clone-graph/) | [Python](./Queue%20&%20Stack/clone_graph.py) |Medium|
 |136|[Single Number](https://leetcode.com/problems/single-number/) | [Python](single_number.py) |Easy|
-|138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Python](copy_list_with_random_pointer.py) |Medium|
-|141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](linked_list_cycle.py) |Easy|
-|142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [Python](linked_list_cycle2.py) |Medium|
+|138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Python](./LinkedList/copy_list_with_random_pointer.py) |Medium|
+|141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](./LinkedList/linked_list_cycle.py) |Easy|
+|142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [Python](./LinkedList/linked_list_cycle2.py) |Medium|
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Python](binary_tree_preorder_traversal.py) |Easy|
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Python](binary_tree_postorder_traversal.py) |Easy|
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Python](reverse_word_in_string.py) |Medium|
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Python](./Queue%20&%20Stack/evaluate_rpn.py) |Medium|
 |155|[Min Stack](https://leetcode.com/problems/min-stack/) | [Python](./Queue%20&%20Stack/min_stack.py) |Medium|
-|160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Python](intersection_of_two_lists.py) |Easy|
+|160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Python](./LinkedList/intersection_of_two_lists.py) |Easy|
 |167|[Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Python](two_sum_ii.py) |Medium|
 |168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | [Python](excel_sheet_column_title.py) |Easy|
 |169|[Majority Element](https://leetcode.com/problems/majority-element/) | [Python](majority_element.py) |Easy|
@@ -86,7 +86,7 @@
 |198|[House Robber](https://leetcode.com/problems/house-robber/) | [Python](house_robber.py) |Medium|
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python](./Queue%20&%20Stack/number_of_islands.py) |Medium|
 |202|[Happy Number](https://leetcode.com/problems/happy-number/) | [Python](happy_number.py) |Easy|
-|203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Python](remove_linked_list_elements.py) |Easy|
+|203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Python](./LinkedList/remove_linked_list_elements.py) |Easy|
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [Python](isomorphic_strings.py) |Easy|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](./Recursion-1/reverse_linked_list.py) |Easy|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Python](minimum_size_subarray_sum.py) |Medium|
@@ -97,7 +97,7 @@
 |228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/) | [Python](summary_ranges.py) |Easy|
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/) | [Python](power_of_two.py) |Easy|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [Python](./Queue%20&%20Stack/implement_queue_using_stack.py) |Easy|
-|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Python](palindrome_linked_list.py) |Easy|
+|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Python](./LinkedList/palindrome_linked_list.py) |Easy|
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](bst_lowest_common_ancestor.py) |Medium|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](valid_anagram.py) |Easy|
 |249|[Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [Python](./Queue%20&%20Stack/perfect_squares.py) |Medium|
@@ -108,7 +108,7 @@
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](move_zeroes.py) |Easy|
 |292|[Nim Game](https://leetcode.com/problems/nim-game/) | [Python](nim_game.py) |Easy|
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/) | [Python](power_of_three.py) |Easy|
-|328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Python](odd_even_linked_list.py) |Medium|
+|328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Python](./LinkedList/odd_even_linked_list.py) |Medium|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/) | [Python](counting_bits.py) |Easy|
 |342|[Power of Four](https://leetcode.com/problems/power-of-four/) | [Python](power_of_four.py) |Easy|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/) | [Python](./Recursion-1/reverse_string.py) |Easy|
@@ -126,7 +126,7 @@
 |394|[Decode String](https://leetcode.com/problems/decode-string/) | [Python](./Queue%20&%20Stack/decode_string.py) |Medium|
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Python](fizz_buzz.py) |Easy|
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | [Python](third_maximum_number.py) |Easy|
-|430|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [Python](flatten_multilevel_doubly_linkedlist.py) |Medium|
+|430|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [Python](./LinkedList/flatten_multilevel_doubly_linkedlist.py) |Medium|
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Python](find_all_numbers_disappeared_in_an_array.py) |Easy|
 |454|[4Sum II](https://leetcode.com/problems/4sum-ii/) | [Python](4sum_ii.py) |Medium|
 |461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [Python](hamming_distance.py) |Easy|
@@ -151,7 +151,7 @@
 |705|[Design HashSet](https://leetcode.com/problems/design-hashset/) | [Python](design_HashSet.py) |Easy|
 |706|[Design HashMap](https://leetcode.com/problems/design-hashmap/) | [Python](design_HashMap.py) |Easy|
 |707|[Design Linked List](https://leetcode.com/problems/design-linked-list/) | [Python](design_linked_list.py) |Medium|
-|724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [Python](find_pivot_index.py) |Easy|
+|724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [Python](./LinkedList/find_pivot_index.py) |Easy|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/) | [Python]./Queue%20&%20Stack/flood_fill.py) |Easy|
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Python](./Queue%20&%20Stack/daily_temperatures.py) |Medium|
 |747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | [Python](largest_number_at_least_twice_of_others.py) |Easy|
