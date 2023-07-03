@@ -150,7 +150,7 @@
 |704|[Binary Search](https://leetcode.com/problems/binary-search/) | [Python](binary_search.py) |Easy|
 |705|[Design HashSet](https://leetcode.com/problems/design-hashset/) | [Python](design_HashSet.py) |Easy|
 |706|[Design HashMap](https://leetcode.com/problems/design-hashmap/) | [Python](design_HashMap.py) |Easy|
-|707|[Design Linked List](https://leetcode.com/problems/design-linked-list/) | [Python](design_linked_list.py) |Medium|
+|707|[Design Linked List](https://leetcode.com/problems/design-linked-list/) | [Python](./LinkedList/design_linked_list.py) |Medium|
 |724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [Python](./LinkedList/find_pivot_index.py) |Easy|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/) | [Python]./Queue%20&%20Stack/flood_fill.py) |Easy|
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Python](./Queue%20&%20Stack/daily_temperatures.py) |Medium|
