@@ -101,6 +101,7 @@
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](bst_lowest_common_ancestor.py) |Medium|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](valid_anagram.py) |Easy|
 |249|[Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [Python](./Queue%20&%20Stack/perfect_squares.py) |Medium|
+|257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [Python](./Recursion-1/binary_tree_paths.py) |Easy|
 |258|[Add Digits](https://leetcode.com/problems/add-digits/) | [Python](add_digits.py) |Easy|
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number/) | [Python](ugly_number.py) |Easy|
 |268|[Missing Number](https://leetcode.com/problems/missing-number/) | [Python](missing_number.py) |Easy|
