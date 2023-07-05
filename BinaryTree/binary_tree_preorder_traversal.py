@@ -9,6 +9,7 @@ class TreeNode:
 
 
 class Solution:
+    # recursion
     def preorderTraversal(self, root: Optional[TreeNode]) -> list[int]:
         nodes = []
         if root:
@@ -16,3 +17,16 @@ class Solution:
             nodes = nodes + self.preorderTraversal(root.left)
             nodes = nodes + self.preorderTraversal(root.right)
         return nodes
+
+    # dfs
+    def preorderTraversal(self, root: Optional[TreeNode]) -> list[int]:
+        res = []
+        def dfs(node):
+            if not node:
+                return
+            # visit root first, then the left subtree, then the right subtree
+            res.append(node.val)
+            dfs(node.left)
+            dfs(node.right)
+        dfs(root)
+        return res
