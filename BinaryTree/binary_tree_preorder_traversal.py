@@ -30,3 +30,16 @@ class Solution:
             dfs(node.right)
         dfs(root)
         return res
+
+
+    # iteration
+    def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        ans = []
+        stack = [root]
+        while stack:
+            currNode = stack.pop()
+            if currNode:
+                ans.append(currNode.val)
+                stack.append(currNode.right)
+                stack.append(currNode.left)
+        return ans
