@@ -15,10 +15,22 @@ class Solution:
     """
     # Recursively
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        res = []
+        def helper(root, res):
+            if root:
+                helper(root.left, res)
+                res.append(root.val)
+                helper(root.right, res)
+        helper(root, res)
+        return res
+
+
+    # or simply
+    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         return self.inorderTraversal(root.left) + [root.val] + self.inorderTraversal(root.right) if root else []
 
 
-    # Iteratively
+    # Iteratively with stack
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         res, stack = [], []
 
@@ -38,3 +50,23 @@ class Solution:
             res.append(node.val)
             # moves to right before going all the way to left end's None again
             root = node.right
+
+
+    # Morris Traversal
+    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        res = []
+        curr = root
+        pre = TreeNode()
+        while curr:
+            if curr.left is None:
+                res.append(curr.val)
+                curr = curr.right
+            else:
+                pre = curr.left
+                while pre.right:
+                    pre = pre.right
+                pre.right = curr
+                temp = curr
+                curr = curr.left
+                temp.left = None
+        return res
