@@ -71,7 +71,7 @@
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](./LinkedList/linked_list_cycle.py) |Easy|
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [Python](./LinkedList/linked_list_cycle2.py) |Medium|
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Python](./BinaryTree/binary_tree_preorder_traversal.py) |Easy|
-|145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Python](binary_tree_postorder_traversal.py) |Easy|
+|145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Python](./BinaryTree/binary_tree_postorder_traversal.py) |Easy|
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Python](reverse_word_in_string.py) |Medium|
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Python](./Queue%20&%20Stack/evaluate_rpn.py) |Medium|
 |155|[Min Stack](https://leetcode.com/problems/min-stack/) | [Python](./Queue%20&%20Stack/min_stack.py) |Medium|
