@@ -1,5 +1,5 @@
 import collections
-from typing import Optional
+from typing import Optional, List
 
 # Definition for a binary tree node.
 class TreeNode:
@@ -14,8 +14,8 @@ class Solution:
     Given the root of a binary tree, return the level order traversal of its nodes' values.
     (i.e., from left to right, level by level).
     """
-    # Using stack
-    def levelOrder(self, root: Optional[TreeNode]) -> list[list[int]]:
+    # bfs with stack
+    def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         if not root: return []
         res, q = [], []
         q.append(root)
@@ -31,8 +31,8 @@ class Solution:
             res.append(level_nodes)
         return res
 
-    # Using queue
-    def levelOrder(self, root: Optional[TreeNode]) -> list[list[int]]:
+    # bfs with queue
+    def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         if not root: return []
         res = []
         q = collections.deque([root])
