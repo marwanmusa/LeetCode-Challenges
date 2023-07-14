@@ -52,13 +52,13 @@
 |95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [Python](./Recursion-1/unique_binary_search_trees2.py) |Medium|
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python](validate_binary_search_tree.py) |Medium|
 |100|[Same Tree](https://leetcode.com/problems/same-tree/) | [Python](same_tree.py) |Easy|
-|101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Python](symmetric_tree.py) |Easy|
+|101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Python](./BinaryTree/symmetric_tree.py) |Easy|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Python](./BinaryTree/binary_tree_level_order_traversal.py) |Medium|
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Python](./BinaryTree/max_depth_of_binary_tree.py) |Easy|
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Python](sorted_array_to_BST.py) |Easy|
 |110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Python](balanced_binary_tree.py) |Easy|
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Python](min_depth_of_binary_tree.py) |Easy|
-|112|[Path Sum](https://leetcode.com/problems/path-sum/) | [Python](path_sum.py) |Easy|
+|112|[Path Sum](https://leetcode.com/problems/path-sum/) | [Python](./BinaryTree/path_sum.py) |Easy|
 |116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [Python](populating_next_right_pointers.py) |Medium|
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](./Array&String/pascal_triangle.py) |Easy|
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [Python](./Recursion-1/pascal_triangle2.py) |Easy|
