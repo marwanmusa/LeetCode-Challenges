@@ -1,4 +1,5 @@
 from typing import Optional
+from collections import deque
 
 # Definition for a binary tree node.
 class TreeNode:
@@ -54,3 +55,35 @@ class Solution:
                 self.dfs(root.left, target-root.val, res)
             if root.right:
                 self.dfs(root.right, target-root.val, res)
+
+
+    # dfs with stack
+    def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
+        if not root:
+            return False
+        stack = [(root, root.val)]
+        while stack:
+            cur, val = stack.pop()
+            if (not cur.left and not cur.right and val == targetSum):
+                return True
+            if cur.left:
+                stack.append((cur.left, val + cur.left.val))
+            if cur.right:
+                stack.append((cur.right, val + cur.right.val))
+
+
+    # bfs with queue
+    def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
+        if not root: return False
+        q = deque((root, targetSum - root.val))
+        # q = [(root, targetSum - root.val)]
+        while q:
+            cur, val = q.popleft()
+            # cur, val = q.pop(0)
+            if not cur.left and not cur.right and val == 0:
+                return True
+            if cur.left:
+                q.append((cur.left, val - cur.left.val))
+            if cur.right:
+                q.append((cur.right, val - cur.right.val))
+        return False
