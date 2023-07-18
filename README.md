@@ -61,7 +61,7 @@
 |110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Python](balanced_binary_tree.py) |Easy|
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Python](min_depth_of_binary_tree.py) |Easy|
 |112|[Path Sum](https://leetcode.com/problems/path-sum/) | [Python](./BinaryTree/path_sum.py) |Easy|
-|116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [Python](populating_next_right_pointers.py) |Medium|
+|116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [Python](./BinaryTree/populating_next_right_pointers_in_each_node.py) |Medium|
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](./Array&String/pascal_triangle.py) |Easy|
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [Python](./Recursion-1/pascal_triangle2.py) |Easy|
 |120|[Triangle](https://leetcode.com/problems/triangle/) | [Python](triangle.py) |Medium|
