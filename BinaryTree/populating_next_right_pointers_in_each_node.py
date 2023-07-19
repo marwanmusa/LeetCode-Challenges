@@ -22,3 +22,14 @@ class Solution:
                 if cur.right:
                     q.extend([cur.right, cur.left])
         return root
+
+    # dfs
+    def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
+        if not root: return None
+        L, R, N = root.left, root.right, root.next
+        if L:
+            L.next = R
+            if N: R.next = N.left
+            self.connect(L)
+            self.connect(R)
+        return root
