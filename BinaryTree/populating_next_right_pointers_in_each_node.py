@@ -33,3 +33,16 @@ class Solution:
             self.connect(L)
             self.connect(R)
         return root
+
+    # bfs space-optimized approach
+    def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
+        head = root
+        while root:
+            cur, root  = root, root.left
+            while cur:
+                if cur.left:
+                    cur.left.next = cur.right
+                    if cur.next: cur.right.next = cur.next.left
+                else: break
+                cur = cur.next
+        return head
