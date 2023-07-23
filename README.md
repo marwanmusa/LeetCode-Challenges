@@ -102,6 +102,7 @@
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [Python](./Queue%20&%20Stack/implement_queue_using_stack.py) |Easy|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Python](./LinkedList/palindrome_linked_list.py) |Easy|
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](bst_lowest_common_ancestor.py) |Medium|
+|236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Python](./BinaryTree/lowest_common_ancestor_of_a_binary_tree.py) |Medium|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](valid_anagram.py) |Easy|
 |249|[Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [Python](./Queue%20&%20Stack/perfect_squares.py) |Medium|
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [Python](./Recursion-1/binary_tree_paths.py) |Easy|
