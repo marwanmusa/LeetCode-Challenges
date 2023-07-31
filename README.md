@@ -137,6 +137,7 @@
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | [Python](third_maximum_number.py) |Easy|
 |415|[Add Strings](https://leetcode.com/problems/add-strings/) | [Python](add_strings.py) |Easy|
 |430|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [Python](./LinkedList/flatten_multilevel_doubly_linkedlist.py) |Medium|
+|434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/) | [Python](number_of_steps_to_reduce_a_number_to_zero.py) |Easy|
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Python](find_all_numbers_disappeared_in_an_array.py) |Easy|
 |454|[4Sum II](https://leetcode.com/problems/4sum-ii/) | [Python](4sum_ii.py) |Medium|
 |461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [Python](hamming_distance.py) |Easy|
