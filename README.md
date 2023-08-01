@@ -158,7 +158,7 @@
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Python](max_area_of_island.py) |Medium|
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Python](./Recursion-1/search_in_a_binary_search_tree.py) |Easy|
 |701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [Python](insert_into_a_binary_search_tree.py) |Medium|
-|704|[Binary Search](https://leetcode.com/problems/binary-search/) | [Python](binary_search.py) |Easy|
+|704|[Binary Search](https://leetcode.com/problems/binary-search/) | [Python](./BinarySearch/binary_search.py) |Easy|
 |705|[Design HashSet](https://leetcode.com/problems/design-hashset/) | [Python](design_HashSet.py) |Easy|
 |706|[Design HashMap](https://leetcode.com/problems/design-hashmap/) | [Python](design_HashMap.py) |Easy|
 |707|[Design Linked List](https://leetcode.com/problems/design-linked-list/) | [Python](./LinkedList/design_linked_list.py) |Medium|
