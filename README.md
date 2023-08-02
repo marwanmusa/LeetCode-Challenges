@@ -41,7 +41,7 @@
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Python](minimum_path_sum.py)|Medium|
 |66|[Plus One](https://leetcode.com/problems/plus-one/) | [Python]./Array&String/(plus_one.py)|Easy|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/) | [Python](./Array&String/add_binary.py)|Easy|
-|69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Python](sqrtx.py) |Easy|
+|69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Python](./BinarySearch/sqrtx.py) |Easy|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Python](./Recursion-1/climbing_stairs.py) |Easy|
 |74|[Search 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](search_a_2d_matrix.py) |Easy|
 |77|[Combinations](https://leetcode.com/problems/combinations/) | [Python](combinations.py) |Medium|
