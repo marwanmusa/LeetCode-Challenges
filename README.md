@@ -109,7 +109,7 @@
 |258|[Add Digits](https://leetcode.com/problems/add-digits/) | [Python](add_digits.py) |Easy|
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number/) | [Python](ugly_number.py) |Easy|
 |268|[Missing Number](https://leetcode.com/problems/missing-number/) | [Python](missing_number.py) |Easy|
-|278|[First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Python](first_bad_version.py) |Easy|
+|278|[First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Python](./BinarySearch/first_bad_version.py) |Easy|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](move_zeroes.py) |Easy|
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/) | [Python](word_pattern.py) |Easy|
 |292|[Nim Game](https://leetcode.com/problems/nim-game/) | [Python](nim_game.py) |Easy|
