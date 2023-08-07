@@ -16,8 +16,7 @@ class Solution:
     Implement a function to find the first bad version. You should minimize the number of calls to the API.
     """
     def firstBadVersion(self, n: int) -> int:
-        l, r = 0, n
-        boundary_index = -1
+        l, r, boundary_index = 0, n, -1
         while l <= r:
             mid = l + (r-l)//2
             if isBadVersion(mid) == True: # API isBadVersion is provided by leetcode
