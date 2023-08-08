@@ -79,6 +79,7 @@
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Python](./Queue%20&%20Stack/evaluate_rpn.py) |Medium|
 |155|[Min Stack](https://leetcode.com/problems/min-stack/) | [Python](./Queue%20&%20Stack/min_stack.py) |Medium|
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Python](./LinkedList/intersection_of_two_lists.py) |Easy|
+|162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [Python](./BinarySearch/find_peak_element.py) |Easy|
 |167|[Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Python](two_sum_ii.py) |Medium|
 |168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | [Python](excel_sheet_column_title.py) |Easy|
 |169|[Majority Element](https://leetcode.com/problems/majority-element/) | [Python](majority_element.py) |Easy|
