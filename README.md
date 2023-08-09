@@ -77,6 +77,7 @@
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Python](./BinaryTree/binary_tree_postorder_traversal.py) |Easy|
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Python](reverse_word_in_string.py) |Medium|
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Python](./Queue%20&%20Stack/evaluate_rpn.py) |Medium|
+|153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Python](./BinarySearch/find_minimum_in_rotated_sorted_array.py) |Medium|
 |155|[Min Stack](https://leetcode.com/problems/min-stack/) | [Python](./Queue%20&%20Stack/min_stack.py) |Medium|
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Python](./LinkedList/intersection_of_two_lists.py) |Easy|
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [Python](./BinarySearch/find_peak_element.py) |Easy|
