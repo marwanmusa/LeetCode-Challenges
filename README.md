@@ -29,6 +29,7 @@
 |27|[Remove Element](https://leetcode.com/problems/remove-element/) | [Python](removes_element.py)|Easy|
 |28|[Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [Python](./Array&String/find_the_index_of_the_first_occurrence_in_a_string.py)|Easy|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/remove-element/) | [Python](search_in_rotated_sorted_array.py)|Medium|
+|34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Python](./BinarySearch/find_first_and_last_position_of_element_in_sorted_array.py)|Medium|
 |35|[Search Insert Position](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](search_insert_position.py)|Easy|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](valid_sudoku.py)|Medium|
 |46|[Permutations](https://leetcode.com/problems/permutations/) | [Python](permutations.py)|Medium|
