@@ -1,4 +1,4 @@
 .gitignore
-*.ipynb
+*test.ipynb
 *.vscode/
 venv/
