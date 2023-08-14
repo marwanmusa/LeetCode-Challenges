@@ -28,6 +28,19 @@ class Solution:
         return binaryExp(x, n)
 
 
+    # iteratively
+    def myPow(self, x: float, n: int) -> float:
+        if n < 0:
+            x = 1/x
+            n *= (-1)
+        pow = 1
+        while n:
+            if n & 1:
+                pow *= x
+            x *= x
+            n >>= 1
+        return pow
+
 # Surprisingly we can use Python's existing `pow`
 class Solution:
     myPow = pow
