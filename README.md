@@ -115,6 +115,7 @@
 |268|[Missing Number](https://leetcode.com/problems/missing-number/) | [Python](missing_number.py) |Easy|
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Python](./BinarySearch/first_bad_version.py) |Easy|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](move_zeroes.py) |Easy|
+|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [Python](./BinarySearch/find_the_duplicate_number.py) |Medium|
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/) | [Python](word_pattern.py) |Easy|
 |292|[Nim Game](https://leetcode.com/problems/nim-game/) | [Python](nim_game.py) |Easy|
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Python](./BinaryTree/serialize_and_deserialize_binary_tree.py) |Hard|
