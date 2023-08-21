@@ -51,3 +51,15 @@ class Solution:
         
         return duplicate
     
+    # Approach 4.1: Array as HashMap (Recursion)
+    """
+    Note: Approaches 4.1 and 4.2 modify individual elements, and hence do not meet the problem constraints.
+    """
+    def findDuplicate(self, nums: List[int]) -> int:
+        def store(nums: List[int], cur: int) -> int:
+            if cur == nums[cur]:
+                return cur
+            nxt = nums[cur]
+            nums[cur] = cur
+            return store(nums, nxt)
+        return store(nums, 0)
