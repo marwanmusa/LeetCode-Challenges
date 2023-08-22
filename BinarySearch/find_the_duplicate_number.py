@@ -63,3 +63,9 @@ class Solution:
             nums[cur] = cur
             return store(nums, nxt)
         return store(nums, 0)
+
+    # Approach 4.1: Array as HashMap (Iterative)
+    def findDuplicate(self, nums: List[int]) -> int:
+        while nums[0] != nums[nums[0]]:
+            nums[nums[0]], nums[0] = nums[0], nums[nums[0]]
+        return nums[0]
