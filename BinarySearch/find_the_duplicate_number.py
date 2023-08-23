@@ -69,3 +69,19 @@ class Solution:
         while nums[0] != nums[nums[0]]:
             nums[nums[0]], nums[0] = nums[0], nums[nums[0]]
         return nums[0]
+
+    # Approach 5: Binary Search
+    def findDuplicate(self, nums: List[int]) -> int:
+        l, r = 1, len(nums)-1
+        while l <= r:
+            cur = l + (r-l)//2
+            count = 0
+
+            # Count how many numbers are less than or equal to 'cur'
+            count = sum(num <= cur for num in nums)
+            if count > cur:
+                duplicate = cur
+                r = cur-1
+            else:
+                l = cur+1
+        return duplicate
