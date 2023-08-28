@@ -18,6 +18,7 @@
 |1|[Two Sum](https://leetcode.com/problems/two-sum/) | [Python](two_sum.py)|Easy|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](./LinkedList/add_two_numbers.py)|Medium|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](longest_substring_without_repeating_character.py)|Medium|
+|4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) |[Python](./BinarySearch/median_of_two_sorted_arrays.py)|Hard|
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python](palindrome_number.py)|Easy|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](roman_to_int.py)|Easy|
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Python](./Array&String/longest_common_prefix.py)|Easy|
