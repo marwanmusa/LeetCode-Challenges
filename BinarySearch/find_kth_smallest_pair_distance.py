@@ -8,6 +8,7 @@ class Solution:
     Given an integer array nums and an integer k, return the kth smallest distance among all the pairs
     nums[i] and nums[j] where 0 <= i < j < nums.length.
     """
+    # Approach 1: Heap [Time limit exceeded]
     def smallestDistancePair(self, nums: List[int], k: int) -> int:
         n = len(nums)
         nums.sort()
