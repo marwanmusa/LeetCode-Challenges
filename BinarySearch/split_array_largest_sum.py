@@ -23,4 +23,18 @@ class Solution:
             if cnt > k: l = mid + 1
             else: r = mid
         return r
+    
+    # Brute Force
+    def helper(self, nums: List[int], k: int) -> int:
+        if nums == []: return 0
+        elif k == 1: return sum(nums)
+        else:
+            min_res = float('inf')
+            for j in range(1, len(nums)+1):
+                l, r = sum(nums[:j]), self.helper(nums[j:], k-1)
+                min_res = min(min_res, max(l, r))
+            return min_res
+    
+    def splitArray(self, nums: List[int], k: int) -> int:
+        return self.helper(nums, k)
         
