@@ -139,6 +139,7 @@
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [Python](is_subsequence.py) |Easy|
 |394|[Decode String](https://leetcode.com/problems/decode-string/) | [Python](./Queue%20&%20Stack/decode_string.py) |Medium|
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | [Python](longest_palindrome.py) |Easy|
+|410|[Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | [Python](./BinarySearch/split_array_largest_sum.py) |Hard|
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Python](fizz_buzz.py) |Easy|
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | [Python](third_maximum_number.py) |Easy|
 |415|[Add Strings](https://leetcode.com/problems/add-strings/) | [Python](add_strings.py) |Easy|
