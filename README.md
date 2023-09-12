@@ -41,7 +41,7 @@
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Python](length_of_last_world.py)|Easy|
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/) | [Python](./LinkedList/rotate_list.py)|Medium|
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Python](minimum_path_sum.py)|Medium|
-|66|[Plus One](https://leetcode.com/problems/plus-one/) | [Python]./Array&String/(plus_one.py)|Easy|
+|66|[Plus One](https://leetcode.com/problems/plus-one/) | [Python](./Array&String/plus_one.py)|Easy|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/) | [Python](./Array&String/add_binary.py)|Easy|
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Python](./BinarySearch/sqrtx.py) |Easy|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Python](./Recursion-1/climbing_stairs.py) |Easy|
@@ -161,6 +161,7 @@
 |599|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | [Python](minimum_index_sum_of_two_lists.py) |Easy|
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [Python](merge_two_binary_trees.py) |Easy|
 |622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [Python1](./Queue%20&%20Stack/design_circular_queue.py), [Python2](./Queue%20&%20Stack/design_circular_queue1.py), [Python3](./Queue%20&%20Stack/design_circular_queue2.py) |Medium|
+|648|[Replace Words](https://leetcode.com/problems/replace-words/) | [Python](./Trie/replace_words.py) |Medium|
 |652|[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | [Python](find_duplicate_subtrees.py) |Medium|
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [Python](two_sum_iv_input_is_a_bst.py) |Easy|
 |658|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | [Python](./BinarySearch/find_k_closest_elements.py) |Easy|
