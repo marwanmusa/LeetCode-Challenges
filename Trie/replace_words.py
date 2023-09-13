@@ -1,3 +1,6 @@
+import collections
+from functools import reduce
+
 class Solution:
     """
     In English, we have a concept called root, which can be followed by some other word
@@ -21,4 +24,24 @@ class Solution:
                     return word[:i]
             return word
         
+        return " ".join(map(replace, sentence.split()))
+    
+    # Approach 2: Trie
+    # Put all the roots in a trie (prefix tree). Then for any query word,
+    # we can find the smallest root that was a prefix in linear time.
+    def replaceWords(self, roots: list[str], sentence: str) -> str:
+        Trie = lambda: collections.defaultdict(Trie)
+        trie = Trie()
+        END = True
+
+        for root in roots:
+            reduce(dict.__getitem__, root, trie)[END] = root
+
+        def replace(word):
+            cur = trie
+            for letter in word:
+                if letter not in cur or END in cur: break
+                cur = cur[letter]
+            return cur.get(END, word)
+
         return " ".join(map(replace, sentence.split()))
