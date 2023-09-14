@@ -45,3 +45,26 @@ class Solution:
             return cur.get(END, word)
 
         return " ".join(map(replace, sentence.split()))
+    
+    # another form of approach 2
+    def replaceWords(self, roots: list[str], sentence: str) -> str:
+        Trie = lambda: collections.defaultdict(Trie)
+        trie = Trie()
+        END = True
+
+        for root in roots:
+            cur = trie
+            for letter in root:
+                cur = cur[letter]
+            cur[END] = root
+
+        def replace(word):
+            cur = trie
+            for letter in word:
+                if letter not in cur: break
+                cur = cur[letter]
+                if END in cur:
+                    return cur[END]
+            return word
+        
+        return " ".join(map(replace, sentence.split()))
