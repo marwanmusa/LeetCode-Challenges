@@ -27,10 +27,7 @@ class WordDictionary:
         cur = self.d
         def rec(start, cur):
             if start >= len(word):
-                if "#" in cur:
-                    return True
-                else:
-                    return False
+                return True if '#' in cur else False
         
             if word[start] == '.':
                 for k,v in cur.items():
