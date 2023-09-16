@@ -9,6 +9,7 @@ Implement the WordDictionary class:
  
 """
 
+# Using SET
 class WordDictionary:
 
     def __init__(self):
@@ -45,3 +46,36 @@ class WordDictionary:
 # obj = WordDictionary()
 # obj.addWord(word)
 # param_2 = obj.search(word)
+
+
+# Using TRIE
+class TrieNode():
+    def __init__(self) -> None:
+        self.children = {}
+        self.is_word = False
+
+class WordDictionary:
+    def __init__(self) -> None:
+        self.root = TrieNode()
+
+    def addWord(self, word):
+        cur_node = self.root
+        for char in word :
+            cur_node = cur_node.children.setdefault(char, TrieNode())
+        cur_node.is_word = True
+
+    def search(self, word):
+        def dfs(trie , index ):
+            if index == len(word):
+                return trie.is_word
+            
+            if word[index] == '.':
+                for child in trie.children.values():
+                    if dfs(child, index+1):
+                        return True
+            
+            if word[index] in trie.children:
+                return dfs(trie.children[word[index]], index+1)
+            return False
+        
+        return dfs(self.root, 0)
