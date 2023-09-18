@@ -145,6 +145,7 @@
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Python](fizz_buzz.py) |Easy|
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | [Python](third_maximum_number.py) |Easy|
 |415|[Add Strings](https://leetcode.com/problems/add-strings/) | [Python](add_strings.py) |Easy|
+|421|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | [Python](./Trie/maximum_xor_of_two_numbers_in_an_array.py) |Medium|
 |430|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [Python](./LinkedList/flatten_multilevel_doubly_linkedlist.py) |Medium|
 |434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/) | [Python](number_of_steps_to_reduce_a_number_to_zero.py) |Easy|
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Python](find_all_numbers_disappeared_in_an_array.py) |Easy|
