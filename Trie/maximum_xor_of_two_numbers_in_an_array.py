@@ -12,3 +12,12 @@ class Solution:
             a, b = pair
             x = max(a^b, x)
         return x
+    
+    # Approach 2: Bit Operation
+    def findMaximumXOR(self, nums: list[int]) -> int:
+        ans = 0
+        for i in range(32)[::-1]:
+            ans <<= 1
+            prefixes = {num >> i for num in nums[i]}
+            ans += any(ans^1 ^ p in prefixes for p in prefixes)
+        return ans
