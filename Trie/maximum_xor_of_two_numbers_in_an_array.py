@@ -32,3 +32,16 @@ class Solution:
             if any(candidate^p in prefixes for p in prefixes):
                 ans = candidate
         return ans
+    
+    # Approach 2: Modification 2 - more readable
+    def findMaximumXOR(self, nums: list[int]) -> int:
+        ans = 0
+        for i in reversed(range(32)):
+            prefixes = set([x >> i for x in nums])
+            ans <<= 1
+            candidate = ans + 1
+            for p in prefixes:
+                if candidate ^ p in prefixes:
+                    ans = candidate
+                    break
+        return ans
