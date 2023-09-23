@@ -100,6 +100,7 @@
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Python](./Trie/implement_trie.py) |Medium|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Python](minimum_size_subarray_sum.py) |Medium|
 |211|[Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [Python](./Trie/design_add_and_search_words_data_structure.py) |Medium|
+|212|[Word Search II](https://leetcode.com/problems/word-search-ii/) | [Python](./Trie/word_search_ii.py) |Hard|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](contains_duplicate.py) |Easy|
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Python](contains_duplicate2.py) |Easy|
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [Python](./Queue%20&%20Stack/implement_stack_using_queues.py) |Easy|
