@@ -115,7 +115,7 @@ class Solution:
         return res
 
     def dfs(self, board, node, i, j, path, res):
-        if self.num_words == 0: return
+        if self.num_words == 0: return None
 
         if node.end_node:
             res.append(path)
@@ -124,7 +124,7 @@ class Solution:
 
         if i < 0 or i >= len(board) or j < 0 or j >= len(board[0]): return 
         tmp = board[i][j]
-        if tmp not in node.children: return
+        if tmp not in node.children: return None
 
         board[i][j] = "#"
         for x,y in [[0,-1], [0,1], [1,0], [-1,0]]:
