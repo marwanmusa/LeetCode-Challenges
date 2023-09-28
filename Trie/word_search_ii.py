@@ -106,7 +106,7 @@ class Trie:
 class Solution:
     def findWords(self, board, words):
         self.num_words = len(words)
-        res, trie = [], Trie()
+        res, trie = list(), Trie()
         for word in words: trie.insert(word) 
 
         for i in range(len(board)):
@@ -122,7 +122,7 @@ class Solution:
             node.end_node = False
             self.num_words -= 1
 
-        if i < 0 or i >= len(board) or j < 0 or j >= len(board[0]): return 
+        if i < 0 or i >= len(board) or j < 0 or j >= len(board[0]): return None
         tmp = board[i][j]
         if tmp not in node.children: return None
 
