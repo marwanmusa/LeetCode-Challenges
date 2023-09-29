@@ -10,8 +10,7 @@
 
 ---
 
-### My LeetCode Algorithm Solution
-
+### Solutions
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
