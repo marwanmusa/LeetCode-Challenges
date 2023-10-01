@@ -12,6 +12,14 @@ You must write an algorithm with O(sum of words[i].length) runtime complexity.
 
 
 class Solution:
+    """
+    check each word for prefixes (and suffixes) that are themselves palindromes.
+    If you find a prefix that is a valid palindrome, then the suffix reversed can be paired
+    with the wordin order to make a palindrome.
+    
+    It's better explained with an example.
+    words = ["bot", "t", "to"]
+    """
     def palindromePairs(self, words: list[str]) -> list[list[int]]:
         def is_palindrome(check):
             return check == check[::-1]
