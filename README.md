@@ -125,6 +125,7 @@
 |303|[Range Sum Query](https://leetcode.com/problems/range-sum-query-immutable//) | [Python](range_sum_query_immutable.py) |Easy|
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/) | [Python](power_of_three.py) |Easy|
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Python](./LinkedList/odd_even_linked_list.py) |Medium|
+|336|[Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) | [Python](./Trie/palindrome_pairs.py) |Hard|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/) | [Python](counting_bits.py) |Easy|
 |342|[Power of Four](https://leetcode.com/problems/power-of-four/) | [Python](power_of_four.py) |Easy|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/) | [Python](./Recursion-1/reverse_string.py) |Easy|
