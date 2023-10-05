@@ -190,6 +190,7 @@
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](middle_of_linked_list.py) |Easy|
 |881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | [Python](boats_to_save_people.py) |Medium|
 |905|[Sort Array by Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Python](sort_array_by_parity.py) |Easy|
+|912|[Sort an Array](https://leetcode.com/problems/sort-an-array/) | [Python](./Recursion-2/sort_an_array.py) |Medium|
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | [Python](valid_mountain_array.py) |Easy|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python](squares_of_sorted_array.py) |Easy|
 |983|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | [Python](minimum_costs_for_tickets.py) |Medium|
