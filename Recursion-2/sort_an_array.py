@@ -5,6 +5,10 @@ class Solution:
     You must solve the problem without using any built-in functions in O(nlog(n)) time complexity
     and with the smallest space complexity possible.
     """
+    # Using built-in
+    def sortArray(self, nums: list[int]) -> list[int]:
+        return sorted(nums)
+
     # Using merge sort
     def sortArray(self, nums: list[int]) -> list[int]:
         if len(nums) <= 1:
