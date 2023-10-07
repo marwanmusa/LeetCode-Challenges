@@ -33,4 +33,13 @@ class Solution:
             return ans
         
         return merge(l_nums, r_nums)
+
+    # Buble-sort TLE
+    def sortArray(self, nums: list[int]) -> list[int]:
+        n = len(nums)
+        for i in range(n):
+            for j in range(0, n-i-1):
+                if nums[j] > nums[j+1]:
+                    nums[j], nums[j+1] = nums[j+1], nums[j]
+        return nums
     
