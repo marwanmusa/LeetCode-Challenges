@@ -53,3 +53,23 @@ class Solution:
                 j -= 1
             nums[j+1] = key
         return nums
+
+    # Quick-sort TLE
+    def sortArray(self, nums: list[int]) -> list[int]:
+        def helper(head, tail):
+            if head >= tail: return None
+            l, r = head, tail
+            m = l + (r-l) // 2
+            mid = nums[m]
+            while r >= l:
+                while r >= l and nums[l] < mid: l += 1
+                while r >= l and nums[r] > mid: r -= 1
+                if r >= l:
+                    nums[l], nums[r] = nums[r], nums[l]
+                    l += 1
+                    r -= 1
+            helper(head, r)
+            helper(l, tail)
+
+        helper(0, len(nums)-1)
+        return nums
