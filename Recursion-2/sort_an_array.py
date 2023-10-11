@@ -115,7 +115,7 @@ class Solution:
             if l < n and nums[largest] < nums[l]:
                 largest = l
 
-            if r < n and nums[largest] > nums[r]:
+            if r < n and nums[largest] < nums[r]:
                 largest = r
 
             if largest != i:
