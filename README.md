@@ -51,7 +51,7 @@
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Python](merge_sorted_array.py) |Easy|
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Python](./BinaryTree/binary_tree_inorder_traversal.py) |Easy|
 |95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [Python](./Recursion-1/unique_binary_search_trees2.py) |Medium|
-|98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python](validate_binary_search_tree.py) |Medium|
+|98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python1](./Recursion-2/validate_binary_search_tree.py) [Python2](./BinarySearch/validate_binary_search_tree.py) |Medium|
 |100|[Same Tree](https://leetcode.com/problems/same-tree/) | [Python](same_tree.py) |Easy|
 |101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Python](./BinaryTree/symmetric_tree.py) |Easy|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Python](./BinaryTree/binary_tree_level_order_traversal.py) |Medium|
