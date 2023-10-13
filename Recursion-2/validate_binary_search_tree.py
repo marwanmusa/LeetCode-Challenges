@@ -23,3 +23,10 @@ class Solution:
             return traverse(root.left, low, root.val) and traverse(root.right, root.val, high)
 
         return traverse(root, float("-inf"), float("inf"))
+    
+    # or we can write it,
+    def isValidBST(self, root: Optional[TreeNode], lessThan = float("inf"), largerThan = float("-inf")):
+        if not root : return True
+        if root.val <= largerThan or root.val >= lessThan: return False
+        return self.isValidBST(root.left, min(lessThan, root.val), largerThan) and \
+               self.isValidBST(root.right, lessThan, max(root.val, largerThan))
