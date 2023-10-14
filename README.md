@@ -10,7 +10,7 @@
 
 ---
 
-### Solutions
+### Leetcode Solutions
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
