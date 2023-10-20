@@ -52,25 +52,24 @@ class Solution:
     # recursive
     def searchMatrix(self, matrix: list[list[int]], target: int) -> bool:
         """
-    O(log(mn)) time, O(logmn) space, because we discard 1/4 of the matrix each time.
+        O(log(mn)) time, O(logmn) space, because we discard 1/4 of the matrix each time.
 
-    Recursive binary search midpoint of matrix. Given co-ordiantes (r_low, r_high, c_low, c_high)
-    inclusive of a square submatrix, and midpoint r_mid=r_low+(r_high-r_low)//2, c_mid=c_low+(c_high-c_low)//2,
+        Recursive binary search midpoint of matrix. Given co-ordiantes (r_low, r_high, c_low, c_high)
+        inclusive of a square submatrix, and midpoint r_mid=r_low+(r_high-r_low)//2, c_mid=c_low+(c_high-c_low)//2,
 
-    Use helper function search(r_low, r_high, c_low, c_high) on the co-ordinates of a sub-matrix
+        Use helper function search(r_low, r_high, c_low, c_high) on the co-ordinates of a sub-matrix
 
-    1. Check (r_low, r_high, c_low, c_high) is valid, i.e. 0<=r_low<=r_high<=R-1, 0<=c_low<=c_high<=C-1.
-    If not return False.
-    2. If matrix[r_mid][c_mid]==target, return True
-    3. Elif matrix[r_mid][c_mid]>target, discard the bottom right portion including matrix[r_mid][c_mid], 
-       i.e. search for target in the tree subtricies:
-       (r_low, r_mid-1, c_low, c_mid), (r_low, r_mid-1, c_mid+1, c_high), (r_mid, r_high, c_low, c_mid-1)
-       return True if any return true.
-    4. Elif matrix[r_mid][c_mid]<target, discard top left corner, search for
-       (r_low, r_mid, c_mid+1, c_high), (r_mid+1, r_high, c_mid, c_high), (r_mid+1, r_high, c_low, c_mid-1)
-       return True if any return true.
-    """
-    def searchMatrix(self, matrix: list[list[int]], target: int) -> bool:
+        1. Check (r_low, r_high, c_low, c_high) is valid, i.e. 0<=r_low<=r_high<=R-1, 0<=c_low<=c_high<=C-1.
+        If not return False.
+        2. If matrix[r_mid][c_mid]==target, return True
+        3. Elif matrix[r_mid][c_mid]>target, discard the bottom right portion including matrix[r_mid][c_mid], 
+        i.e. search for target in the tree subtricies:
+        (r_low, r_mid-1, c_low, c_mid), (r_low, r_mid-1, c_mid+1, c_high), (r_mid, r_high, c_low, c_mid-1)
+        return True if any return true.
+        4. Elif matrix[r_mid][c_mid]<target, discard top left corner, search for
+        (r_low, r_mid, c_mid+1, c_high), (r_mid+1, r_high, c_mid, c_high), (r_mid+1, r_high, c_low, c_mid-1)
+        return True if any return true.
+        """
         R,C=len(matrix), len(matrix[0])
 
         def search_sub(r_low, r_high, c_low, c_high):
