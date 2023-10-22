@@ -96,8 +96,8 @@ class Solution:
         return search_sub(0, R-1, 0, C-1)
     
     # Linear Search from Top-Right Corner
-    def searchMatrix(matrix, target):
-        m, n = len(matrix), len(matrix) and len(matrix[0])
+    def searchMatrix(self, matrix: list[list[int]], target: int) -> bool:
+        m, n = len(matrix), len(matrix[0])
         r, c = 0, n-1
         while r < m and c >= 0:
             if target > matrix[r][c]:
