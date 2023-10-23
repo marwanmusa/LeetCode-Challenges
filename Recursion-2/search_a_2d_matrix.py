@@ -73,23 +73,23 @@ class Solution:
         R,C=len(matrix), len(matrix[0])
 
         def search_sub(r_low, r_high, c_low, c_high):
-            if not (0<=r_low<=r_high<=R-1) or not (0<=c_low<=c_high<=C-1):
+            if not (0 <= r_low <= r_high <= R-1) or not (0 <= c_low <= c_high <= C-1):
                 return False
-            r_mid=r_low+(r_high-r_low)//2
-            c_mid=c_low+(c_high-c_low)//2
-            if matrix[r_mid][c_mid]==target:
+            r_mid = r_low + (r_high-r_low)//2
+            c_mid = c_low + (c_high-c_low)//2
+            if matrix[r_mid][c_mid] == target:
                 return True
 
-            elif matrix[r_mid][c_mid]>target: #discard bottom right
-                tl=(r_low, r_mid-1, c_low, c_mid)
-                tr=(r_low, r_mid-1, c_mid+1, c_high)
-                bl=(r_mid, r_high, c_low, c_mid-1)
+            elif matrix[r_mid][c_mid] > target: #discard bottom right
+                tl = (r_low, r_mid-1, c_low, c_mid)
+                tr = (r_low, r_mid-1, c_mid+1, c_high)
+                bl = (r_mid, r_high, c_low, c_mid-1)
 
                 return search_sub(*tl) or search_sub(*tr) or search_sub(*bl)
-            elif matrix[r_mid][c_mid]<target: #discard top left
-                tr=(r_low, r_mid, c_mid+1, c_high)
-                br=(r_mid+1, r_high, c_mid, c_high)
-                bl=(r_mid+1, r_high, c_low, c_mid-1)
+            elif matrix[r_mid][c_mid] < target: #discard top left
+                tr = (r_low, r_mid, c_mid+1, c_high)
+                br = (r_mid+1, r_high, c_mid, c_high)
+                bl = (r_mid+1, r_high, c_low, c_mid-1)
 
                 return search_sub(*tr) or search_sub(*br) or search_sub(*bl)
 
