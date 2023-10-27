@@ -1,4 +1,5 @@
 #include <vector>
+#include <unordered_map>
 
 class Solution {
 public:
@@ -17,7 +18,16 @@ public:
 
     // using set
     vector<int> twoSum(vector<int>& nums, int target) {
-        
+        unordered_map<int, int> umap;
+        int n = nums.size();
+        for (int i = 0; i < n; i++) {
+            int remaining_val = target - nums[i];
+            if (umap.count(remaining_val) == 1) {
+                return {i, umap[remaining_val]};
+            }
+            umap[nums[i]] = i;
+        }
+        return {};
     }
 
 };
