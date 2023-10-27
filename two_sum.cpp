@@ -14,4 +14,10 @@ public:
         }
         return {}; // No solution found
     }
+
+    // using set
+    vector<int> twoSum(vector<int>& nums, int target) {
+        
+    }
+
 };
