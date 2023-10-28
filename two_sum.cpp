@@ -16,7 +16,7 @@ public:
         return {}; // No solution found
     }
 
-    // using set
+    // using one-pass hash-map
     vector<int> twoSum(vector<int>& nums, int target) {
         unordered_map<int, int> umap;
         int n = nums.size();
@@ -27,6 +27,24 @@ public:
             }
             umap[nums[i]] = i;
         }
+        return {};
+    }
+
+    // using two-pass hash-map
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int, int> umap;
+        int n = nums.size();
+        for (int i = 0; i < n; i++) {
+            umap[nums[i]] = i;
+        }
+
+        for (int i = 0; i < n; i++) {
+            int complement = target - nums[i];
+            if (umap.count(complement) == 1 && umap[complement] != i) {
+                return {i, umap[complement]};
+            }
+        }
+
         return {};
     }
 
