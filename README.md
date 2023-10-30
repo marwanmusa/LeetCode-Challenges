@@ -35,6 +35,7 @@
 |46|[Permutations](https://leetcode.com/problems/permutations/) | [Python](permutations.py)|Medium|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Python](group_anagrams.py)|Medium|
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Python](./Recursion-1/pow_x_n.py)|Medium|
+|52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/) | [Python](./Recursion-2/n_quenss_2.py)|Hard|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Python](maximum_subarray.py)|Medium|
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./Array&String/spiral_matrix.py)|Medium|
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Python](length_of_last_world.py)|Easy|
