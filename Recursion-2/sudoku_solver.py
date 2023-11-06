@@ -3,7 +3,10 @@ import collections
 class Solution:
     def solveSudoku(self, board):
         nums = {"1", "2", "3", "4", "5", "6", "7", "8", "9"}
-        rows, cols, triples, visit = collections.defaultdict(set), collections.defaultdict(set), collections.defaultdict(set), collections.deque([])
+        rows, cols, triples, visit = [collections.defaultdict(set),
+                                      collections.defaultdict(set),
+                                      collections.defaultdict(set),
+                                      collections.deque([])]
         for r in range(9):
             for c in range(9):
                 if board[r][c] != ".":
