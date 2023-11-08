@@ -66,3 +66,12 @@ class Solution:
         self.ans = 0
         dfs([], 0, 0, 0, 0)
         return self.ans
+    
+    # shorter
+    def totalNQueens(self, n: int) -> int:
+        def find(queens=[], d1=[], d2=[]):
+            i = len(queens)
+            return (i == n) + sum(find(queens+[j], d1+[j-i], d2+[j+i]) for j in range(n) \
+                                  if j not in queens and j-i not in d1 and j+i not in d2) 
+        
+        return find()
