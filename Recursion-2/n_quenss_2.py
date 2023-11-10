@@ -75,3 +75,17 @@ class Solution:
                                   if j not in queens and j-i not in d1 and j+i not in d2) 
         
         return find()
+    
+    # faster solution
+    def totalNQueens(self, n: int) -> int:
+        res = 0        
+        def dfs(r, col, negDiag, posDiag):
+            nonlocal res
+            if r == n: 
+                res+=1
+                return 
+            for c in range(n):
+                if c not in col and r-c not in negDiag and r+c not in posDiag:
+                    dfs(r+1, col|{c}, negDiag|{r-c}, posDiag|{r+c})
+        dfs(0, set(), set(), set())
+        return res
