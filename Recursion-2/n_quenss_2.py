@@ -76,7 +76,7 @@ class Solution:
         
         return find()
     
-    # faster solution
+    # faster solution using "non local" variable
     def totalNQueens(self, n: int) -> int:
         res = 0        
         def dfs(r, col, negDiag, posDiag):
