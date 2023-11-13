@@ -38,6 +38,7 @@ class Solution:
             return False
         dfs()
 
+
     # another approach
     def solveSudoku(self, board: list[list[str]]) -> None:
         self.board = board
@@ -71,3 +72,32 @@ class Solution:
     def getRange(self, x):
         x -= x % 3
         return range(x, x + 3)
+    
+
+    # more clean solution
+    def solveSudoku(self, board):
+        self.board = board
+        self.state = {str(x): 0 for x in range(1, 10)}
+        self.initState()
+        self.solve()
+
+    def initState(self):
+        for row in range(9):
+            for col in range(9):
+                if self.board[row][col] != ".":
+                    self.state[self.board[row][col]] += 1
+
+    def solve(self):
+        row, col = self.findUnassigned()
+        if row == -1 and col == -1:
+            return True
+               
+        for num in set([x for x in self.state if self.state[x] != 9]):
+            if self.isSafe(row, col, num):
+                self.board[row][col] = num
+                self.state[num] += 1
+                if self.solve():
+                    return True
+                self.board[row][col] = "."
+                self.state[num] -= 1
+        return False
