@@ -1,3 +1,4 @@
+from functools import reduce
 from itertools import combinations as comb
 class Solution:
     """
@@ -22,3 +23,7 @@ class Solution:
         for _ in range(k):
             combs = [[i] + c for c in combs for i in range(1, c[0] if c else n+1)]
         return combs
+    
+    # iterative approach using reduce
+    def combine(self, n: int, k: int) -> list[list[int]]:
+        return reduce(lambda C, _: [[i]+c for c in C for i in range(1, c[0] if c else n+1)], range(k), [[]])
