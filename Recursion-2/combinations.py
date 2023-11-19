@@ -24,6 +24,17 @@ class Solution:
             combs = [[i] + c for c in combs for i in range(1, c[0] if c else n+1)]
         return combs
     
+    # completed decription of above iterative approach
+    def combine(self, n: int, k: int) -> list[list[int]]:
+        combs = [[]]
+        for _ in range(k):
+            temp = []
+            for c in combs:
+                for i in range(1, c[0] if c else n+1):
+                    temp.append([i] + c)
+            combs = temp
+        return combs
+    
     # iterative approach using reduce
     def combine(self, n: int, k: int) -> list[list[int]]:
         return reduce(lambda C, _: [[i]+c for c in C for i in range(1, c[0] if c else n+1)], range(k), [[]])
