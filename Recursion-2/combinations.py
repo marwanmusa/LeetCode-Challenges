@@ -38,3 +38,22 @@ class Solution:
     # iterative approach using reduce
     def combine(self, n: int, k: int) -> list[list[int]]:
         return reduce(lambda C, _: [[i]+c for c in C for i in range(1, c[0] if c else n+1)], range(k), [[]])
+    
+    # backtracking approach
+    def combine(self, n: int, k: int) -> list[list[int]]:
+        ans = []
+        def backtrack(remain, comb, nex):
+            # solution found
+            if remain == 0:
+                ans.append(comb[:])
+            else:
+                # iterate through all possible candidates
+                for i in range(nex, n+1):
+                    # add candidate
+                    comb.append(i)
+                    # backtrack
+                    backtrack(remain - 1, comb, i + 1)
+                    # remove candidate and continue to next iteration
+                    comb.pop()
+        backtrack(k, [], 1)
+        return ans
