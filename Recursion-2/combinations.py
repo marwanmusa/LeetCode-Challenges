@@ -44,7 +44,7 @@ class Solution:
         ans = []
         def backtrack(remain, comb, nex):
             # solution found
-            if remain == 0:
+            if remain == 0: # another checking, we can use `if len(comb) == k`
                 ans.append(comb[:])
             else:
                 # iterate through all possible candidates
