@@ -46,7 +46,7 @@ class Solution:
             return True
         stack = deque([(p, q)])
         while stack:
-            p, q = stack.pop_left()
+            p, q = stack.popleft()
             if not check(p, q):
                 return False
             if p:
