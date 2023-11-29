@@ -45,6 +45,8 @@ class Solution:
         return p and q and p.val == q.val and all(map(self.isSameTree, (p.left, p.right), (q.left, q.right))) or p is q
     """
     why p is q? It is just to return True if p==None and q==None else False.
+    Or It means if p and q have value in them. For the leaves of the tree, their left or right will be None,
+    so we want to ignore making errors by counting None in our program.
     """
     
     # tupleify
