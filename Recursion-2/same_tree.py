@@ -76,4 +76,16 @@ class Solution:
         return True
 
     
-    
+    # shorter iterative solution
+    def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
+        def check(p, q):
+            return p and q and p.val == q.val or p is q
+        stack = deque([(p, q)])
+        while stack:
+            p, q = stack.popleft()
+            if not check(p, q):
+                return False
+            if p:
+                stack.append((p.right, q.right))
+                stack.append((p.left, q.left))
+        return True
