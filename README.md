@@ -24,6 +24,7 @@
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Python](./LinkedList/remove_nth_node_from_end_of_linkedlist.py)|Medium|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Python](./Queue%20&%20Stack/valid_parentheses.py)|Easy|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Python](./Recursion-1/merge_two_sorted_lists.py)|Easy|
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Python](./Recursion-2/generate_parentheses.py)|Medium|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [Python](./Recursion-1/swap_nodes_in_pairs.py)|Medium|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](removes_duplicates_from_sorted_arrays.py)|Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/) | [Python](removes_element.py)|Easy|
