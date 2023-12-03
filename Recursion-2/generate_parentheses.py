@@ -22,3 +22,17 @@ class Solution:
                 for q in generate(p + '(', left-1, right): yield q
                 for q in generate(p + ')', left, right-1): yield q
         return list(generate('', n, n))
+
+
+    # solution 3
+    def generateParenthesis(self, n: int, open = 0) -> list[str]:
+        """
+        Stefan Pochmann:
+        Improved version of this. Parameter open tells the number of "already opened" parentheses,
+        and I continue the recursion as long as I still have to open parentheses (n > 0) and
+        I haven't made a mistake yet (open >= 0).
+        """
+        if n > 0 <= open:
+            return ['(' + p for p in self.generateParenthesis(n-1, open+1)] + \
+                   [')' + p for p in self.generateParenthesis(n, open-1)]
+        return [')' * open] * (not n)
