@@ -36,3 +36,21 @@ class Solution:
             return ['(' + p for p in self.generateParenthesis(n-1, open+1)] + \
                    [')' + p for p in self.generateParenthesis(n, open-1)]
         return [')' * open] * (not n)
+    
+
+    # solution 3
+    def generateParenthesis(self, n: int, open = 0) -> list[str]:
+        res = []
+        def dfs(l, r, cur):
+            if l == n and r == n:
+                res.append(''.join(cur))
+                return
+            
+            if l > n or r > n or r > l:
+                return
+            
+            dfs(l+1, r, cur+['('])
+            dfs(l, r+1, cur+[')'])
+
+        dfs(0, 0, [])
+        return res
