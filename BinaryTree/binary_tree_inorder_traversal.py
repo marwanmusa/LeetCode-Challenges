@@ -16,12 +16,12 @@ class Solution:
     # Recursively
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         res = []
-        def helper(root, res):
+        def inorder(root, res):
             if root:
-                helper(root.left, res)
+                inorder(root.left, res)
                 res.append(root.val)
-                helper(root.right, res)
-        helper(root, res)
+                inorder(root.right, res)
+        inorder(root, res)
         return res
 
 
