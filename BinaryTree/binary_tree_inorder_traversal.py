@@ -52,6 +52,22 @@ class Solution:
             root = node.right
 
 
+    # another iterative
+    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        res, stack = [], []
+        
+        while stack or root:
+            if root:
+                stack.append(root)
+                root = root.left
+            else:
+                tmpNode = stack.pop()
+                res.append(tmpNode.val)
+                root = tmpNode.right
+            
+        return res
+
+
     # Morris Traversal
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         res = []
@@ -71,19 +87,3 @@ class Solution:
                 temp.left = None
         return res
     
-
-    # another iterative
-    def inorderTraversal(self, root):
-        ans = []
-        stack = []
-        
-        while stack or root:
-            if root:
-                stack.append(root)
-                root = root.left
-            else:
-                tmpNode = stack.pop()
-                ans.append(tmpNode.val)
-                root = tmpNode.right
-            
-        return ans
