@@ -23,6 +23,17 @@ class Solution:
                 inorder(root.right, res)
         inorder(root, res)
         return res
+    
+    # Iteratively with one param
+    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        tree_val = []
+        def inorder(tree):
+            if tree:
+                inorder(tree.left)
+                tree_val.append(tree.val)
+                inorder(tree.right)
+        inorder(root)
+        return tree_val 
 
 
     # or simply
@@ -87,3 +98,13 @@ class Solution:
                 temp.left = None
         return res
     
+
+    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        tree_val = []
+        def inorder(tree):
+            if tree:
+                inorder(tree.left)
+                tree_val.append(tree.val)
+                inorder(tree.right)
+        inorder(root)
+        return tree_val 
