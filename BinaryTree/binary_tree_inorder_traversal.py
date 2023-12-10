@@ -24,7 +24,7 @@ class Solution:
         inorder(root, res)
         return res
     
-    # Iteratively with one param
+    # Recursive with one param
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         tree_val = []
         def inorder(tree):
@@ -33,7 +33,24 @@ class Solution:
                 tree_val.append(tree.val)
                 inorder(tree.right)
         inorder(root)
-        return tree_val 
+        return tree_val
+    
+
+    # another recursive
+    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        
+        answer = []
+
+        def dfs(node):
+            if node is None:
+                return
+            dfs(node.left)
+            answer.append(node.val)
+            dfs(node.right)
+        
+        dfs(root)
+
+        return answer
 
 
     # or simply
