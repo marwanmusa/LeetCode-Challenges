@@ -36,7 +36,7 @@ class Solution:
         return tree_val
     
 
-    # another recursive
+    # another recursive with one param and return condition
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         
         answer = []
