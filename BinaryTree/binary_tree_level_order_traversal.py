@@ -47,7 +47,7 @@ class Solution:
         return res
     
 
-    # another approach
+    # A1 another approach
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         ans, level = [], [root]
         while root and level:
@@ -57,10 +57,24 @@ class Solution:
         return ans
     
 
-    # shorter
+    # A1 shorter
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         ans, level = [], [root]
         while root and level:
             ans.append([node.val for node in level])            
             level = [kid for n in level for kid in (n.left, n.right) if kid]
+        return ans
+    
+
+    # A1 & A2 
+    def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
+        if not root:
+            return []
+        ans, level = [], [root]
+        while level:
+            ans.append([node.val for node in level])
+            temp = []
+            for node in level:
+                temp += [node.left, node.right]
+            level = [leaf for leaf in temp if leaf]
         return ans
