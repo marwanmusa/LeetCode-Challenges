@@ -20,8 +20,7 @@ class Solution:
         res, q = [], []
         q.append(root)
         while q:
-            counter = len(q)
-            level_nodes = []
+            counter, level_nodes  = len(q), []
             for i in range(counter):
                 node = q[0]
                 q.pop(0)
