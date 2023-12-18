@@ -45,7 +45,6 @@ class Solution:
             res.append(level_nodes)
         return res
     
-
     # A1 another approach
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         ans, level = [], [root]
@@ -55,7 +54,6 @@ class Solution:
             level = [leaf for LR in lr_pair for leaf in LR if leaf]
         return ans
     
-
     # A1 shorter
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         ans, level = [], [root]
@@ -64,7 +62,6 @@ class Solution:
             level = [kid for n in level for kid in (n.left, n.right) if kid]
         return ans
     
-
     # A1 & A2 
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         if not root:
