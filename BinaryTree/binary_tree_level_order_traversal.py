@@ -71,6 +71,6 @@ class Solution:
             ans.append([node.val for node in level])
             temp = []
             for node in level:
-                temp += [node.left, node.right] # or temp.extend([node.left, node.right])
+                temp.extend([node.left, node.right]) # or temp += [node.left, node.right]
             level = [leaf for leaf in temp if leaf]
         return ans
