@@ -17,6 +17,9 @@ class Solution:
     Example:
     Input: root = [3,9,20,null,null,15,7]
     Output: [[3],[9,20],[15,7]]
+
+    Input: root = [1]
+    Output: [[1]]
     """
     # bfs with stack
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
