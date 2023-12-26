@@ -49,6 +49,7 @@
 |74|[Search 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](./Recursion-2/search_a_2d_matrix.py) |Easy|
 |77|[Combinations](https://leetcode.com/problems/combinations/) | [Python](combinations.py) |Medium|
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Python](remove_duplicates_from_sorted_list.py) |Easy|
+|84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/) | [Python](./Recursion-2/largest_rectangle_in_histogram.py) |Hard|
 |87|[Scramble String](https://leetcode.com/problems/scramble-string/) | [Python](scramble_string.py) |Hard|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Python](merge_sorted_array.py) |Easy|
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Python](./BinaryTree/binary_tree_inorder_traversal.py) |Easy|
