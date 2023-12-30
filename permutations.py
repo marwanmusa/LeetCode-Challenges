@@ -36,3 +36,14 @@ class Solution:
             for i in range(len(elements)):
                 # nb elements[0:1] works in both string and list contexts
                 yield perm[:i] + elements[0:1] + perm[i:]
+
+    # method 2 -> make it in 1 function
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        def helper(elements):
+            if len(elements) <= 1:
+                yield elements
+                return
+            for perm in helper(elements[1:]):
+                for i in range(len(elements)):
+                    yield perm[:i] + elements[0:1] + perm[i:]
+        return list(helper(nums))
