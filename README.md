@@ -33,7 +33,7 @@
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Python](./BinarySearch/find_first_and_last_position_of_element_in_sorted_array.py)|Medium|
 |35|[Search Insert Position](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](search_insert_position.py)|Easy|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](valid_sudoku.py)|Medium|
-|46|[Permutations](https://leetcode.com/problems/permutations/) | [Python](permutations.py)|Medium|
+|46|[Permutations](https://leetcode.com/problems/permutations/) | [Python](./Recursion-2/permutations.py)|Medium|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Python](group_anagrams.py)|Medium|
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Python](./Recursion-1/pow_x_n.py)|Medium|
 |52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/) | [Python](./Recursion-2/n_quenss_2.py)|Hard|
