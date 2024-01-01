@@ -9,15 +9,12 @@ class Solution:
     # Method 1 - backtracking
     def permute(self, nums: List[int]) -> List[List[int]]:
         res = []
-
         # base case
         if len(nums) == 1:
             return [nums.copy()]
-
         for i in range(len(nums)):
             n = nums.pop(0)
             perms = self.permute(nums)
-
             for perm in perms:
                 perm.append(n)
             res.extend(perms)
@@ -47,3 +44,15 @@ class Solution:
                 for i in range(len(elements)):
                     yield perm[:i] + elements[0:1] + perm[i:]
         return list(helper(nums))
+    
+    # another approach
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        if len(nums) == 1: return [nums]
+        res = []
+        for i in range(len(nums)):
+            sub = nums[:i] + nums[i+1:]
+            for p in self.permute(sub):
+                res.append([nums[i]] + p)
+        return res
+    
+    
