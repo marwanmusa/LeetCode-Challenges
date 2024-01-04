@@ -67,4 +67,15 @@ class Solution:
             return res
         return recursive(nums)
     
+    # Method 3 - recursion without bactracking
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        def recursive(nums, perm=[], res=[]):
+            if not nums: res.append(perm)
+            for i in range(len(nums)):
+                sub = nums[:i] + nums [i+1:]
+                recursive(sub, perm + [nums[i]], res)
+            return res
+        return recursive(nums)
+    
+    
     
