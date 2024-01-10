@@ -15,3 +15,18 @@ class Solution:
         for d in digits:
             comb = [p + q for p in comb for q in map_num[d]]
         return comb
+    
+    # backtracking
+    def letterCombinations(self, digits: str) -> list[str]:
+        res = []
+        def backtrack(i, cur):
+            if i == len(digits):
+                if len(cur) > 0: res.append(''.join(cur))
+                return
+            for c in map_num[digits[i]]:
+                cur.append(c)
+                backtrack(i+1, cur)
+                cur.pop()
+        backtrack(0, [])
+        return res
+        

@@ -60,7 +60,7 @@ class Solution:
         def recursive(nums, perm=[], res=[]):
             if not nums: res.append(perm)
             for i in range(len(nums)):
-                sub = nums[:i] + nums [i+1:]
+                sub = nums[:i] + nums[i+1:]
                 perm.append(nums[i])
                 recursive(sub, perm, res)
                 perm.pop()
