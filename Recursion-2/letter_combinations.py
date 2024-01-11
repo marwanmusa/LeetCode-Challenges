@@ -24,9 +24,7 @@ class Solution:
                 if len(cur) > 0: res.append(''.join(cur))
                 return
             for c in map_num[digits[i]]:
-                cur.append(c)
-                backtrack(i+1, cur)
-                cur.pop()
+                backtrack(i+1, cur+[c])
         backtrack(0, [])
         return res
         
