@@ -30,7 +30,7 @@ class Solution:
         backtrack(0, [])
         return res
 
-        # another approach using reduce python
+    # another approach using reduce python
     def letterCombinations(self, digits: str) -> list[str]:
         if not digits: return []
         return reduce(lambda acc, digit: [x+y for x in acc for y in map_num[digit]], digits, [''])
