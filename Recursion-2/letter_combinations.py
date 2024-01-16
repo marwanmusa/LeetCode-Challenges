@@ -1,5 +1,8 @@
 from functools import reduce
 
+map_num = {'2': 'abc', '3': 'def', '4': 'ghi', '5': 'jkl', 
+            '6': 'mno', '7': 'pqrs', '8': 'tuv', '9': 'wxyz'}
+
 class Solution:
     """
     Task:
@@ -18,8 +21,6 @@ class Solution:
     
     # backtracking
     def letterCombinations(self, digits: str) -> list[str]:
-        map_num = {'2': 'abc', '3': 'def', '4': 'ghi', '5': 'jkl', 
-                   '6': 'mno', '7': 'pqrs', '8': 'tuv', '9': 'wxyz'}
         res = []
         def backtrack(i, cur):
             if i == len(digits):
@@ -32,7 +33,5 @@ class Solution:
 
     # another approach using reduce python
     def letterCombinations(self, digits: str) -> list[str]:
-        map_num = {'2': 'abc', '3': 'def', '4': 'ghi', '5': 'jkl', 
-                   '6': 'mno', '7': 'pqrs', '8': 'tuv', '9': 'wxyz'}
         if not digits: return []
         return reduce(lambda acc, digit: [x+y for x in acc for y in map_num[digit]], digits, [''])
