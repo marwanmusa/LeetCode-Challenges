@@ -51,8 +51,6 @@ class Solution:
     
     # approach 2 using bisect
     def getSkyline(self, buildings):
-        if len(buildings) == 0:
-            return []
         buildings.sort(key = lambda v: v[2])
         pos, height = [0], [0]
         for left, right, h in buildings:
