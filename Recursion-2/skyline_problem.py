@@ -46,7 +46,7 @@ class Solution:
             while live[0][1] <= pos: heappop(live)
             if negH: heappush(live, (negH, R))
             if res[-1][1] != -live[0][0]:
-                res += [ [pos, -live[0][0]] ]
+                res += [[pos, -live[0][0]]]
         return res[1:]
     
     # approach 2 using bisect
