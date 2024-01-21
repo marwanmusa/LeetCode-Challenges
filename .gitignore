@@ -1,5 +1,5 @@
 .gitignore
 *.ipynb
-
+venv/
 *.vscode/
 venv/
