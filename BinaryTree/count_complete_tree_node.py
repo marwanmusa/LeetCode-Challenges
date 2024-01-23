@@ -1,10 +1,10 @@
+from typing import Optional
 # Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
-
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
 
 class Solution:
   """
@@ -16,15 +16,15 @@ class Solution:
     
     Design an algorithm that runs in less than O(n) time complexity.
   """
-    def countNodes(self, root: Optional[TreeNode]) -> int:
-        if not root: return 0
-        stack, cnt = [root], 1
-        while stack:
-            cur = stack.pop()
-            if cur.left:
-                stack.append(cur.left)
-                cnt += 1
-            if cur.right:
-                stack.append(cur.right)
-                cnt += 1
-        return cnt
+  def countNodes(self, root: Optional[TreeNode]) -> int:
+      if not root: return 0
+      stack, cnt = [root], 1
+      while stack:
+          cur = stack.pop()
+          if cur.left:
+              stack.append(cur.left)
+              cnt += 1
+          if cur.right:
+              stack.append(cur.right)
+              cnt += 1
+      return cnt
