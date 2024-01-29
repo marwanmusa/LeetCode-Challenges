@@ -16,3 +16,8 @@ class Solution:
             n -= i
             res += 1
         return res
+
+
+    # using math analysis
+    def arrangeCoins(self, n: int) -> int:
+        return int((2*n + 0.25)**0.5 - 0
