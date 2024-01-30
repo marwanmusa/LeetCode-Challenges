@@ -20,4 +20,16 @@ class Solution:
 
     # using math analysis
     def arrangeCoins(self, n: int) -> int:
-        return int((2*n + 0.25)**0.5 - 0
+        return int((2*n + 0.25)**0.5 - 0)
+    
+    # binary search
+    def arrangeCoins(self, n: int) -> int:
+        left, right = 0, n
+        while left <= right:
+            mid = left + (right - left) // 2
+            one_step = mid * (mid + 1) // 2
+            if one_step > n:
+                right = mid - 1
+            else:
+                left = mid + 1
+        return right
