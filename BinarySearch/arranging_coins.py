@@ -38,7 +38,7 @@ class Solution:
     
     # using bisect
     def arrangeCoins(self, n: int) -> int:
-        res = bisect_left(range(1, n), n, key = lambda x: x*(x+1)//2) + 1
+        res = bisect_left(range(1, n), n, key = lambda x: x*(x+1)//2) + 1 
         if res*(res+1)//2 == n:
             return res
         return res-1
