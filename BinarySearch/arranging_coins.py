@@ -22,7 +22,9 @@ class Solution:
 
     # using math analysis
     def arrangeCoins(self, n: int) -> int:
-        return int((2*n + 0.25)**0.5 - 0.5) # or int(((8*n+1)**0.5)/2 - 0.5)
+        return int((2*n + 0.25)**0.5 - 0.5)
+        # or
+        # return int(((8*n+1)**0.5)/2 - 0.5)
     
     # binary search
     def arrangeCoins(self, n: int) -> int:
