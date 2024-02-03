@@ -32,7 +32,9 @@ class Solution:
         while left <= right:
             mid = left + (right - left) // 2
             one_step = mid * (mid + 1) // 2
-            if one_step > n:
+            if one_step == n:
+                return mid
+            elif one_step > n:
                 right = mid - 1
             else:
                 left = mid + 1
