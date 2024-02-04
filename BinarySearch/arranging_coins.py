@@ -18,6 +18,15 @@ class Solution:
             n -= i
             res += 1
         return res
+    
+    
+    def arrangeCoins(self, n: int) -> int:
+        s, i = 0, 1
+        while n >= i:
+            n -= i
+            s += 1
+            i += 1
+        return s
 
 
     # using math analysis
@@ -46,3 +55,5 @@ class Solution:
         if res*(res+1)//2 == n:
             return res
         return res-1
+    
+
