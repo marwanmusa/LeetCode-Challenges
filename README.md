@@ -27,7 +27,7 @@
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Python](./Recursion-2/generate_parentheses.py)|Medium|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [Python](./Recursion-1/swap_nodes_in_pairs.py)|Medium|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](./Unspecified/removes_duplicates_from_sorted_arrays.py)|Easy|
-|27|[Remove Element](https://leetcode.com/problems/remove-element/) | [Python](./Unspecified/removes_element.py)|Easy|
+|27|[Remove Element](https://leetcode.com/problems/remove-element/) | [Python](./Unspecified/remove_element.py)|Easy|
 |28|[Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [Python](./Array&String/find_the_index_of_the_first_occurrence_in_a_string.py)|Easy|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/remove-element/) | [Python](./Unspecified/search_in_rotated_sorted_array.py)|Medium|
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Python](./BinarySearch/find_first_and_last_position_of_element_in_sorted_array.py)|Medium|
