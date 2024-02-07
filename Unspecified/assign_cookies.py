@@ -18,8 +18,6 @@ class Solution:
         while childidx >= 0 and cookieidx >= 0:
             if g[childidx] <= s[cookieidx]:
                 res += 1
-                childidx -= 1
                 cookieidx -= 1
-            else:
-                childidx -= 1
+            childidx -= 1
         return res
