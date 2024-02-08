@@ -21,3 +21,17 @@ class Solution:
                 cookieidx -= 1
             childidx -= 1
         return res
+    
+
+    def findContentChildren(self, g: list[int], s: list[int]) -> int:
+        if not s: return 0
+        g.sort()
+        s.sort()
+        cnt, j, l = 0, 0, len(s)
+        for i in range(l):
+            if s[i] >= g[j]:
+                j += 1
+                count += 1
+            if j >= len(g):
+                break
+        return cnt
