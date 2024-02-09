@@ -35,3 +35,11 @@ class Solution:
             if j >= len(g):
                 break
         return cnt
+    
+    def getContentChildren(self, g: list[int], s: list[int]) -> int:
+        stack = sorted(g, reverse=True)
+        s = sorted(s)
+        for i in range(len(s)):
+            if stack and stack[-1] <= s[i]:
+                stack.pop()
+        return len(g) - len(stack)
