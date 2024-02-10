@@ -36,6 +36,7 @@ class Solution:
                 break
         return cnt
     
+
     def getContentChildren(self, g: list[int], s: list[int]) -> int:
         stack = sorted(g, reverse=True)
         s = sorted(s)
@@ -43,3 +44,15 @@ class Solution:
             if stack and stack[-1] <= s[i]:
                 stack.pop()
         return len(g) - len(stack)
+    
+
+    def getContentChildren(self, g: list[int], s: list[int]) -> int:
+        if not s: return 0
+        g.sort()
+        s.sort()
+        cnt, j = 0, len(s)-1
+        for i in range(len(g)-1, -1, -1):
+            if j >= 0 and s[j] >= g[i]:
+                cnt += 1
+                j -= 1
+        return cnt
