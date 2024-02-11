@@ -11,6 +11,7 @@
 ---
 
 ### Leetcode Solutions
+<details>
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
@@ -220,3 +221,4 @@
 |2405|[Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/) | [Python](./Unspecified/optimal_partition_of_string.py)|Medium|
 |2439|[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/) | [Python](./Unspecified/minimize_maximum_of_array.py)|Medium|
 |2492|[Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | [Python](./Unspecified/minimum_score_of_a_path_between_two_cities.py)|Medium|
+</details>
