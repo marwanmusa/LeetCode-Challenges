@@ -9,7 +9,6 @@ class Solution:
     Your goal is to maximize the number of your content children and output the maximum number.
     """
     def findContentChildren(self, g: list[int], s: list[int]) -> int:
-        if not s: return 0
         g.sort()
         s.sort()
         res = 0
@@ -24,7 +23,6 @@ class Solution:
     
 
     def findContentChildren(self, g: list[int], s: list[int]) -> int:
-        if not s: return 0
         g.sort()
         s.sort()
         cnt, j, l = 0, 0, len(s)
