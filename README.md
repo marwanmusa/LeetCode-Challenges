@@ -145,6 +145,7 @@
 |389|[Find the Difference](https://leetcode.com/problems/find-the-difference/) | [Python](./Unspecified/find_the_difference.py) |Easy|
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [Python](./Unspecified/is_subsequence.py) |Easy|
 |394|[Decode String](https://leetcode.com/problems/decode-string/) | [Python](./Queue%20&%20Stack/decode_string.py) |Medium|
+|405|[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | [Python](./Unspecified/convert_num_to_hexadecimal.py) |Easy|
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | [Python](longest_palindrome.py) |Easy|
 |410|[Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | [Python](./BinarySearch/split_array_largest_sum.py) |Hard|
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Python](./Unspecified/fizz_buzz.py) |Easy|
