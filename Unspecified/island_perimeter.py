@@ -12,7 +12,6 @@ class Solution:
     """
     def islandPerimeter(self, grid: list[list[int]]) -> int:
         m, n, perimeter = len(grid), len(grid[0]), 0
-
         for i in range(m):
             for j in range(n):
                 perimeter += 4*grid[i][j]
