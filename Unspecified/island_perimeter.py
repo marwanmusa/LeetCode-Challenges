@@ -1,3 +1,5 @@
+import operator
+
 class Solution:
     """
     You are given row x col grid representing a map where grid[i][j] = 1 represents land
@@ -20,6 +22,10 @@ class Solution:
                 if j > 0: perimeter -= grid[i][j]*grid[i][j-1]
                 if j < n-1: perimeter -= grid[i][j]*grid[i][j+1]
         return perimeter
+
+    def islandPerimeter(self, grid):
+        return sum(sum(map(operator.ne, [0] + row, row + [0]))
+                for row in grid + map(list, zip(*grid)))
     
 
 if __name__ == '__main__':
