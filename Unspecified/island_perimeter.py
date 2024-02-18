@@ -24,8 +24,7 @@ class Solution:
         return perimeter
 
     def islandPerimeter(self, grid):
-        return sum(sum(map(operator.ne, [0] + row, row + [0]))
-                for row in grid + list(map(list, zip(*grid))))
+        return sum(sum(map(operator.ne, [0] + row, row + [0])) for row in grid + list(map(list, zip(*grid))))
     
 
 if __name__ == '__main__':
