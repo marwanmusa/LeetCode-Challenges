@@ -23,8 +23,18 @@ class Solution:
                 if j < n-1: perimeter -= grid[i][j]*grid[i][j+1]
         return perimeter
 
+    # One liner
     def islandPerimeter(self, grid):
         return sum(sum(map(operator.ne, [0] + row, row + [0])) for row in grid + list(map(list, zip(*grid))))
+    
+
+    # One liner detail
+    def islandPerimeter(self, grid):
+        area = 0
+        for row in grid + list(map(list, zip(*grid))):
+            for i1, i2 in zip([0] + row, row + [0]):
+                area += int(i1 != i2)
+        return area
     
 
 if __name__ == '__main__':
