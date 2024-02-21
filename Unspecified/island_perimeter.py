@@ -37,6 +37,24 @@ class Solution:
         return area
     
 
+    # checking per left and up area each iteration
+    def islandPerimeter(self, grid: list[list[int]]) -> int:
+        rows = len(grid)
+        cols = len(grid[0])
+
+        res = 0
+
+        for r in range(rows):
+            for c in range(cols):
+                if grid[r][c] == 1:
+                    res += 4
+                    if r > 0 and grid[r - 1][c] == 1:
+                        res -= 2
+                    if c > 0 and grid[r][c - 1] == 1:
+                        res -= 2
+        return res
+    
+
 if __name__ == '__main__':
     grid = [[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]]
     print(Solution().islandPerimeter(grid))
