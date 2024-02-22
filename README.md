@@ -11,6 +11,7 @@
 ---
 
 ### Leetcode Solutions
+
 <details>
 
 | # | Title | Solution | Difficulty |

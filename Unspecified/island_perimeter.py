@@ -39,11 +39,7 @@ class Solution:
 
     # checking per left and up area each iteration
     def islandPerimeter(self, grid: list[list[int]]) -> int:
-        rows = len(grid)
-        cols = len(grid[0])
-
-        res = 0
-
+        res, rows, cols = 0, len(grid), len(grid[0])
         for r in range(rows):
             for c in range(cols):
                 if grid[r][c] == 1:
