@@ -3,6 +3,11 @@ class Solution:
     Task:
     Given a string s, check if it can be constructed by taking a substring of it
     and appending multiple copies of the substring together.
+
+    # Example 1:
+    Input: s = "abcabcabcabc"
+    Output: true
+    Explanation: It is the substring "abc" four times or the substring "abcabc" twice.
     """
     def repeatedSubstringPattern(self, s: str) -> bool:
         s_fold = "".join((s[1:], s[:-1]))
