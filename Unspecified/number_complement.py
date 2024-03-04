@@ -25,3 +25,7 @@ class Solution:
     # Find the bit length (say L) and flip num by num ^ 11...1 (L ones).
     def findComplement(self, num: int) -> int:
         return num ^ ((1<<num.bit_length()) - 1)
+    
+    # same with prev approach but a little bit different
+    def findComplement(self, num: int) -> int:
+        return num ^ ((1 << len(bin(num)) - 2) - 1)
