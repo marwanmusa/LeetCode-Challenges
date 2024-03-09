@@ -5,7 +5,6 @@ class Solution:
         dash = '-'
         cur = 0
         for i in range(n - 1, -1, -1):
-            print(i, s[i])
             if s[i] != dash:
                 if cur < k:
                     res.appendleft((s[i]).upper())
