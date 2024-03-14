@@ -22,3 +22,10 @@ class Solution:
         if k > len(s) : return s
         res = '-'.join(s[i:i+k] for i in range(len(s) % k, len(s), k))
         return s[:len(s) % k] + '-' +  res if len(s) % k > 0 else res
+
+    # prev answer but shorter
+    def licenseKeyFormatting(self, s: str, k: int) -> str:
+        s = s.replace('-', '').upper()
+        res = '-'.join(s[i:i+k] for i in range(len(s) % k, len(s), k))
+        return s if k > len(s) else s[:len(s) % k] + '-' +  res if len(s) % k > 0 else res
+    
