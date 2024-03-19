@@ -13,6 +13,12 @@ class Solution:
 
     Return the total number of seconds that Ashe is poisoned.
     """
+    # Time limit exceed
+    def findPoisonedDuration(self, timeSeries: list[int], duration: int) -> int:
+        collect = [range(x, x+duration) for x in timeSeries]
+        return len(set(x for j in collect for x in j))
+
+    # 
     def findPoisonedDuration(self, timeSeries: list[int], duration: int) -> int:
         ans = duration * len(timeSeries)
         for i in range(1, len(timeSeries)):
