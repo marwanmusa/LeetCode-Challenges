@@ -26,13 +26,8 @@ class Solution:
         return ans
 
     def findPoisonedDuration(self, timeSeries: list[int], duration: int) -> int:
-        cur=-1
-        ans=0
+        cur, ans = -1, 0
         for i in timeSeries:
-            if i>cur:
-                cur=i+duration-1
-                ans+=duration
-            else: 
-                ans+=(duration-cur+i-1)
-                cur=i+duration-1
+            ans += (duration - cur + i - 1) if i <= cur else duration
+            cur = i + duration - 1
         return ans
