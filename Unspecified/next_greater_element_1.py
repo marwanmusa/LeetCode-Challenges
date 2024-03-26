@@ -11,4 +11,11 @@ class Solution:
     Return an array ans of length nums1.length such that ans[i] is the next greater element as described above.
     """
     def nextGreaterElement(self, nums1: list[int], nums2: list[int]) -> list[int]:
-        pass
+        idx = {num : i for i, num in enumerate(nums2)}
+        ans = []
+        for el in nums1:
+            if any(i > el for i in nums2[idx[el]:]):
+                ans.append(next(i for i in nums2[idx[el]:] if i > el))
+            else:
+                ans.append(-1)
+        return ans
