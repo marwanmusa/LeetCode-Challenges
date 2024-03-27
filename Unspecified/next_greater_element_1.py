@@ -24,7 +24,7 @@ class Solution:
     def nextGreaterElement(self, nums1: list[int], nums2: list[int]) -> list[int]:
         m, stk = {}, []
         for v in nums2:
-            while stk and stk[-1]:
+            while stk and stk[-1] < v:
                 m[stk.pop()] = v
             stk.append(v)
         return [m.get(v, -1) for v in nums1]
