@@ -19,3 +19,12 @@ class Solution:
             else:
                 ans.append(-1)
         return ans
+    
+    # using stacking
+    def nextGreaterElement(self, nums1: list[int], nums2: list[int]) -> list[int]:
+        m, stk = {}, []
+        for v in nums2:
+            while stk and stk[-1]:
+                m[stk.pop()] = v
+            stk.append(v)
+        return [m.get(v, -1) for v in nums1]
