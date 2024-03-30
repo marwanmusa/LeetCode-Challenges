@@ -15,3 +15,12 @@ class Solution:
             if oneline: ans.append(w)
         return ans
                 
+    # using set methods
+    def findWords(self, words):
+        return [
+            w
+            for w in words
+            if set(w.lower()).issubset(set("qwertyuiop"))
+            or set(w.lower()).issubset(set("asdfghjkl"))
+            or set(w.lower()).issubset(set("zxcvbnm"))
+        ]
