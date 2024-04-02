@@ -15,14 +15,14 @@ class Solution:
             if oneline: ans.append(w)
         return ans
                 
-    # using subset of set methods
+    # using subset of set approach
     def findWords(self, words):
         return [w for w in words
                 if set(w.lower()).issubset(set("qwertyuiop"))
                 or set(w.lower()).issubset(set("asdfghjkl"))
                 or set(w.lower()).issubset(set("zxcvbnm"))]
 
-    # using length of set methods
+    # using length of set approach
     def findWords(self, words):
         l1, l2, l3 = "qwertyuiop", "asdfghjkl", "zxcvbnm"
         n1, n2, n3 = len(l1), len(l2), len(l3)
