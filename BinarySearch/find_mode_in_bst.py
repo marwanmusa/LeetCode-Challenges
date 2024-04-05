@@ -47,10 +47,8 @@ class Solution:
         arr, stack, d = [], [root], defaultdict(int)
         while stack:
             cur = stack.pop()
-            if cur.left:
-                stack.append(cur.left)
-            if cur.right:
-                stack.append(cur.right)
+            if cur.left: stack.append(cur.left)
+            if cur.right:stack.append(cur.right)
             d[cur.val] += 1
-        maxval = d[max(d, key=d.get)]
+        maxval = max(d.values())
         return sorted([k for k,v in d.items() if v == maxval])
