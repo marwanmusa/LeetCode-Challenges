@@ -167,6 +167,7 @@
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [Python](./Unspecified/max_consecutive_ones.py) |Easy|
 |494|[Target Sum](https://leetcode.com/problems/target-sum/) | [Python](./Queue%20&%20Stack/target_sum.py.py) |Medium|
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Python](./Array&String/diagonal_traverse.py) |Medium|
+|501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/) | [Python](./BinarySearch/find_mode_in_bst.py) |Easy|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [Python](./Queue%20&%20Stack/01_matrix.py) |Medium|
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/) | [Python](./Recursion-1/fibonacci_number.py) |Easy|
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Python](./Unspecified/reverse_word_in_string_iii.py) |Easy|
