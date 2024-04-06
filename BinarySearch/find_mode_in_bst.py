@@ -50,5 +50,4 @@ class Solution:
             if cur.left: stack.append(cur.left)
             if cur.right:stack.append(cur.right)
             d[cur.val] += 1
-        maxval = max(d.values())
-        return sorted([k for k,v in d.items() if v == maxval])
+        return sorted([k for k,v in d.items() if v == max(d.values())])
