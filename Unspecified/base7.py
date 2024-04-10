@@ -5,3 +5,9 @@ class Solution:
             res = str(n % 7) + res
             n //= 7
         return '-' * (num < 0) + res or '0'
+
+    # recursive approach
+    def convertToBase7(self, n: int) :
+        if n < 0: return '-' + self.convertToBase7(-n)
+        if n < 7: return str(n)
+        return self.convertToBase7(n // 7) + str(n % 7)
