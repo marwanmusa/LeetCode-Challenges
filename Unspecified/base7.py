@@ -1,4 +1,8 @@
 class Solution:
+    """
+    Task:
+        Given an integer num, return a string of its base 7 representation.
+    """
     def convertToBase7(self, num: int) -> str:
         n, res = abs(num), ''
         while n:
