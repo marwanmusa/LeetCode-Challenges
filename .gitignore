@@ -2,3 +2,6 @@
 *.ipynb
 venv/
 *.vscode/
+test.cpp
+a.out
+a.exe
