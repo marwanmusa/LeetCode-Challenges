@@ -171,6 +171,7 @@
 |507|[Perfect Number](https://leetcode.com/problems/perfect-number/) | [Python](./Unspecified/perfect_number.py) |Easy|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [Python](./Queue%20&%20Stack/01_matrix.py) |Medium|
 |520|[Detect Capital](https://leetcode.com/problems/detect-capital/) | [Python](./Unspecified/detect_capital.py) |Easy|
+|521|[Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/) | [Python](./Array&String/longest_uncommon_subsequence1.py) [Cpp](./Array&String/longest_uncommon_subsequence1.cpp)|Easy|
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/) | [Python](./Recursion-1/fibonacci_number.py) |Easy|
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Python](./Unspecified/reverse_word_in_string_iii.py) |Easy|
 |561|[Array Position](https://leetcode.com/problems/array-partition/) | [Python](./Unspecified/array_position.py) |Easy|
