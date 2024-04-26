@@ -168,6 +168,7 @@
 |494|[Target Sum](https://leetcode.com/problems/target-sum/) | [Python](./Queue%20&%20Stack/target_sum.py.py) |Medium|
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Python](./Array&String/diagonal_traverse.py) |Medium|
 |501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/) | [Python](./BinarySearch/find_mode_in_bst.py) |Easy|
+|506|[Relative Ranks](https://leetcode.com/problems/relative-ranks/) | [Python](./Unspecified/relative_ranks.py) |Easy|
 |507|[Perfect Number](https://leetcode.com/problems/perfect-number/) | [Python](./Unspecified/perfect_number.py) |Easy|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [Python](./Queue%20&%20Stack/01_matrix.py) |Medium|
 |520|[Detect Capital](https://leetcode.com/problems/detect-capital/) | [Python](./Unspecified/detect_capital.py) |Easy|
