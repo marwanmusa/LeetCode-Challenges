@@ -23,3 +23,14 @@ class Solution:
             for i in range(2, len(els)):
                 minDiff = min(minDiff, abs(els[i-1]-els[i]))
         return minDiff
+    
+
+    # shorter version from above solution
+    def getMinimumDifference(self, root: Optional[TreeNode]) -> int:
+        store = list()
+        def dfs(root):
+            if root.left: dfs(root.left)
+            store.append(root.val)
+            if root.right: dfs(root.right)
+        dfs(root)
+        return min(b-a for a,b in (zip(store, store[1:])))
