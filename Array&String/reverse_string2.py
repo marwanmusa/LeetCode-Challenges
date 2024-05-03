@@ -1,7 +1,6 @@
 class Solution:
     def reverseStr(self, s: str, k: int) -> str:
         s = list(s)
-        m = len(s) % (k*2)
         for i in range(0, len(s), k*2):
             if i + k < len(s):
                 s[i:i+k] = s[i:i+k][::-1]
