@@ -16,3 +16,11 @@ class Solution:
             revStr += s[i+k:i+(2*k)]
             i += 2*k
         return revStr
+    
+    def reverseStr(self, s: str, k: int) -> str:
+        s = [s[i:i+k] for i in range(0, len(s), k)]
+		# Reverse every other substring, beginning with s[0]
+        for i in range(0, len(s), 2):
+            s[i] = s[i][::-1]
+		# Join array of substrings into one string and return 
+        return ''.join(s)
