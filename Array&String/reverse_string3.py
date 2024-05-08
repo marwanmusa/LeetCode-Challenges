@@ -9,4 +9,9 @@ class Solution:
         for w in s.split(" "):
             ans += w[::-1]
             ans += ' '
-        return ans[:-1]
+        return ans.strip()
+    
+
+    # one-line
+    def reverseWords(self, s: str) -> str:
+        return ' '.join([w[::-1] for w in s.split()])
