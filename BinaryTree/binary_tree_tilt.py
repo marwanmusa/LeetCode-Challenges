@@ -17,3 +17,16 @@ class Solution:
             return root.val + l + r
         dfs(root)
         return self.res
+    
+
+    # storing all tilts in a list and sum all tilts element
+    def findTilt(self, root: Optional[TreeNode]) -> int:
+        def dfs(root, tilts):
+            if not root: return 0
+            if not root.left and not root.right: return root.val
+            l, r = dfs(root.left, tilts), dfs(root.right, tilts)
+            tilts.append(abs(l-r))
+            return root.val + l + r
+        tilts = []
+        dfs(root, tilts)
+        return sum(tilts)
