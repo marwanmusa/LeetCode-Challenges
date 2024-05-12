@@ -16,3 +16,17 @@ class Solution:
             return 1 + max(l, r)
         depth(root)
         return self.d
+    
+
+    # more pythonic
+    def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
+        d = 0
+        def depth(root):
+            nonlocal d
+            if not root: return 0
+            l, r = depth(root.left), depth(root.right)
+            d = max(d, l + r)
+            return 1 + max(l, r)
+        depth(root)
+        return d
+            
