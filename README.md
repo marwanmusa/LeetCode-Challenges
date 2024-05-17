@@ -178,7 +178,7 @@
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/) | [Python](./Queue%20&%20Stack/01_matrix.py) |Medium|
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Python](./Unspecified/reverse_word_in_string_iii.py) |Easy|
 |559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) | [Python](./Recursion-2/maximum_depth_of_n-ary_tree.py) |Easy|
-|561|[Array Position](https://leetcode.com/problems/array-partition/) | [Python](./Unspecified/array_position.py) |Easy|
+|561|[Array Partition](https://leetcode.com/problems/array-partition/) | [Python](./Unspecified/array_position.py) |Easy|
 |566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [Python](./Unspecified/matrix_reshape.py) |Easy|
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [Python](./Unspecified/permutation_in_string.py) |Medium|
 |599|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | [Python](./Unspecified/minimum_index_sum_of_two_lists.py) |Easy|
