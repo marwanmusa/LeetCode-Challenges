@@ -181,6 +181,7 @@
 |561|[Array Partition](https://leetcode.com/problems/array-partition/) | [Python](./Unspecified/array_position.py) |Easy|
 |566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [Python](./Unspecified/matrix_reshape.py) |Easy|
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [Python](./Unspecified/permutation_in_string.py) |Medium|
+|572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [Python](./BinaryTree/subtree_of_another_tree.py) |Easy|
 |575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/) | [Python](./Unspecified/distribute_candies.py) |Easy|
 |599|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | [Python](./Unspecified/minimum_index_sum_of_two_lists.py) |Easy|
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [Python](./Unspecified/merge_two_binary_trees.py) |Easy|
