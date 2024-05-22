@@ -186,6 +186,7 @@
 |594|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/) | [Python](./Array&String/longest_harmonious_subsequence.py) |Easy|
 |598|[Range Addition II](https://leetcode.com/problems/range-addition-ii/) | [Python](./Array&String/range_addition_ii.py) |Easy|
 |599|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | [Python](./Unspecified/minimum_index_sum_of_two_lists.py) |Easy|
+|605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | [Python](./Unspecified/can_place_flowers.py) |Easy|
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [Python](./Unspecified/merge_two_binary_trees.py) |Easy|
 |622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [Python1](./Queue%20&%20Stack/design_circular_queue.py), [Python2](./Queue%20&%20Stack/design_circular_queue1.py), [Python3](./Queue%20&%20Stack/design_circular_queue2.py) |Medium|
 |648|[Replace Words](https://leetcode.com/problems/replace-words/) | [Python](./Trie/replace_words.py) |Medium|
