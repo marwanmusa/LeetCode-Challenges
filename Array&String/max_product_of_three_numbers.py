@@ -1,4 +1,5 @@
 import math
+import heapq
 
 class Solution:
     def maximumProduct(self, nums: list[int]) -> int:
@@ -18,3 +19,14 @@ class Solution:
             arr.remove(x)
             all_max.append(x)
         return max(math.prod(all_max), math.prod(min_neg)*max(nums)) if min_neg else math.prod(all_max) 
+    
+
+    def maximumProduct(self, nums: list[int]) -> int:
+        bigs = heapq.nlargest(3, nums)
+        smalls = heapq.nsmallest(2, nums)
+        return max(math.prod(bigs), math.prod(smalls)*max(bigs))
+    
+
+    def maximumProduct(self, nums: list[int]) -> int:
+        nums.sort()
+        return max(math.prod(nums[-3:]), math.prod(nums[:2])*nums[-1])
