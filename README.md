@@ -188,9 +188,9 @@
 |599|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | [Python](./Unspecified/minimum_index_sum_of_two_lists.py) |Easy|
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | [Python](./Unspecified/can_place_flowers.py) |Easy|
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [Python](./Unspecified/merge_two_binary_trees.py) |Easy|
-|622|[Design Circular Queue](https://leetcode.com/problems/maximum-product-of-three-numbers/) | [Python](.//Array&String/max_product_of_three_numbers.py) |Easy|
-|648|[Replace Words](https://leetcode.com/problems/replace-words/) | [Python](./Trie/replace_words.py) |Medium|
-|628|[ Maximum Product of Three Numbers](https://leetcode.com/problems/design-circular-queue/) | [Python1](./Queue%20&%20Stack/design_circular_queue.py), [Python2](./Queue%20&%20Stack/design_circular_queue1.py), [Python3](./Queue%20&%20Stack/design_circular_queue2.py) |Medium|
+|622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [Python1](./Queue%20&%20Stack/design_circular_queue.py), [Python2](./Queue%20&%20Stack/design_circular_queue1.py), [Python3](./Queue%20&%20Stack/design_circular_queue2.py) |Medium|
+|628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | [Python](./Array&String/max_product_of_three_numbers.py) |Easy|
+|637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Python](./BinaryTree/average_of_levels_in_binary_tree.py) |Easy|
 |648|[Replace Words](https://leetcode.com/problems/replace-words/) | [Python](./Trie/replace_words.py) |Medium|
 |652|[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | [Python](./Unspecified/find_duplicate_subtrees.py) |Medium|
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [Python](./Unspecified/two_sum_iv_input_is_a_bst.py) |Easy|
