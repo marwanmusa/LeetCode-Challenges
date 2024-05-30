@@ -191,6 +191,7 @@
 |622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [Python1](./Queue%20&%20Stack/design_circular_queue.py), [Python2](./Queue%20&%20Stack/design_circular_queue1.py), [Python3](./Queue%20&%20Stack/design_circular_queue2.py) |Medium|
 |628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | [Python](./Array&String/max_product_of_three_numbers.py) |Easy|
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Python](./BinaryTree/average_of_levels_in_binary_tree.py) |Easy|
+|643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | [Python](./Array&String/max_avg_subarray1.py) |Easy|
 |648|[Replace Words](https://leetcode.com/problems/replace-words/) | [Python](./Trie/replace_words.py) |Medium|
 |652|[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | [Python](./Unspecified/find_duplicate_subtrees.py) |Medium|
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [Python](./Unspecified/two_sum_iv_input_is_a_bst.py) |Easy|
