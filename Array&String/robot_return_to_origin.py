@@ -1,5 +1,6 @@
 import collections
 class Solution:
+    # variation 1
     def judgeCircle(self, moves: str) -> bool:
         d = collections.defaultdict(int)
         for w in moves:
