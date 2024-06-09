@@ -14,3 +14,7 @@ class Solution:
             last = cur
             n //= 2
         return True
+    
+    # check bitwise AND of n with (n>>1)
+    def hasAlternatingBits(self, n: int) -> bool:
+        return (n and (n>>1)) == 0 if n > 1 else False
