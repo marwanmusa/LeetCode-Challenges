@@ -201,8 +201,10 @@
 |677|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/) | [Python](./Trie/map_sum_pairs.py) |Medium|
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Python](./Array&String/valid_palindrome2.py) |Easy|
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Python](./Unspecified/max_area_of_island.py) |Medium|
+|696|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | [Python](./Array&String/count_binary_strings.py) |Easy|
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Python](./Recursion-1/search_in_a_binary_search_tree.py) |Easy|
 |701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [Python](insert_into_a_binary_search_tree.py) |Medium|
+|703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [Python](./Array&String/kth_largest_element_in_a_stream.py) |Easy|
 |704|[Binary Search](https://leetcode.com/problems/binary-search/) | [Python](./BinarySearch/binary_search.py) |Easy|
 |705|[Design HashSet](https://leetcode.com/problems/design-hashset/) | [Python]./Unspecified/(design_HashSet.py) |Easy|
 |706|[Design HashMap](https://leetcode.com/problems/design-hashmap/) | [Python](./Unspecified/design_HashMap.py) |Easy|
