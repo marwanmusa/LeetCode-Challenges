@@ -2,7 +2,7 @@ from heapq import heapify, heappop, heappushpop, heappush
 
 # using heap
 class KthLargest:
-    def __init__(self, k: int, nums: List[int]):
+    def __init__(self, k: int, nums: list[int]):
         self.k = k
         self.pq = nums[:min(k, len(nums))]
         heapify(self.pq)
