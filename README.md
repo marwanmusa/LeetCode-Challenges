@@ -204,7 +204,7 @@
 |696|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | [Python](./Array&String/count_binary_strings.py) |Easy|
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Python](./Recursion-1/search_in_a_binary_search_tree.py) |Easy|
 |701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [Python](insert_into_a_binary_search_tree.py) |Medium|
-|703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [Python](./Array&String/kth_largest_element_in_a_stream.py) |Easy|
+|703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [Python-bisort](./Array&String/kth_largest_element_in_a_stream.py) [Python-heap](./Heap/kth_largest_element_in_a_stream.py) |Easy|
 |704|[Binary Search](https://leetcode.com/problems/binary-search/) | [Python](./BinarySearch/binary_search.py) |Easy|
 |705|[Design HashSet](https://leetcode.com/problems/design-hashset/) | [Python]./Unspecified/(design_HashSet.py) |Easy|
 |706|[Design HashMap](https://leetcode.com/problems/design-hashmap/) | [Python](./Unspecified/design_HashMap.py) |Easy|

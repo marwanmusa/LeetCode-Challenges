@@ -5,7 +5,7 @@ class KthLargest:
     """
     Task:
     Design a class to find the kth largest element in a stream. 
-    dNote that it is the kth largest element in the sorted order, not the kth distinct element.
+    Note that it is the kth largest element in the sorted order, not the kth distinct element.
 
     Implement KthLargest class:
 
