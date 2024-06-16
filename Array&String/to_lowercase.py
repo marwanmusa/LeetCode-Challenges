@@ -12,3 +12,7 @@ class Solution:
     def toLowerCase(self, s: str) -> str:
         return ''.join([chr(ord(x)+32) if 65 <= ord(x) <= 90 else x for x in s])
         
+    
+    # using ASCII version 2
+    def toLowerCase(self, s: str) -> str:
+        return ''.join([chr(ord(x)+32) if 'A' <= x <= 'Z' else x for x in s])
