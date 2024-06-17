@@ -210,6 +210,7 @@
 |706|[Design HashMap](https://leetcode.com/problems/design-hashmap/) | [Python](./Unspecified/design_HashMap.py) |Easy|
 |707|[Design Linked List](https://leetcode.com/problems/design-linked-list/) | [Python](./LinkedList/design_linked_list.py) |Medium|
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/) | [Python](./Array&String/to_lowercase.py) |Easy|
+|717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | [Python](./Array&String/one_and_two_bit_characters.py) |Easy|
 |719|[Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) | [Python](./BinarySearch/find_kth_smallest_pair_distance.py) |Hard|
 |724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [Python](./Array&String/find_pivot_index.py) |Easy|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/) | [Python](./Queue%20&%20Stack/flood_fill.py) |Easy|
