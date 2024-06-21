@@ -219,6 +219,7 @@
 |744|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [Python](./BinarySearch/find_smallest_letter_greater_than_target.py) |Easy|
 |746|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [Python](./BinarySearch/find_smallest_letter_greater_than_target.py) |Easy|
 |747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | [Python](./Array&String/largest_number_at_least_twice_of_others.py) |Easy|
+|748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/) | [Python](./Array&String/shortest_completing_word.py) |Easy|
 |752|[Open the Lock](https://leetcode.com/problems/open-the-lock/) | [Python](./Queue%20&%20Stack/open_the_lock.py) |Medium|
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [Python](./Unspecified/jewels_and_stones.py) |Easy|
 |779|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/) | [Python](./Recursion-1/k_symbol_in_grammar.py) |Medium|
