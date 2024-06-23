@@ -35,3 +35,8 @@ class Solution:
                 if check(lp, w) and len(cur) > len(w):
                     cur = w
         return cur
+    
+    # shorter version
+    def shortestCompletingWord(self, licensePlate: str, words: list[str]) -> str:
+        lp = collections.Counter([x for x in licensePlate.lower() if x.isalpha()])
+        return min([w for w in words if collections.Counter(w) & lp == lp], key=len)
