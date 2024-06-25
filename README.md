@@ -222,6 +222,7 @@
 |748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/) | [Python](./Array&String/shortest_completing_word.py) |Easy|
 |752|[Open the Lock](https://leetcode.com/problems/open-the-lock/) | [Python](./Queue%20&%20Stack/open_the_lock.py) |Medium|
 |762|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | [Python](./Bits/prime_number_of_set_bits_in_binary_representation.py) |Easy|
+|766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | [Python](./Array&String/toeplitz_matrix.py) |Easy|
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [Python](./Unspecified/jewels_and_stones.py) |Easy|
 |779|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/) | [Python](./Recursion-1/k_symbol_in_grammar.py) |Medium|
 |784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | [Python](./Unspecified/letter_case_permutation.py) |Medium|
