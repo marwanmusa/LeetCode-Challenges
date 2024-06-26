@@ -225,6 +225,7 @@
 |766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | [Python](./Array&String/toeplitz_matrix.py) |Easy|
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [Python](./Unspecified/jewels_and_stones.py) |Easy|
 |779|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/) | [Python](./Recursion-1/k_symbol_in_grammar.py) |Medium|
+|783|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [Python](./BinarySearch/minimum_distance_between_bst_nodes.py) |Easy|
 |784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | [Python](./Unspecified/letter_case_permutation.py) |Medium|
 |841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | [Python](./Queue%20&%20Stack/keys_and_rooms.py) |Medium|
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](./Unspecified/middle_of_linked_list.py) |Easy|
