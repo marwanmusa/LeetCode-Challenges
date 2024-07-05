@@ -1,8 +1,11 @@
+from collections import defaultdict
+
 class Solution:
-    def mostCommonWord(self, paragraph: str, banned: List[str]) -> str:
-        cnt = collections.Counter(paragraph.lower().split()).most_common()
-        print(cnt)
-        if not banned:
-            return cnt[0][1]
-        for w in cnt:
-            if w[0] not in banned: return w[0] 
+    def mostCommonWord(self, paragraph: str, banned: list[str]) -> str:
+        paragraph = paragraph.lower().replace('!', ' ').replace('?', ' ').replace("'", ' ').replace(',', ' ').replace(';', ' ').replace('.', ' ')
+        d = defaultdict(int)
+        for w in paragraph.split():
+            if w not in banned:
+                d[w] += 1
+        print(d)
+        return max(zip(d.values(), d.keys()))[1]
