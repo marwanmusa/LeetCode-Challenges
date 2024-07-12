@@ -33,3 +33,13 @@ class Solution:
             dp[:n//2] = range(n//2)
             dp[n//2:] = range(n//2-1, -1, -1)
         return dp
+    
+    # shorter
+    def shortestToChar(self, S: str, C: str) -> list[int]:
+        n, pos = len(S), -float('inf')
+        res = [n] * n
+        for i in [*range(n), *range(n)[::-1]]:
+            if S[i] == C:
+                pos = i
+            res[i] = min(res[i], abs(i - pos))
+        return res
