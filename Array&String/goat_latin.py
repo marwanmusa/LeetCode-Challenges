@@ -28,4 +28,10 @@ class Solution:
             word += 'a'*(i+1)
             sentence[i] = word
         return ' '.join(sentence)
+    
+    # two-line
+    def toGoatLatin(self, sentence: str) -> str:
+        vowels, ma = set('aeiouAIUEO'), 'ma'
+        return ' '.join(w[1:]+w[0]+ma+'a'*(i+1) if w[0] not in vowels else w+ma+'a'*(i+1) for i, w in enumerate(sentence.split()))
+        
         
