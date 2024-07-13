@@ -233,6 +233,7 @@
 |812|[Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/) | [Python](./Array&String/largest_triangle_area.py) |Easy|
 |821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | [Python](./Array&String/shortest_distance_to_a_char.py) |Easy|
 |824|[Goat Latin](https://leetcode.com/problems/goat-latin/) | [Python](./Array&String/goat_latin.py) [CPP](./Array&String/CPP/goat_latin.cpp)|Easy|
+|830|[Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | [CPP](./Array&String/CPP/positions_of_large_groups.cpp)|Easy|
 |841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | [Python](./Queue%20&%20Stack/keys_and_rooms.py) |Medium|
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](./Unspecified/middle_of_linked_list.py) |Easy|
 |881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | [Python](./Unspecified/boats_to_save_people.py) |Medium|
