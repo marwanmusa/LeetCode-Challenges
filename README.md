@@ -172,9 +172,9 @@
 |507|[Perfect Number](https://leetcode.com/problems/perfect-number/) | [Python](./Unspecified/perfect_number.py) |Easy|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [Python](./Recursion-1/fibonacci_number.py) [Cpp](./Recursion-1/fibonacci_number.cpp) |Easy|
 |520|[Detect Capital](https://leetcode.com/problems/detect-capital/) | [Python](./Unspecified/detect_capital.py) |Easy|
-|521|[Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/) | [Python](./Array&String/longest_uncommon_subsequence1.py) [Cpp](./Array&String/longest_uncommon_subsequence1.cpp)|Easy|
+|521|[Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/) | [Python](./Array&String/longest_uncommon_subsequence1.py) [Cpp](./Array&String/CPP/longest_uncommon_subsequence1.cpp)|Easy|
 |530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/) | [Python](./BinarySearch/minimum_absolute_difference_in_bst.py) |Easy|
-|541|[Reverse String II](https://leetcode.com/problems/problems/reverse-string-ii/) | [Python](./Array&String/reverse_string2.py) [C++](./Array&String/reverse_string2.cpp) |Easy|
+|541|[Reverse String II](https://leetcode.com/problems/problems/reverse-string-ii/) | [Python](./Array&String/reverse_string2.py) [CPP](./Array&String/CPP/reverse_string2.cpp) |Easy|
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/) | [Python](./Queue%20&%20Stack/01_matrix.py) |Medium|
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Python](./Unspecified/reverse_word_in_string_iii.py) |Easy|
 |559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) | [Python](./Recursion-2/maximum_depth_of_n-ary_tree.py) |Easy|
