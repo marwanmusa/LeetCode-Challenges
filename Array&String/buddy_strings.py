@@ -1,5 +1,6 @@
 from collections import defaultdict
 class Solution:
+    # not cover all test cases
     def buddyStrings(self, s: str, goal: str) -> bool:
         d = defaultdict(int)
         morethan1 = False
