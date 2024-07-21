@@ -1,6 +1,6 @@
 from collections import defaultdict
 class Solution:
-    # not cover all test cases
+    # not cover all test cases, 25 / 39 testcases passed
     def buddyStrings(self, s: str, goal: str) -> bool:
         d = defaultdict(int)
         morethan1 = False
