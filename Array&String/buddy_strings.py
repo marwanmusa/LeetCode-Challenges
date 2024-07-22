@@ -1,16 +1,14 @@
-from collections import defaultdict
+from collections import defaultdict, Counter
 class Solution:
-    # not cover all test cases, 25 / 39 testcases passed
+    # not cover all test cases, 30 / 39 testcases passed
     def buddyStrings(self, s: str, goal: str) -> bool:
-        d = defaultdict(int)
+        m, n = Counter(s), Counter(goal)
+        mk, nk = len(m.keys()), len(n.keys())
+        if mk < nk or mk > nk: return False
         morethan1 = False
-        mismatch = 0
-        for i in range(len(s)):
-            d[s[i]] += 1
-            morethan1 = d[s[i]] > 1
-            if s[i] != goal[i]: 
-                mismatch += 1
-                if mismatch > 2: return False
-        if not mismatch and not morethan1:
-            return False
+        for k in n:
+            if not m.get(k): return False
+            if m.get(k) > 1 and n.get(k) > 1:
+                morethan1 = True
+        if not morethan1 and s == goal: return False
         return True
