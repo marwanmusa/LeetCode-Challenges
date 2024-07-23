@@ -1,14 +1,29 @@
 from collections import defaultdict, Counter
 class Solution:
-    # not cover all test cases, 30 / 39 testcases passed
     def buddyStrings(self, s: str, goal: str) -> bool:
-        m, n = Counter(s), Counter(goal)
-        mk, nk = len(m.keys()), len(n.keys())
-        if mk < nk or mk > nk: return False
-        morethan1 = False
-        for k in n:
-            if not m.get(k): return False
-            if m.get(k) > 1 and n.get(k) > 1:
-                morethan1 = True
-        if not morethan1 and s == goal: return False
-        return True
+        if len(s) != len(goal): return False
+        if s == goal and len(set(s)) < len(s): return True
+        diff = []
+        for a,b in zip(s, goal):
+            if a != b:
+                diff.append((a,b))
+                if len(diff) > 2: return False
+        return len(diff) == 2 and diff[0] == diff[1][::-1]
+    
+
+    # 2 solution
+    def buddyStrings_v2(self, s: str, goal: str) -> bool:
+        if len(s) != len(goal): return False
+        if s == goal:
+            return len(set(s)) < len(s)
+        I, J = None, None
+        for i, (a, b) in enumerate(zip(s, goal)):
+            if a != b:
+                if I is None:
+                    I = i
+                elif J is None:
+                    J = i
+                else:
+                    return False
+        if J is None: return False
+        return s[I] == goal[J] and s[J] == goal[I]
