@@ -2,21 +2,14 @@ from collections import defaultdict
 
 class Solution:
     def lemonadeChange(self, bills: list[int]) -> bool:
-        d = defaultdict(int)
+        five, ten = 0, 0
         for bill in bills:
-            d[bill] += 1
-            if bill == 10:
-                if not d.get(5): return False
-                d[5] -= 1
-            elif bill == 20:
-                prem1 = d.get(5) >= 3
-                prem2 = (d.get(10) and d.get(5))
-                changable = prem1 or prem2
-                if not changable: return False
-                else:
-                    if prem1: d[5] -= 3
-                    elif prem2:
-                        d[10] -= 1 
-                        d[5] -= 1
-            else: continue
+            if bill == 5: five += 1
+            elif bill == 10 and five: 
+                five -= 1; ten += 1
+            elif bill == 20 and ten and five:
+                five -= 1; ten -= 1
+            elif bill == 20 and five >= 3:
+                five -= 3
+            else: return False
         return True
