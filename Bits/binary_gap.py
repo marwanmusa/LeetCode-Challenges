@@ -14,3 +14,8 @@ class Solution:
                         d = max(d, abs(i-cur))
                         cur = i
         return d
+    
+    # shorter
+    def binaryGap(self, n: int) -> int:
+        idx = [i for i,v in enumerate(bin(n)) if v == '1']
+        return max([b-a for a, b in zip(idx, idx[1:])] or [0])
