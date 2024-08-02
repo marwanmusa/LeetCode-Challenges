@@ -242,6 +242,7 @@
 |860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/) | [Python](./Array&String/lemonade_change.py) [CPP](./Array&String/CPP/lemonade_change.cpp) |Easy|
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | [Python](./Array&String/transpose_matrix.py) [CPP](./Array&String/CPP/transpose_matrix.cpp) |Easy|
 |868|[Binary Gap](https://leetcode.com/problems/binary-gap/) | [Python](./Bits/binary_gap.py) [CPP](./Bits/CPP/binary_gap.cpp) |Easy|
+|872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | [Python](./BinaryTree/leaf_similar_trees.py) [CPP](./BinaryTree/CPP/leaf_similar_trees.cpp) |Easy|
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](./Unspecified/middle_of_linked_list.py) |Easy|
 |881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | [Python](./Unspecified/boats_to_save_people.py) |Medium|
 |905|[Sort Array by Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Python](./Unspecified/sort_array_by_parity.py) |Easy|
