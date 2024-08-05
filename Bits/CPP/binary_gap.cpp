@@ -27,4 +27,15 @@ public:
         while(n!=0) {r=(n%2==0 ?"0":"1")+r; n/=2;}
         return r;
     }
+
+
+    // approach 2
+    // This approach is a bit more efficient because it uses a single pass over the binary representation
+    int binaryGap2(int N) {
+        int res = 0;
+        for (int d = -32; N; N /= 2, d++)
+            if (N % 2) res = max(res, d), d = 0;
+        return res;
+    }
+    
 };
