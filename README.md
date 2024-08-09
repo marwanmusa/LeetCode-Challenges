@@ -246,6 +246,7 @@
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](./Unspecified/middle_of_linked_list.py) |Easy|
 |881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | [Python](./Unspecified/boats_to_save_people.py) |Medium|
 |884|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/) | [Python](./Array&String/uncommon_words_from_two_sentences.py) [CPP](./Array&String//CPP/uncommon_words_from_two_sentences.cpp) |Easy|
+|888|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | [Python](./Array&String/fair_candy_swap.py) [CPP](./Array&String//CPP/fair_candy_swap.cpp) |Easy|
 |905|[Sort Array by Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Python](./Unspecified/sort_array_by_parity.py) |Easy|
 |912|[Sort an Array](https://leetcode.com/problems/sort-an-array/) | [Python](./Recursion-2/sort_an_array.py) |Medium|
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | [Python](./Unspecified/valid_mountain_array.py) |Easy|
