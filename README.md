@@ -251,6 +251,7 @@
 |896|[Monotonic Array](https://leetcode.com/problems/monotonic-array/) | [Python](./Array&String/monotonic_array.py) [CPP](./Array&String/CPP/monotonic_array.cpp) |Easy|
 |897|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | [Python](./BinaryTree/increasing_order_search_tree.py) [CPP](./BinaryTree/CPP/increasing_order_search_tree.cpp) |Easy|
 |905|[Sort Array by Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Python](./Unspecified/sort_array_by_parity.py) |Easy|
+|908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/) | [Python](./Array&String/smallest_range1.py) [CPP](./Array&String/CPP/smallest_range1.cpp) |Easy|
 |912|[Sort an Array](https://leetcode.com/problems/sort-an-array/) | [Python](./Recursion-2/sort_an_array.py) |Medium|
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | [Python](./Unspecified/valid_mountain_array.py) |Easy|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python](./Unspecified/squares_of_sorted_array.py) |Easy|
