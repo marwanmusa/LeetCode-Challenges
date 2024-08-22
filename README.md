@@ -250,11 +250,12 @@
 |892|[Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/) | [Python](./Array&String/surface_of_3d_shapes.py) [CPP](./Array&String/CPP/surface_of_3d_shapes.cpp) |Easy|
 |896|[Monotonic Array](https://leetcode.com/problems/monotonic-array/) | [Python](./Array&String/monotonic_array.py) [CPP](./Array&String/CPP/monotonic_array.cpp) |Easy|
 |897|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | [Python](./BinaryTree/increasing_order_search_tree.py) [CPP](./BinaryTree/CPP/increasing_order_search_tree.cpp) |Easy|
-|905|[Sort Array by Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Python](./Unspecified/sort_array_by_parity.py) |Easy|
+|905|[Sort Array by Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Python](./Array&String/sort_array_by_parity.py) [CPP](./Array&String/CPP/sort_array_by_parity.cpp) |Easy|
 |908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/) | [Python](./Array&String/smallest_range1.py) [CPP](./Array&String/CPP/smallest_range1.cpp) |Easy|
 |912|[Sort an Array](https://leetcode.com/problems/sort-an-array/) | [Python](./Recursion-2/sort_an_array.py) |Medium|
 |914|[X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/) | [Python](./Recursion-2/sort_an_array.py) |Easy|
 |917|[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | [Python](./Array&String/reverse_only_letters.py) [CPP](./Array&String/CPP/reverse_only_letters.cpp) |Easy|
+|922|[Sort Array by Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/) | [Python](./Array&String/sort_array_by_parity2.py) [CPP](./Array&String/CPP/sort_array_by_parity2.cpp) |Easy|
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | [Python](./Math/x_of_a_kind_in_card_deck.py) [CPP](./Math/CPP/x_of_a_kind_in_card_deck.cpp) |Easy|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python](./Unspecified/squares_of_sorted_array.py) |Easy|
 |983|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | [Python](./Unspecified/minimum_costs_for_tickets.py) |Medium|
