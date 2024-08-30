@@ -1,5 +1,6 @@
 #include <string>
 #include <unordered_map>
+#include <unordered_set>
 #include <vector>
 using namespace std;
 
@@ -27,6 +28,22 @@ public:
                 }
             }
             mails[temp] += 1;
+        }
+        return mails.size();
+    }
+
+    //shorter
+    int numUniqueEmails(vector<string>& emails) {
+        unordered_set<string> mails;
+        for (string &mail: emails) {
+            string temp;
+            for (char &c: mail) {
+                if (c == '+' || c == '@') break;
+                if (c == '.') continue;
+                temp += c;
+            }
+            temp += mail.substr(mail.find('@'));
+            mails.insert(temp);
         }
         return mails.size();
     }
