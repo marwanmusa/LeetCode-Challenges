@@ -253,14 +253,14 @@
 |905|[Sort Array by Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Python](./Array&String/sort_array_by_parity.py) [CPP](./Array&String/CPP/sort_array_by_parity.cpp) |Easy|
 |908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/) | [Python](./Array&String/smallest_range1.py) [CPP](./Array&String/CPP/smallest_range1.cpp) |Easy|
 |912|[Sort an Array](https://leetcode.com/problems/sort-an-array/) | [Python](./Recursion-2/sort_an_array.py) |Medium|
-|914|[X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/) | [Python](./Recursion-2/sort_an_array.py) |Easy|
+|914|[X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/) | [Python](./Math/x_of_a_kind_in_card_deck.py) [CPP](./Math/CPP/x_of_a_kind_in_card_deck.cpp) |Easy|
 |917|[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | [Python](./Array&String/reverse_only_letters.py) [CPP](./Array&String/CPP/reverse_only_letters.cpp) |Easy|
 |922|[Sort Array by Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/) | [Python](./Array&String/sort_array_by_parity2.py) [CPP](./Array&String/CPP/sort_array_by_parity2.cpp) |Easy|
 |925|[Long Pressed Name](https://leetcode.com/problems/long-pressed-name/) | [Python](./TwoPointers/long_pressed_name.py) [CPP](./TwoPointers/CPP/long_pressed_name.cpp) |Easy|
 |929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-adresses/) | [Python](./Array&String/unique_email_adresses.py) [CPP](./Array&String/CPP/unique_email_adresses.cpp) |Easy|
 |933|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) | [Python](./Queue%20&%20Stack/number_of_recent_calls.py) [CPP](./Queue%20&%20Stack/CPP/number_of_recent_calls.cpp) |Easy|
 |938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Python](./BinarySearch/range_sum_of_bst.py)|Easy|
-|941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | [Python](./Math/x_of_a_kind_in_card_deck.py) [CPP](./Math/CPP/x_of_a_kind_in_card_deck.cpp) |Easy|
+|941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | [Python](./Array&String/valid_mountain_array.py) [CPP](./Array&String/CPP/valid_mountain_array.cpp) |Easy|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python](./Unspecified/squares_of_sorted_array.py) |Easy|
 |983|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | [Python](./Unspecified/minimum_costs_for_tickets.py) |Medium|
 |994|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/rotting-oranges/) | [Python](./Unspecified/rotting_oranges.py) |Medium|
