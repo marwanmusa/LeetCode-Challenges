@@ -261,6 +261,7 @@
 |933|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) | [Python](./Queue%20&%20Stack/number_of_recent_calls.py) [CPP](./Queue%20&%20Stack/CPP/number_of_recent_calls.cpp) |Easy|
 |938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Python](./BinarySearch/range_sum_of_bst.py)|Easy|
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | [Python](./Array&String/valid_mountain_array.py) [CPP](./Array&String/CPP/valid_mountain_array.cpp) |Easy|
+|942|[DI String Match](https://leetcode.com/problems/di-string-match/) | [Python](./TwoPointers/di_string_match.py) [CPP](./TwoPointers/CPP/di_string_match.cpp) |Easy|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python](./Unspecified/squares_of_sorted_array.py) |Easy|
 |983|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | [Python](./Unspecified/minimum_costs_for_tickets.py) |Medium|
 |994|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/rotting-oranges/) | [Python](./Unspecified/rotting_oranges.py) |Medium|
