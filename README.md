@@ -264,6 +264,7 @@
 |942|[DI String Match](https://leetcode.com/problems/di-string-match/) | [Python](./TwoPointers/di_string_match.py) [CPP](./TwoPointers/CPP/di_string_match.cpp) |Easy|
 |944|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | [Python](./Array&String/delete_columns_to_make_sorted.py) [CPP](./Array&String/CPP/) |Easy|
 |961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | [Python](./Array&String/n_repeated_element_in_size_2n_array.py) [CPP](./Array&String/CPP/n_repeated_element_in_size_2n_array.cpp) |Easy|
+|965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | [Python](./BinaryTree/univalued_binary_tree.py) [CPP](./BinaryTree/CPP/univalued_binary_tree.cpp) |Easy|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python](./Unspecified/squares_of_sorted_array.py) |Easy|
 |983|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | [Python](./Unspecified/minimum_costs_for_tickets.py) |Medium|
 |994|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/rotting-oranges/) | [Python](./Unspecified/rotting_oranges.py) |Medium|
