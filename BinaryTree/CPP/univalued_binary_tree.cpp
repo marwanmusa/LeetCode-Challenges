@@ -35,8 +35,8 @@ public:
     }
 
     // one-liner
-    // bool isUnivalTree(TreeNode* root) {
-    //     return (!root->left || root->left->val == root->val && isUnivalTree(root->left)) &&
-    //            (!root->right || root->right->val == root->val && isUnivalTree(root->right));
-    // }
+    bool isUnivalTree(TreeNode* root) {
+        return (!root->left || root->left->val == root->val && isUnivalTree(root->left)) &&
+               (!root->right || root->right->val == root->val && isUnivalTree(root->right));
+    }
 };
