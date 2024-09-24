@@ -268,6 +268,7 @@
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python](./Unspecified/squares_of_sorted_array.py) |Easy|
 |983|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | [Python](./Unspecified/minimum_costs_for_tickets.py) |Medium|
 |989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | [Python](./Math/add_to_array_form_of_integer.py) [CPP](./Math/CPP/add_to_array_form_of_integer.cpp) |Easy|
+|993|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | [Python](./BinaryTree/cousins_in_binary_tree.py) [CPP](./BinaryTree/CPP/cousins_in_binary_tree.cpp) |Easy|
 |994|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/rotting-oranges/) | [Python](./Unspecified/rotting_oranges.py) |Medium|
 |1020|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) | [Python](./Unspecified/number_of_enclaves.py) |Medium|
 |1051|[Height Checker](https://leetcode.com/problems/height-checker/) | [Python](./Unspecified/height_checker.py) |Easy|
