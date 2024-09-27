@@ -265,6 +265,7 @@
 |944|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | [Python](./Array&String/delete_columns_to_make_sorted.py) [CPP](./Array&String/CPP/) |Easy|
 |961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | [Python](./Array&String/n_repeated_element_in_size_2n_array.py) [CPP](./Array&String/CPP/n_repeated_element_in_size_2n_array.cpp) |Easy|
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | [Python](./BinaryTree/univalued_binary_tree.py) [CPP](./BinaryTree/CPP/univalued_binary_tree.cpp) |Easy|
+|976|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | [Python](./Math/largest_perimeter_triangle.py) [CPP](./Math/CPP/largest_perimeter_triangle.cpp) |Easy|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python](./Unspecified/squares_of_sorted_array.py) |Easy|
 |983|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | [Python](./Unspecified/minimum_costs_for_tickets.py) |Medium|
 |989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | [Python](./Math/add_to_array_form_of_integer.py) [CPP](./Math/CPP/add_to_array_form_of_integer.cpp) |Easy|
