@@ -1,5 +1,7 @@
+from collections import deque
+
 class Solution:
-    def addToArrayForm(self, num: List[int], k: int) -> List[int]:
+    def addToArrayForm(self, num: list[int], k: int) -> list[int]:
         n, numint, idx = len(num) - 1, 0, 0
         numint = 0
         while n >= 0:
@@ -15,7 +17,7 @@ class Solution:
         return ans
 
     # more-efficient
-    def addToArrayForm(self, num: List[int], k: int) -> List[int]:
+    def addToArrayForm(self, num: list[int], k: int) -> list[int]:
         i = len(num) - 1
         while k > 0:
             if i >= 0:
