@@ -11,3 +11,10 @@ class Solution:
         for k in temp:
             ans.extend([k] * temp[k])
         return ans
+
+    # shorter
+    def commonChars(self, A: list[str]) -> list[str]:
+        res = Counter(A[0])
+        for a in A:
+            res &= Counter(a)
+        return list(res.elements())
