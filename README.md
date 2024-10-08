@@ -272,6 +272,7 @@
 |993|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | [Python](./BinaryTree/cousins_in_binary_tree.py) [CPP](./BinaryTree/CPP/cousins_in_binary_tree.cpp) |Easy|
 |994|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/rotting-oranges/) | [Python](./Unspecified/rotting_oranges.py) |Medium|
 |999|[Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) | [Python](./Array&String/available_captures_for_rook.py) [CPP](./Array&String/CPP/available_captures_for_rook.cpp) |Easy|
+|1005|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | [Python](./Array&String/Sorting/maximize_sum_of_array_after_k_negations.py) [CPP](./Array&String/Sorting/CPP/maximize_sum_of_array_after_k_negations.cpp) |Easy|
 |1020|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) | [Python](./Unspecified/number_of_enclaves.py) |Medium|
 |1051|[Height Checker](https://leetcode.com/problems/height-checker/) | [Python](./Unspecified/height_checker.py) |Easy|
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/) | [Python](./Unspecified/duplicate_zeros.py) |Easy|
