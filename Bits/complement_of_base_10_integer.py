@@ -21,3 +21,14 @@ class Solution:
         for x in bins:
             res = (res << 1) | x
         return res
+
+    # masking
+    def bitwiseComplement(self, n: int) -> int:
+        cnt, ans = 0, 0
+        if n==0: return 1
+        while n>0:
+            if not n & 1:
+                ans =ans +(2**cnt)
+            cnt +=1
+            n >>= 1
+        return ans
