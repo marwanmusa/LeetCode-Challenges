@@ -1,14 +1,14 @@
 class Solution:
     def canThreePartsEqualSum(self, arr: list[int]) -> bool:
-        sum_arr = sum(arr)
-        if sum_arr % 3: return False
-        if all(v == 0 for v in arr): return True
+        sums, n = sum(arr), len(arr)
+        mod, rem = sums % 3, sums // 3
+        if mod: return False
+        if not any(arr): return True
         part_n, cur = 3, 0
-        for i in range(len(arr)):
+        for i in range(n):
             cur += arr[i]
-            if part_n == 1 and i < len(arr) - 1:
-                continue
-            if cur == (sum_arr // 3):
+            if part_n == 1 and i < n - 1: continue
+            if cur == rem:
                 cur = 0
                 part_n -= 1
         return part_n == 0
