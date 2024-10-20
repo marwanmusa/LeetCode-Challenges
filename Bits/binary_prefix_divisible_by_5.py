@@ -13,6 +13,6 @@ class Solution:
     def prefixesDivBy5(self, nums: list[int]) -> list[bool]:
         cur, nums[0] = nums[0], nums[0] == 0
         for i in range(1, len(nums)):
-            cur = (cur * 2 + nums[i])
-            nums[i] = not cur % 5
+            cur = (cur * 2 + nums[i]) % 5
+            nums[i] = not cur
         return nums
