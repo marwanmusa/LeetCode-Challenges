@@ -275,6 +275,7 @@
 |1005|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | [Python](./Array&String/Sorting/maximize_sum_of_array_after_k_negations.py) [CPP](./Array&String/Sorting/CPP/maximize_sum_of_array_after_k_negations.cpp) |Easy|
 |1009|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) | [Python](./Bits/complement_of_base_10_integer.py) [CPP](./Bits/CPP/complement_of_base_10_integer.cpp) |Easy|
 |1018|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | [Python](./Bits/binary_prefix_divisible_by_5.py) [CPP](./Bits/CPP/binary_prefix_divisible_by_5.cpp) |Easy|
+|1021|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | [Python](./Array&String/Stack/remove_outermost_parentheses.py) [CPP](./Array&String/Stack/CPP/remove_outermost_parentheses.cpp) |Easy|
 |1031|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/) | [Python](./Array&String/GreedyProblem/partition_array_into_three_parts_with_equal_sum.py) [CPP](./Array&String/GreedyProblem/CPP/partition_array_into_three_parts_with_equal_sum.cpp) |Easy|
 |1020|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) | [Python](./Unspecified/number_of_enclaves.py) |Medium|
 |1051|[Height Checker](https://leetcode.com/problems/height-checker/) | [Python](./Unspecified/height_checker.py) |Easy|
