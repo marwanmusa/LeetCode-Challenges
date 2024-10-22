@@ -1,15 +1,8 @@
 class Solution:
     def removeOuterParentheses(self, s: str) -> str:
-        ans, l, r, cur_idx, n = "", 0, 0, 0, len(s)
-        if n == 1: return s
-
-        for i, el in enumerate(s):
-
-            if el == '(': l += 1
-            else: r += 1
-
-            if l == r:
-                ans += s[cur_idx + 1 : i]
-                cur_idx, l, r = i + 1, 0, 0
-
-        return ans
+        res, opened = "", 0
+        for c in s:
+            if c == '(' and opened > 0: res += c
+            if c == ')' and opened > 1: res += c
+            opened += 1 if c == '(' else -1
+        return res
