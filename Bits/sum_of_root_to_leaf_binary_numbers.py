@@ -9,4 +9,4 @@ class TreeNode:
 
 class Solution:
     def sumRootToLeaf(self, root: Optional[TreeNode]) -> int:
-        
+        return 0
