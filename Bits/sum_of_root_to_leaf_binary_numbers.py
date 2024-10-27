@@ -10,14 +10,17 @@ class TreeNode:
 
 class Solution:
     def sumRootToLeaf(self, root: Optional[TreeNode]) -> int:
-        bits = defaultdict(list)
-        def helper(root, h):
-            if root:
-                bits[h].append(root.val)
-                helper(root.left, h+1)
-                helper(root.right, h+1)
-        helper(root, 0)
-        comb_per_h = []
-        for k,v in bits.items():
-
-        return 0
+        res = []
+        stk = [(root, [root.val])]
+        while stk:
+            cur, path = stk.pop()
+            if not cur.left and not cur.right:
+                res.append(path)
+            if cur.right:
+                rpath = path + [cur.right.val]
+                stk.append((cur.right, rpath))
+            if cur.left:
+                lpath = path + [cur.left.val]
+                stk.append((cur.left, lpath))
+        conv = lambda l: sum(x * 2**i for i, x in enumerate(reversed(l)))
+        return sum(map(conv, res))
