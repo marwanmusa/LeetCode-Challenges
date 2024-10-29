@@ -1,5 +1,6 @@
+#include <math>
 #include <vector>
-#include <unordered_map>
+#include <utility>
 using namespace std;
 
 // Definition for a binary tree node.
@@ -16,16 +17,32 @@ using namespace std;
 class Solution {
 public:
     int sumRootToLeaf(TreeNode* root) {
-        vector<int> res;
-        unordered_map<TreeNode, vector<int>> umap = {{root, vector<int>(root->val)}};
-        vector<unordered_map<TreeNode, vector<int>>> init{root, vector<int>(root->val)};
+        int res = 0;
+        vector<pair<TreeNode*, vector<int>>> stk = {{root, {root->val}}};
+        while (!stk.empty()) {
+            TreeNode* node = stk.back().first;
+            vector<int> path = stk.back().second;
+            stk.pop_back();
+            if (!node->left && !node->right) {
+                res += conv(path);
+            }
+            if (node->right) {
+                vector<int> rpath = path;
+                rpath.push_back(node->right->val);
+                stk.push_back({node->right, rpath});
+            }
+            if (node->left) {
+                vector<int> lpath = path;
+                lpath.push_back(node->left->val);
+                stk.push_back({node->left, lpath});
+            }
+        }
+        return res;
     }
 
-    int conv(vector<int>& arr) {
+    int conv(vector<int>& bitlist) {
         int res = 0;
-        for (int i = 0, j = arr.size()-1; j >= 0 && i < arr.size(); j--, i++) {
-            res += pow(2, i) + arr[j];
-        }
+        for (int bit : bitlist) res = (res << 1) | bit;
         return res;
     }
 };
