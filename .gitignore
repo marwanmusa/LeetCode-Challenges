@@ -1,5 +1,5 @@
 .gitignore
-*.ipynb
+colab.ipynb
 venv/
 *.vscode/
 test.cpp
