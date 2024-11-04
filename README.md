@@ -282,6 +282,7 @@
 |1025|[Divisor Game](https://leetcode.com/problems/divisor-game/) | [Python](./Math/divisor_game.py) [CPP](./Math/CPP/divisor_game.cpp) |Easy|
 |1030|[Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/) | [Python](./Math/matrix_cells_in_distance_order.py) [CPP](./Math/CPP/matrix_cells_in_distance_order.cpp) |Easy|
 |1037|[Valid Boomerang](https://leetcode.com/problems/valid-boomerang/) | [Python](./Math/valid_boomerang.py) [CPP](./Math/CPP/valid_boomerang.cpp) |Easy|
+|1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [Python](./Heap/last_stone_weight.py) [CPP](./Heap/CPP/last_stone_weight.cpp) |Easy|
 |1051|[Height Checker](https://leetcode.com/problems/height-checker/) | [Python](./Unspecified/height_checker.py) |Easy|
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/) | [Python](./Unspecified/duplicate_zeros.py) |Easy|
 |1254|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | [Python](./Unspecified/number_of_closed_islands.py) |Medium|

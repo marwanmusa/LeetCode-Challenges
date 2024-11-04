@@ -1,5 +1,11 @@
-from functools import reduce
+import bisect
 
 class Solution:
     def lastStoneWeight(self, stones: list[int]) -> int:
-        return reduce(lambda a, b: abs(a-b), sorted(stones, reverse=True))
+        if len(stones) == 1:
+            return stones[0]
+        stones = sorted(stones)
+        while len(stones) > 2:
+            a, b = stones.pop(), stones.pop()
+            stones.insert(bisect.bisect(stones, abs(a-b)), abs(a-b))
+        return abs(stones[0] - stones[1])
