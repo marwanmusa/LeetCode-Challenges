@@ -277,7 +277,7 @@
 |1013|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/) | [Python](./Array&String/GreedyProblem/partition_array_into_three_parts_with_equal_sum.py) [CPP](./Array&String/GreedyProblem/CPP/partition_array_into_three_parts_with_equal_sum.cpp) |Easy|
 |1018|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | [Python](./Bits/binary_prefix_divisible_by_5.py) [CPP](./Bits/CPP/binary_prefix_divisible_by_5.cpp) |Easy|
 |1020|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) | [Python](./Unspecified/number_of_enclaves.py) |Medium|
-|1021|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | [Python](./Array&String/Stack/remove_outermost_parentheses.py) [CPP](./Array&String/Stack/CPP/remove_outermost_parentheses.cpp) |Easy|
+|1021|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | [Python](./Queue%20&%20Stack/remove_outermost_parentheses.py) [CPP](./Queue%20&%20Stack/CPP/remove_outermost_parentheses.cpp) |Easy|
 |1022|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | [Python](./Bits/sum_of_root_to_leaf_binary_numbers.py) [CPP](./Bits/CPP/sum_of_root_to_leaf_binary_numbers.cpp) |Easy|
 |1025|[Divisor Game](https://leetcode.com/problems/divisor-game/) | [Python](./Math/divisor_game.py) [CPP](./Math/CPP/divisor_game.cpp) |Easy|
 |1030|[Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/) | [Python](./Math/matrix_cells_in_distance_order.py) [CPP](./Math/CPP/matrix_cells_in_distance_order.cpp) |Easy|
