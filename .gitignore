@@ -5,3 +5,4 @@ venv/
 test.cpp
 a.out
 a.exe
+__pycache__/
