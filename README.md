@@ -285,6 +285,7 @@
 |1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [Python](./Heap/last_stone_weight.py) [CPP](./Heap/CPP/last_stone_weight.cpp) |Easy|
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [Python](./Queue%20&%20Stack/remove_all_adjacent_duplicates_in_string.py) [CPP](./Queue%20&%20Stack/CPP/remove_all_adjacent_duplicates_in_string.cpp) |Easy|
 |1051|[Height Checker](https://leetcode.com/problems/height-checker/) | [Python](./Unspecified/height_checker.py) |Easy|
+|1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | [Python](./Math/greatest_common_divisor_of_strings.py) [CPP](./Math/CPP/greatest_common_divisor_of_strings.cpp) |Easy|
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/) | [Python](./Unspecified/duplicate_zeros.py) |Easy|
 |1254|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | [Python](./Unspecified/number_of_closed_islands.py) |Medium|
 |1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | [Python](./Unspecified/find_numbers_with_even_number_of_digits.py) |Easy|
