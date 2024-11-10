@@ -286,7 +286,7 @@
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [Python](./Queue%20&%20Stack/remove_all_adjacent_duplicates_in_string.py) [CPP](./Queue%20&%20Stack/CPP/remove_all_adjacent_duplicates_in_string.cpp) |Easy|
 |1051|[Height Checker](https://leetcode.com/problems/height-checker/) | [Python](./Unspecified/height_checker.py) |Easy|
 |1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | [Python](./Math/greatest_common_divisor_of_strings.py) [CPP](./Math/CPP/greatest_common_divisor_of_strings.cpp) |Easy|
-1078|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | [Python](./Array&String/occurences_after_bigram.py) [CPP](./Array&String/CPP/occurences_after_bigram.cpp) |Easy|
+|1078|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | [Python](./Array&String/occurences_after_bigram.py) [CPP](./Array&String/CPP/occurences_after_bigram.cpp) |Easy|
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/) | [Python](./Unspecified/duplicate_zeros.py) |Easy|
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | [Python](./Array&String/defanging_an_ip_address.py) [CPP](./Array&String/CPP/defanging_an_ip_address.cpp) |Easy|
 |1254|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | [Python](./Unspecified/number_of_closed_islands.py) |Medium|
