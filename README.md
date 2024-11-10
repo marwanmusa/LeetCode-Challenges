@@ -288,6 +288,7 @@
 |1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | [Python](./Math/greatest_common_divisor_of_strings.py) [CPP](./Math/CPP/greatest_common_divisor_of_strings.cpp) |Easy|
 1078|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | [Python](./Array&String/occurences_after_bigram.py) [CPP](./Array&String/CPP/occurences_after_bigram.cpp) |Easy|
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/) | [Python](./Unspecified/duplicate_zeros.py) |Easy|
+|1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | [Python](./Array&String/defanging_an_ip_address.py) [CPP](./Array&String/CPP/defanging_an_ip_address.cpp) |Easy|
 |1254|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | [Python](./Unspecified/number_of_closed_islands.py) |Medium|
 |1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | [Python](./Unspecified/find_numbers_with_even_number_of_digits.py) |Easy|
 |1299|[Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | [Python](./Unspecified/replace_elements_with_greatest_element_on_right_side.py) |Easy|
