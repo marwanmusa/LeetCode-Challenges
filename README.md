@@ -290,6 +290,7 @@
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/) | [Python](./Unspecified/duplicate_zeros.py) |Easy|
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | [Python](./Array&String/defanging_an_ip_address.py) [CPP](./Array&String/CPP/defanging_an_ip_address.cpp) |Easy|
 |1122|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/) | [Python](./Array&String/Sorting/relative_sort_array.py) [CPP](./Array&String/Sorting/CPP/relative_sort_array.cpp) |Easy|
+|1128|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/) | [Python](./Math/number_of_equivalent_domino_pairs.py) [CPP](./Math/CPP/number_of_equivalent_domino_pairs.cpp) |Easy|
 |1254|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | [Python](./Unspecified/number_of_closed_islands.py) |Medium|
 |1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | [Python](./Unspecified/find_numbers_with_even_number_of_digits.py) |Easy|
 |1299|[Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | [Python](./Unspecified/replace_elements_with_greatest_element_on_right_side.py) |Easy|

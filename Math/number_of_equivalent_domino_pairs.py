@@ -1,3 +1,5 @@
+from collections import defaultdict
+
 class Solution:
     # TLE
     def numEquivDominoPairs(self, dominoes: list[list[int]]) -> int:
@@ -8,3 +10,19 @@ class Solution:
                    (dominoes[i][0] == dominoes[j][1] and dominoes[i][1] == dominoes[j][0]):
                    res += 1
         return res
+
+    # Correct solution
+    def numEquivDominoPairs(self, dominoes: list[list[int]]) -> int:
+        count_map = defaultdict(int)
+        for a, b in dominoes:
+            # Normalize domino pairs
+            key = (min(a, b), max(a, b)) # or min(a, b) * 10 + max(a, b)
+            count_map[key] += 1
+
+        result = 0
+        for count in count_map.values():
+            # Add the number of pairs for this domino type
+            if count > 1:
+                result += count * (count - 1) // 2
+
+        return result
