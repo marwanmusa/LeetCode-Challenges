@@ -1,4 +1,4 @@
-from collections import defaultdict
+from collections import Counter, defaultdict
 
 class Solution:
     # TLE
@@ -26,3 +26,7 @@ class Solution:
                 result += count * (count - 1) // 2
 
         return result
+
+    # one-liner function
+    def numEquivDominoPairs(self, dominoes: list[list[int]]) -> int
+        return sum((count * (count - 1) // 2) for count in Counter(tuple(sorted(domino)) for domino in dominoes).values())
