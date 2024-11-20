@@ -292,6 +292,7 @@
 |1122|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/) | [Python](./Array&String/Sorting/relative_sort_array.py) [CPP](./Array&String/Sorting/CPP/relative_sort_array.cpp) |Easy|
 |1128|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/) | [Python](./Math/number_of_equivalent_domino_pairs.py) [CPP](./Math/CPP/number_of_equivalent_domino_pairs.cpp) |Easy|
 |1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | [Python](./DynamicProgramming/nth_tribonacci_number.py) [CPP](./DynamicProgramming/CPP/nth_tribonacci_number.cpp) |Easy|
+|1154|[Day of the Year](https://leetcode.com/problems/day-of-the-year/) | [Python](./Math/day_of_the_year.py) [CPP](./Math/CPP/day_of_the_year.cpp) |Easy|
 |1254|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | [Python](./Unspecified/number_of_closed_islands.py) |Medium|
 |1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | [Python](./Unspecified/find_numbers_with_even_number_of_digits.py) |Easy|
 |1299|[Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | [Python](./Unspecified/replace_elements_with_greatest_element_on_right_side.py) |Easy|
