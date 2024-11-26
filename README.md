@@ -297,6 +297,7 @@
 |1175|[Prime Arrangements](https://leetcode.com/problems/prime-arrangements/) | [Python](./Math/prime_arrangements.py) [CPP](./Math/CPP/prime_arrangements.cpp) |Easy|
 |1184|[Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/) | [Python](./Array&String/distance_between_bus_stops.py) [CPP](./Array&String/CPP/distance_between_bus_stops.cpp) |Easy|
 |1185|[Day of the Week](https://leetcode.com/problems/day-of-the-week/) | [Python](./Math/day_of_the_week.py) [CPP](./Math/CPP/day_of_the_week.cpp) |Easy|
+|1189|[Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | [Python](./Array&String/HashTable/maximum_number_of_balloons.py) [CPP](./Array&String/HashTable/CPP/maximum_number_of_balloons.cpp) |Easy|
 |1254|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | [Python](./Unspecified/number_of_closed_islands.py) |Medium|
 |1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | [Python](./Unspecified/find_numbers_with_even_number_of_digits.py) |Easy|
 |1299|[Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | [Python](./Unspecified/replace_elements_with_greatest_element_on_right_side.py) |Easy|
