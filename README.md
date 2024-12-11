@@ -303,6 +303,7 @@
 |1217|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/) | [Python](./Math/minimum_cost_to_move_chips_to_the_same_position.py) [CPP](./Math/CPP/minimum_cost_to_move_chips_to_the_same_position.cpp) |Easy|
 |1221|[Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | [Python](./Array&String/split_a_string_in_balanced_strings.py) [CPP](./Array&String/CPP/split_a_string_in_balanced_strings.cpp) |Easy|
 |1232|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | [Python](./Math/check_if_it_is_a_straight_line.py) [CPP](./Math/CPP/check_if_it_is_a_straight_line.cpp) |Easy|
+|1252|[Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/) | [Python](./Math/cells_with_odd_values_in_a_matrix.py) [CPP](./Math/CPP/cells_with_odd_values_in_a_matrix.cpp) |Easy|
 |1254|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | [Python](./Unspecified/number_of_closed_islands.py) |Medium|
 |1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | [Python](./Unspecified/find_numbers_with_even_number_of_digits.py) |Easy|
 |1299|[Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | [Python](./Unspecified/replace_elements_with_greatest_element_on_right_side.py) |Easy|
