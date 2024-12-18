@@ -308,6 +308,7 @@
 |1260|[Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | [Python](./Math/shift_2d_grid.py) [CPP](./Math/CPP/shift_2d_grid.cpp) |Easy|
 |1266|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) | [Python](./Math/minimum_time_visiting_all_points.py) [CPP](./Math/CPP/minimum_time_visiting_all_points.cpp) |Easy|
 |1275|[Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/) | [Python](./Array&String/HashTable/find_winner_on_a_tic_tac_toe_game.py) [CPP](./Array&String/HashTable/CPP/find_winner_on_a_tic_tac_toe_game.cpp) |Easy|
+|1281|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | [Python](./Math/subtract_the_product_and_sum_of_digits_of_an_integer.py) [CPP](./Math/CPP/subtract_the_product_and_sum_of_digits_of_an_integer.cpp) |Easy|
 |1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | [Python](./Unspecified/find_numbers_with_even_number_of_digits.py) |Easy|
 |1299|[Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | [Python](./Unspecified/replace_elements_with_greatest_element_on_right_side.py) |Easy|
 |1343|[Rotting Oranges](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Python](./Unspecified/rotting_oranges.py) |Hard|
