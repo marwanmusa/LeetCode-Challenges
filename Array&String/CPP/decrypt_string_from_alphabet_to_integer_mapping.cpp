@@ -6,10 +6,9 @@ class Solution {
 public:
     string freqAlphabets(string s) {
         unordered_map<string, int> mp;
-        string cres = "#";
-        string ans;
+        string cres = "#", ans;
         for (int i = 1; i < 27; i++) {
-            mp[to_string(i)] = char(i+96);
+            mp[to_string(i)] = i+96;
         }
         for (int i = 10; i < 27; i++) {
             mp[to_string(i)+cres] = mp[to_string(i)];
@@ -17,7 +16,7 @@ public:
         }
         int i = 0, n = s.size();
         while (i < n - 2) {
-            if (s[i+2] != '#') {
+            if (s.substr(i+2, 1) != "#") {
                 ans.push_back(mp[s.substr(i, 1)]);
                 i += 1;
             } else {
@@ -26,7 +25,9 @@ public:
             }
         }
         if (i <= n-1) {
-            for (int j = i; j < n; j++) ans.push_back(mp[s.substr(j)]);
+            for (int j = i; j < n; j++) {
+                ans.push_back(mp[s.substr(j, 1)]);
+            }
         }
         return ans;
     }
