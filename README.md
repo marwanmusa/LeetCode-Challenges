@@ -316,6 +316,7 @@
 |1304|[Find N Unique Integers Sum up to Zero solution](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | [Python](./Math/find_n_unique_integers_sum_up_to_zero.py) [CPP](./Math/CPP/find_n_unique_integers_sum_up_to_zero.cpp) |Easy|
 |1309|[Decrypt String from Alphabet to Integer Mapping solution](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | [Python](./Array&String/decrypt_string_from_alphabet_to_integer_mapping.py) [CPP](./Array&String/CPP/decrypt_string_from_alphabet_to_integer_mapping.cpp) |Easy|
 |1313|[Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) | [Python](./Array&String/decompress_run-length_encoded_list.py) [CPP](./Array&String/CPP/decompress_run-length_encoded_list.cpp) |Easy|
+|1317|[Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | [Python](./Math/convert_integer_to_the_sum_of_two_no-zero_integers.py) [CPP](./Math/convert_integer_to_the_sum_of_two_no-zero_integers.py) |Easy|
 |1343|[Rotting Oranges](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Python](./Unspecified/rotting_oranges.py) |Hard|
 |1346|[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | [Python](./Unspecified/check_if_n_and_its_double_exist.py) |Easy|
 |1402|[Reducing Dishes](https://leetcode.com/problems/reducing-dishes/) | [Python](./Unspecified/reducing_dishes.py) |Hard|
