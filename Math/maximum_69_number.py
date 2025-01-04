@@ -7,9 +7,9 @@ class Solution:
             rem = num % 10
             num //= 10
             nums.appendleft(rem)
-        flip = False
-        pows = len(nums) - 1
-        ans = 0
+
+        flip, pows, ans = False, len(nums) - 1, 0
+
         for i, x in enumerate(nums):
             if x != 9 and not flip:
                 nums[i] = 9
