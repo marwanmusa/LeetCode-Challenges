@@ -4,9 +4,8 @@ class Solution:
     def maximum69Number (self, num: int) -> int:
         nums = collections.deque()
         while num:
-            rem = num % 10
+            nums.appendleft(num % 10)
             num //= 10
-            nums.appendleft(rem)
 
         flip, pows, ans = False, len(nums) - 1, 0
 
