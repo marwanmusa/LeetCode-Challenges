@@ -319,6 +319,7 @@
 |1317|[Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | [Python](./Math/convert_integer_to_the_sum_of_two_no-zero_integers.py) [CPP](./Math/convert_integer_to_the_sum_of_two_no-zero_integers.py) |Easy|
 |1323|[Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | [Python](./Math/maximum_69_number.py) [CPP](./Math/CPP/maximum_69_number.cpp) |Easy|
 |1331|[Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/) | [Python](./Array&String/HashTable/rank_transform_of_an_array.py) [CPP](./Array&String/HashTable/CPP/rank_transform_of_an_array.cpp) |Easy|
+|1337|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/) | [Python](./Array&String/Sorting/the_k_weakest_rows_in_a_matrix.py) [CPP](./Array&String/Sorting/CPP/the_k_weakest_rows_in_a_matrix.cpp) |Easy|
 |1343|[Rotting Oranges](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Python](./Unspecified/rotting_oranges.py) |Hard|
 |1346|[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | [Python](./Unspecified/check_if_n_and_its_double_exist.py) |Easy|
 |1402|[Reducing Dishes](https://leetcode.com/problems/reducing-dishes/) | [Python](./Unspecified/reducing_dishes.py) |Hard|
