@@ -322,6 +322,7 @@
 |1337|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/) | [Python](./Array&String/Sorting/the_k_weakest_rows_in_a_matrix.py) [CPP](./Array&String/Sorting/CPP/the_k_weakest_rows_in_a_matrix.cpp) |Easy|
 |1343|[Rotting Oranges](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Python](./Unspecified/rotting_oranges.py) |Hard|
 |1346|[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | [Python](./Unspecified/check_if_n_and_its_double_exist.py) |Easy|
+|1351|[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | [Python](./BinarySearch/count_negative_numbers_in_a_sorted_matrix.py) [CPP](./BinarySearch/CPP/count_negative_numbers_in_a_sorted_matrix.cpp) |Easy|
 |1402|[Reducing Dishes](https://leetcode.com/problems/reducing-dishes/) | [Python](./Unspecified/reducing_dishes.py) |Hard|
 |1444|[Number of Ways of Cutting a Pizza](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/) | [Python](./Unspecified/number_of_ways_of_cutting_a_pizza.py) |Hard|
 |1466|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | [Python](./Unspecified/reorder_routes_to_make_all_paths_lead_to_city_zero.py) |Medium|
