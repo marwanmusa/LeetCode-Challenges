@@ -39,34 +39,25 @@ public:
 
         string result;
         int remaining = s.size();
-        bool increasing = true;
 
         // Continue until all characters are used
         while (remaining > 0) {
-            string cur;
-            if (increasing) {
-                // Append characters in increasing order
-                for (int i = 0; i < 26; i++) {
-                    if (cnt[i] > 0) {
-                        cur += ('a' + i);
-                        cnt[i]--;
-                        remaining--;
-                    }
-                }
-            } else {
-                // Append characters in decreasing order
-                for (int i = 25; i >= 0; i--) {
-                    if (cnt[i] > 0) {
-                        cur += ('a' + i);
-                        cnt[i]--;
-                        remaining--;
-                    }
+            for (int i = 0; i < 26; i++) {
+                if (cnt[i] > 0) {
+                    result += ('a' + i);
+                    cnt[i]--;
+                    remaining--;
                 }
             }
-            result += cur;
-            increasing = !increasing;
+            // Append characters in decreasing order
+            for (int i = 25; i >= 0; i--) {
+                if (cnt[i] > 0) {
+                    result += ('a' + i);
+                    cnt[i]--;
+                    remaining--;
+                }
+            }
         }
-
         return result;
     }
 
