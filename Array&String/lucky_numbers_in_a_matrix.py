@@ -1,6 +1,6 @@
 class Solution:
     def luckyNumbers(self, matrix: list[list[int]]) -> list[int]:
-        r, c = len(matrix), len(matrix[0])
+        c = len(matrix[0])
         minr = {i : arr.index(min(arr)) for i, arr in enumerate(matrix)}
         maxc = {}
         for col in range(c):
