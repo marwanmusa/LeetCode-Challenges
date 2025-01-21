@@ -329,6 +329,7 @@
 |1370|[Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/) | [Python](./Array&String/HashTable/increasing_decreasing_string.py) [CPP](./Array&String/HashTable/CPP/increasing_decreasing_string.cpp) |Easy|
 |1379|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | [Python](./BinaryTree/find_a_corresponding_node_of_a_binary_tree_in_a_clone_of_that_tree.py) [CPP](./BinaryTree/CPP/find_a_corresponding_node_of_a_binary_tree_in_a_clone_of_that_tree.cpp) |Easy|
 |1380|[Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) | [Python](./Array&String/lucky_numbers_in_a_matrix.py) [CPP](./Array&String/CPP/lucky_numbers_in_a_matrix.cpp) |Easy|
+|1399|[Count Largest Group](https://leetcode.com/problems/count-largest-group/) | [Python](./Array&String/HashTable/count_largest_group.py) [CPP](./Array&String/HashTable/CPP/count_largest_group.cpp) |Easy|
 |1402|[Reducing Dishes](https://leetcode.com/problems/reducing-dishes/) | [Python](./Unspecified/reducing_dishes.py) |Hard|
 |1444|[Number of Ways of Cutting a Pizza](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/) | [Python](./Unspecified/number_of_ways_of_cutting_a_pizza.py) |Hard|
 |1466|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | [Python](./Unspecified/reorder_routes_to_make_all_paths_lead_to_city_zero.py) |Medium|
