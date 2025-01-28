@@ -238,7 +238,7 @@
 |836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | [CPP](./Array&String/CPP/rectangle_overlap.cpp)|Easy|
 |841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | [Python](./Queue%20&%20Stack/keys_and_rooms.py) |Medium|
 |844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [Python](./Queue%20&%20Stack/backspace_string_compare.py) [CPP](./Queue%20&%20Stack/CPP/backspace_string_compare.cpp) |Easy|
-|859|[Buddy Strings](https://leetcode.com/problems/buddy-strings/) | [Python](./Array&String/buddy_strings.py) [CPP](./Array&String/CPP/buddy_strings.cpp) |Easy|
+|859|[Buddy Strings](https://leetcode.com/problems/buddy-strings/) | [Python](./Array&String/String/buddy_strings.py) [CPP](./Array&String/String/CPP/buddy_strings.cpp) |Easy|
 |860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/) | [Python](./Array&String/lemonade_change.py) [CPP](./Array&String/CPP/lemonade_change.cpp) |Easy|
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | [Python](./Array&String/transpose_matrix.py) [CPP](./Array&String/CPP/transpose_matrix.cpp) |Easy|
 |868|[Binary Gap](https://leetcode.com/problems/binary-gap/) | [Python](./Bits/binary_gap.py) [CPP](./Bits/CPP/binary_gap.cpp) |Easy|
