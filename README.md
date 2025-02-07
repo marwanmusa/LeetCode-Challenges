@@ -342,6 +342,7 @@
 |1466|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | [Python](./Unspecified/reorder_routes_to_make_all_paths_lead_to_city_zero.py) |Medium|
 |1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [Python](./Unspecified/running_sum_of_1d_array.py) |Easy|
 |1672|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | [Python](./Unspecified/richest_customer_wealth.py) |Easy|
+|1762|[Tuple with Same Product](https://leetcode.com/problems//tuple-with-same-product/desc/) | [Python](./Array&String/HashTable/tuple_with_same_product.py) [CPP](./Array&String/HashTable/CPP/tuple_with_same_product.cpp) |Easy|
 |2236|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | [Python](./Unspecified/root_equals_sum_of_children.py)|Easy|
 |2316|[Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/) | [Python](./Unspecified/count_unreacheable_pairs_of_nodes_in_an_undirected_graph.py)|Medium|
 |2348|[Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/) | [Python](number_of_zero_filled_subarray.py)|Medium|
