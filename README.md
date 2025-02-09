@@ -340,6 +340,7 @@
 |1437|[Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/) | [Python](./Array&String/check_if_all_1's_are_at_least_length_k_places_away.py) [CPP](./Array&String/CPP/check_if_all_1's_are_at_least_length_k_places_away.cpp) |Easy|
 |1444|[Number of Ways of Cutting a Pizza](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/) | [Python](./Unspecified/number_of_ways_of_cutting_a_pizza.py) |Hard|
 |1466|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | [Python](./Unspecified/reorder_routes_to_make_all_paths_lead_to_city_zero.py) |Medium|
+|1469|[Path Crossing](https://leetcode.com/problems/path-crossing/) | [Python](./Array&String/HashTable/path_crossing.py) [CPP](./Array&String/HashTable/CPP/path_crossing.cpp) |Easy|
 |1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [Python](./Unspecified/running_sum_of_1d_array.py) |Easy|
 |1672|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | [Python](./Unspecified/richest_customer_wealth.py) |Easy|
 |1762|[Tuple with Same Product](https://leetcode.com/problems//tuple-with-same-product/desc/) | [Python](./Array&String/HashTable/tuple_with_same_product.py) [CPP](./Array&String/HashTable/CPP/tuple_with_same_product.cpp) |Easy|
