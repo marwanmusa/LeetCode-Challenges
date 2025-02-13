@@ -5,9 +5,9 @@ name = "pypi"
 
 [packages]
 pillow = "*"
-pwntools = "*"
 pycryptodome = "*"
 numpy = "*"
+pwntools = "*"
 
 [dev-packages]
 
