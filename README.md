@@ -45,7 +45,7 @@
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/) | [Python](./LinkedList/rotate_list.py)|Medium|
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Python](./Unspecified/minimum_path_sum.py)|Medium|
 |66|[Plus One](https://leetcode.com/problems/plus-one/) | [Python](./Array&String/plus_one.py)|Easy|
-|67|[Add Binary](https://leetcode.com/problems/add-binary/) | [Python](./Array&String/add_binary.py)|Easy|
+|67|[Add Binary](https://leetcode.com/problems/add-binary/) | [Python](./Array&String/Python/add_binary.py)|Easy|
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Python](./BinarySearch/sqrtx.py) |Easy|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Python](./Recursion-1/climbing_stairs.py) |Easy|
 |74|[Search 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](./Recursion-2/search_a_2d_matrix.py) |Easy|
@@ -201,7 +201,7 @@
 |677|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/) | [Python](./Trie/map_sum_pairs.py) |Medium|
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Python](./Array&String/valid_palindrome2.py) |Easy|
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Python](./Unspecified/max_area_of_island.py) |Medium|
-|696|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | [Python](./Array&String/count_binary_strings.py) |Easy|
+|696|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | [Python](./Array&String/Python/count_binary_strings.py) |Easy|
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Python](./Recursion-1/search_in_a_binary_search_tree.py) |Easy|
 |701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [Python](insert_into_a_binary_search_tree.py) |Medium|
 |703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [Python-bisort](./Array&String/kth_largest_element_in_a_stream.py) [Python-heap](./Heap/kth_largest_element_in_a_stream.py) |Easy|
@@ -262,7 +262,7 @@
 |938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Python](./BinarySearch/range_sum_of_bst.py)|Easy|
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | [Python](./Array&String/valid_mountain_array.py) [CPP](./Array&String/CPP/valid_mountain_array.cpp) |Easy|
 |942|[DI String Match](https://leetcode.com/problems/di-string-match/) | [Python](./TwoPointers/di_string_match.py) [CPP](./TwoPointers/CPP/di_string_match.cpp) |Easy|
-|944|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | [Python](./Array&String/delete_columns_to_make_sorted.py) [CPP](./Array&String/CPP/) |Easy|
+|944|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | [Python](./Array&String/Python/delete_columns_to_make_sorted.py) [CPP](./Array&String/CPP/delete_columns_to_make_sorted.cpp) |Easy|
 |961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | [Python](./Array&String/n_repeated_element_in_size_2n_array.py) [CPP](./Array&String/CPP/n_repeated_element_in_size_2n_array.cpp) |Easy|
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | [Python](./BinaryTree/univalued_binary_tree.py) [CPP](./BinaryTree/CPP/univalued_binary_tree.cpp) |Easy|
 |976|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | [Python](./Math/largest_perimeter_triangle.py) [CPP](./Math/CPP/largest_perimeter_triangle.cpp) |Easy|
@@ -271,7 +271,7 @@
 |989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | [Python](./Math/add_to_array_form_of_integer.py) [CPP](./Math/CPP/add_to_array_form_of_integer.cpp) |Easy|
 |993|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | [Python](./BinaryTree/cousins_in_binary_tree.py) [CPP](./BinaryTree/CPP/cousins_in_binary_tree.cpp) |Easy|
 |994|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/rotting-oranges/) | [Python](./Unspecified/rotting_oranges.py) |Medium|
-|999|[Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) | [Python](./Array&String/available_captures_for_rook.py) [CPP](./Array&String/CPP/available_captures_for_rook.cpp) |Easy|
+|999|[Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) | [Python](./Array&String/Python/available_captures_for_rook.py) [CPP](./Array&String/CPP/available_captures_for_rook.cpp) |Easy|
 |1005|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | [Python](./Array&String/Sorting/maximize_sum_of_array_after_k_negations.py) [CPP](./Array&String/Sorting/CPP/maximize_sum_of_array_after_k_negations.cpp) |Easy|
 |1009|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) | [Python](./Bits/complement_of_base_10_integer.py) [CPP](./Bits/CPP/complement_of_base_10_integer.cpp) |Easy|
 |1013|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/) | [Python](./Array&String/GreedyProblem/partition_array_into_three_parts_with_equal_sum.py) [CPP](./Array&String/GreedyProblem/CPP/partition_array_into_three_parts_with_equal_sum.cpp) |Easy|
@@ -288,7 +288,7 @@
 |1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | [Python](./Math/greatest_common_divisor_of_strings.py) [CPP](./Math/CPP/greatest_common_divisor_of_strings.cpp) |Easy|
 |1078|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | [Python](./Array&String/occurences_after_bigram.py) [CPP](./Array&String/CPP/occurences_after_bigram.cpp) |Easy|
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/) | [Python](./Unspecified/duplicate_zeros.py) |Easy|
-|1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | [Python](./Array&String/defanging_an_ip_address.py) [CPP](./Array&String/CPP/defanging_an_ip_address.cpp) |Easy|
+|1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | [Python](./Array&String/Python/defanging_an_ip_address.py) [CPP](./Array&String/CPP/defanging_an_ip_address.cpp) |Easy|
 |1122|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/) | [Python](./Array&String/Sorting/relative_sort_array.py) [CPP](./Array&String/Sorting/CPP/relative_sort_array.cpp) |Easy|
 |1128|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/) | [Python](./Math/number_of_equivalent_domino_pairs.py) [CPP](./Math/CPP/number_of_equivalent_domino_pairs.cpp) |Easy|
 |1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | [Python](./DynamicProgramming/nth_tribonacci_number.py) [CPP](./DynamicProgramming/CPP/nth_tribonacci_number.cpp) |Easy|
@@ -314,8 +314,8 @@
 |1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | [Python](./Unspecified/find_numbers_with_even_number_of_digits.py) |Easy|
 |1299|[Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | [Python](./Unspecified/replace_elements_with_greatest_element_on_right_side.py) |Easy|
 |1304|[Find N Unique Integers Sum up to Zero solution](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | [Python](./Math/find_n_unique_integers_sum_up_to_zero.py) [CPP](./Math/CPP/find_n_unique_integers_sum_up_to_zero.cpp) |Easy|
-|1309|[Decrypt String from Alphabet to Integer Mapping solution](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | [Python](./Array&String/decrypt_string_from_alphabet_to_integer_mapping.py) [CPP](./Array&String/CPP/decrypt_string_from_alphabet_to_integer_mapping.cpp) |Easy|
-|1313|[Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) | [Python](./Array&String/decompress_run-length_encoded_list.py) [CPP](./Array&String/CPP/decompress_run-length_encoded_list.cpp) |Easy|
+|1309|[Decrypt String from Alphabet to Integer Mapping solution](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | [Python](./Array&String/Python/decrypt_string_from_alphabet_to_integer_mapping.py) [CPP](./Array&String/CPP/decrypt_string_from_alphabet_to_integer_mapping.cpp) |Easy|
+|1313|[Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) | [Python](./Array&String/Python/decompress_run-length_encoded_list.py) [CPP](./Array&String/CPP/decompress_run-length_encoded_list.cpp) |Easy|
 |1317|[Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | [Python](./Math/convert_integer_to_the_sum_of_two_no-zero_integers.py) [CPP](./Math/convert_integer_to_the_sum_of_two_no-zero_integers.py) |Easy|
 |1323|[Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | [Python](./Math/maximum_69_number.py) [CPP](./Math/CPP/maximum_69_number.cpp) |Easy|
 |1331|[Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/) | [Python](./Array&String/HashTable/rank_transform_of_an_array.py) [CPP](./Array&String/HashTable/CPP/rank_transform_of_an_array.cpp) |Easy|
@@ -337,7 +337,7 @@
 |1413|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/) | [Python](./Array&String/PrefixSum/minimum_value_to_get_positive_step_by_step_sum.py) [CPP](./Array&String/PrefixSum/CPP/minimum_value_to_get_positive_step_by_step_sum.cpp) |Easy|
 |1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | [Python](./Array&String/kids_with_the_greatest_number_of_candies.py) [CPP](./Array&String/CPP/kids_with_the_greatest_number_of_candies.cpp) |Easy|
 |1436|[Destination City](https://leetcode.com/problems/destination-city/) | [Python](./Array&String/HashTable/destination_city.py) [CPP](./Array&String/HashTable/CPP/destination_city.cpp) |Easy|
-|1437|[Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/) | [Python](./Array&String/check_if_all_1's_are_at_least_length_k_places_away.py) [CPP](./Array&String/CPP/check_if_all_1's_are_at_least_length_k_places_away.cpp) |Easy|
+|1437|[Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/) | [Python](./Array&String/Python/check_if_all_1's_are_at_least_length_k_places_away.py) [CPP](./Array&String/CPP/check_if_all_1's_are_at_least_length_k_places_away.cpp) |Easy|
 |1444|[Number of Ways of Cutting a Pizza](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/) | [Python](./Unspecified/number_of_ways_of_cutting_a_pizza.py) |Hard|
 |1466|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | [Python](./Unspecified/reorder_routes_to_make_all_paths_lead_to_city_zero.py) |Medium|
 |1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [Python](./Unspecified/running_sum_of_1d_array.py) |Easy|
@@ -345,7 +345,7 @@
 |1502|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/) | [Python](./Array&String/Sorting/can_make_arithmetic_progression_from_sequence.py) [CPP](./Array&String/Sorting/CPP/can_make_arithmetic_progression_from_sequence.cpp) [JavaScript](./Array&String/Sorting/JS/can_make_arithmetic_progression_from_sequence.js) |Easy|
 |1512|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) | [Python](./Array&String/HashTable/number_of_good_pairs.py) [CPP](./Array&String/HashTable/CPP/number_of_good_pairs.cpp) [JavaScript](./Array&String/HashTable/JS/number_of_good_pairs.js) |Easy|
 |1523|[Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | [Python](./Math/count_odd_numbers_in_an_interval_range.py) [CPP](./Math/CPP/count_odd_numbers_in_an_interval_range.cpp) [JavaScript](./Math/JS/count_odd_numbers_in_an_interval_range.js) |Easy|
-|1584|[Count Good Triplets](https://leetcode.com/problems/count-good-triplets/) | [Python](./Array&String/count_good_triplets.py) [CPP](./Array&String/CPP/count_good_triplets.cpp) [JavaScript](./Array&String/JS/count_good_triplets.js) |Easy|
+|1584|[Count Good Triplets](https://leetcode.com/problems/count-good-triplets/) | [Python](./Array&String/Python/count_good_triplets.py) [CPP](./Array&String/CPP/count_good_triplets.cpp) [JavaScript](./Array&String/JS/count_good_triplets.js) |Easy|
 |1672|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | [Python](./Unspecified/richest_customer_wealth.py) |Easy|
 |1762|[Tuple with Same Product](https://leetcode.com/problems//tuple-with-same-product/desc/) | [Python](./Array&String/HashTable/tuple_with_same_product.py) [CPP](./Array&String/HashTable/CPP/tuple_with_same_product.cpp) |Easy|
 |2236|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | [Python](./Unspecified/root_equals_sum_of_children.py)|Easy|
