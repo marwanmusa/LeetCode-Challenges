@@ -30,7 +30,7 @@
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [Python](./Recursion-1/swap_nodes_in_pairs.py)|Medium|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](./Unspecified/removes_duplicates_from_sorted_arrays.py)|Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/) | [Python](./Unspecified/remove_element.py)|Easy|
-|28|[Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [Python](./Array&String/find_the_index_of_the_first_occurrence_in_a_string.py)|Easy|
+|28|[Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [Python](./Array&String/Python/find_the_index_of_the_first_occurrence_in_a_string.py)|Easy|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/remove-element/) | [Python](./Unspecified/search_in_rotated_sorted_array.py)|Medium|
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Python](./BinarySearch/find_first_and_last_position_of_element_in_sorted_array.py)|Medium|
 |35|[Search Insert Position](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](./Unspecified/search_insert_position.py)|Easy|
@@ -166,7 +166,7 @@
 |467|[Number Complement](https://leetcode.com/problems/number-complement/) | [Python](./Unspecified/number_complement.py) |Easy|
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [Python](./Unspecified/max_consecutive_ones.py) |Easy|
 |494|[Target Sum](https://leetcode.com/problems/target-sum/) | [Python](./Queue%20&%20Stack/target_sum.py.py) |Medium|
-|498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Python](./Array&String/diagonal_traverse.py) |Medium|
+|498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Python](./Array&String/Python/diagonal_traverse.py) |Medium|
 |501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/) | [Python](./BinarySearch/find_mode_in_bst.py) |Easy|
 |506|[Relative Ranks](https://leetcode.com/problems/relative-ranks/) | [Python](./Unspecified/relative_ranks.py) |Easy|
 |507|[Perfect Number](https://leetcode.com/problems/perfect-number/) | [Python](./Unspecified/perfect_number.py) |Easy|
@@ -196,6 +196,7 @@
 |652|[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | [Python](./Unspecified/find_duplicate_subtrees.py) |Medium|
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [Python](./Unspecified/two_sum_iv_input_is_a_bst.py) |Easy|
 |658|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | [Python](./BinarySearch/find_k_closest_elements.py) |Easy|
+|661|[Image Smoother](https://leetcode.com/problems/image-smoother/) | [Python](./Array&String/Python/image_smoother.py) |Easy|
 |671|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | [Python](./BinaryTree/second_minimum_node.py) |Easy|
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [Python](./Array&String/longest_continuous_increasing_subsequence.py) |Easy|
 |677|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/) | [Python](./Trie/map_sum_pairs.py) |Medium|
@@ -212,7 +213,7 @@
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/) | [Python](./Array&String/to_lowercase.py) |Easy|
 |717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | [Python](./Array&String/one_and_two_bit_characters.py) |Easy|
 |719|[Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) | [Python](./BinarySearch/find_kth_smallest_pair_distance.py) |Hard|
-|724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [Python](./Array&String/find_pivot_index.py) |Easy|
+|724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [Python](./Array&String/Python/find_pivot_index.py) |Easy|
 |728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | [Python](./Array&String/self_dividing_numbers.py) |Easy|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/) | [Python](./Queue%20&%20Stack/flood_fill.py) |Easy|
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Python](./Queue%20&%20Stack/daily_temperatures.py) |Medium|
@@ -232,9 +233,9 @@
 |806|[Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/) | [Python](./Array&String/number_of_lines_to_write_string.py) |Easy|
 |812|[Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/) | [Python](./Array&String/largest_triangle_area.py) |Easy|
 |821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | [Python](./Array&String/shortest_distance_to_a_char.py) |Easy|
-|824|[Goat Latin](https://leetcode.com/problems/goat-latin/) | [Python](./Array&String/goat_latin.py) [CPP](./Array&String/CPP/goat_latin.cpp)|Easy|
+|824|[Goat Latin](https://leetcode.com/problems/goat-latin/) | [Python](./Array&String/Python/goat_latin.py) [CPP](./Array&String/CPP/goat_latin.cpp)|Easy|
 |830|[Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | [Python](./Array&String/positions_of_large_groups.py) [CPP](./Array&String/CPP/positions_of_large_groups.cpp)|Easy|
-|832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | [Python](./Array&String/flipping_an_image.py) [CPP](./Array&String/CPP/flipping_an_image.cpp)|Easy|
+|832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | [Python](./Array&String/Python/flipping_an_image.py) [CPP](./Array&String/CPP/flipping_an_image.cpp)|Easy|
 |836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | [CPP](./Array&String/CPP/rectangle_overlap.cpp)|Easy|
 |841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | [Python](./Queue%20&%20Stack/keys_and_rooms.py) |Medium|
 |844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [Python](./Queue%20&%20Stack/backspace_string_compare.py) [CPP](./Queue%20&%20Stack/CPP/backspace_string_compare.cpp) |Easy|
@@ -246,7 +247,7 @@
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](./Unspecified/middle_of_linked_list.py) |Easy|
 |881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | [Python](./Unspecified/boats_to_save_people.py) |Medium|
 |884|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/) | [Python](./Array&String/uncommon_words_from_two_sentences.py) [CPP](./Array&String/CPP/uncommon_words_from_two_sentences.cpp) |Easy|
-|888|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | [Python](./Array&String/fair_candy_swap.py) [CPP](./Array&String/CPP/fair_candy_swap.cpp) |Easy|
+|888|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | [Python](./Array&String/Python/fair_candy_swap.py) [CPP](./Array&String/CPP/fair_candy_swap.cpp) |Easy|
 |892|[Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/) | [Python](./Array&String/surface_of_3d_shapes.py) [CPP](./Array&String/CPP/surface_of_3d_shapes.cpp) |Easy|
 |896|[Monotonic Array](https://leetcode.com/problems/monotonic-array/) | [Python](./Array&String/monotonic_array.py) [CPP](./Array&String/CPP/monotonic_array.cpp) |Easy|
 |897|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | [Python](./BinaryTree/increasing_order_search_tree.py) [CPP](./BinaryTree/CPP/increasing_order_search_tree.cpp) |Easy|
@@ -272,6 +273,7 @@
 |993|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | [Python](./BinaryTree/cousins_in_binary_tree.py) [CPP](./BinaryTree/CPP/cousins_in_binary_tree.cpp) |Easy|
 |994|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/rotting-oranges/) | [Python](./Unspecified/rotting_oranges.py) |Medium|
 |999|[Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) | [Python](./Array&String/Python/available_captures_for_rook.py) [CPP](./Array&String/CPP/available_captures_for_rook.cpp) |Easy|
+|1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/) | [Python](./Array&String/Python/find_common_characters.py) |Easy|
 |1005|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | [Python](./Array&String/Sorting/maximize_sum_of_array_after_k_negations.py) [CPP](./Array&String/Sorting/CPP/maximize_sum_of_array_after_k_negations.cpp) |Easy|
 |1009|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) | [Python](./Bits/complement_of_base_10_integer.py) [CPP](./Bits/CPP/complement_of_base_10_integer.cpp) |Easy|
 |1013|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/) | [Python](./Array&String/GreedyProblem/partition_array_into_three_parts_with_equal_sum.py) [CPP](./Array&String/GreedyProblem/CPP/partition_array_into_three_parts_with_equal_sum.cpp) |Easy|
@@ -295,7 +297,7 @@
 |1154|[Day of the Year](https://leetcode.com/problems/day-of-the-year/) | [Python](./Math/day_of_the_year.py) [CPP](./Math/CPP/day_of_the_year.cpp) |Easy|
 |1160|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | [Python](./Array&String/HashTable/find_words_that_can_be_formed_by_characters.py) [CPP](./Array&String/HashTable/CPP/find_words_that_can_be_formed_by_characters.cpp) |Easy|
 |1175|[Prime Arrangements](https://leetcode.com/problems/prime-arrangements/) | [Python](./Math/prime_arrangements.py) [CPP](./Math/CPP/prime_arrangements.cpp) |Easy|
-|1184|[Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/) | [Python](./Array&String/distance_between_bus_stops.py) [CPP](./Array&String/CPP/distance_between_bus_stops.cpp) |Easy|
+|1184|[Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/) | [Python](./Array&String/Python/distance_between_bus_stops.py) [CPP](./Array&String/CPP/distance_between_bus_stops.cpp) |Easy|
 |1185|[Day of the Week](https://leetcode.com/problems/day-of-the-week/) | [Python](./Math/day_of_the_week.py) [CPP](./Math/CPP/day_of_the_week.cpp) |Easy|
 |1189|[Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | [Python](./Array&String/HashTable/maximum_number_of_balloons.py) [CPP](./Array&String/HashTable/CPP/maximum_number_of_balloons.cpp) |Easy|
 |1200|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | [Python](./Array&String/Sorting/minimum_absolute_difference.py) [CPP](./Array&String//Sorting/CPP/minimum_absolute_difference.cpp) |Easy|
@@ -309,7 +311,7 @@
 |1266|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) | [Python](./Math/minimum_time_visiting_all_points.py) [CPP](./Math/CPP/minimum_time_visiting_all_points.cpp) |Easy|
 |1275|[Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/) | [Python](./Array&String/HashTable/find_winner_on_a_tic_tac_toe_game.py) [CPP](./Array&String/HashTable/CPP/find_winner_on_a_tic_tac_toe_game.cpp) |Easy|
 |1281|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | [Python](./Math/subtract_the_product_and_sum_of_digits_of_an_integer.py) [CPP](./Math/CPP/subtract_the_product_and_sum_of_digits_of_an_integer.cpp) |Easy|
-|1287|[Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/) | [Python](./Array&String/element_appearing_more_than_25%25_in_sorted_array.py) [CPP](./Array&String/CPP/element_appearing_more_than_25%25_in_sorted_array.cpp) |Easy|
+|1287|[Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/) | [Python](./Array&String/Python/element_appearing_more_than_25%25_in_sorted_array.py) [CPP](./Array&String/CPP/element_appearing_more_than_25%25_in_sorted_array.cpp) |Easy|
 |1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | [Python](./LinkedList/convert_binary_number_in_a_linked_list_to_integer..py) [CPP](./LinkedList/CPP/convert_binary_number_in_a_linked_list_to_integer..cpp) |Easy|
 |1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | [Python](./Unspecified/find_numbers_with_even_number_of_digits.py) |Easy|
 |1299|[Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | [Python](./Unspecified/replace_elements_with_greatest_element_on_right_side.py) |Easy|
@@ -335,7 +337,7 @@
 |1403|[Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/) | [Python](./Array&String/Sorting/minimum_subsequence_in_non-increasing_order.py) [CPP](./Array&String/Sorting/CPP/minimum_subsequence_in_non-increasing_order.cpp)|Easy|
 |1408|[String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | [Python](./Array&String/String/string_matching_in_an_array.py) [CPP](./Array&String/String/CPP/string_matching_in_an_array.cpp)|Easy|
 |1413|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/) | [Python](./Array&String/PrefixSum/minimum_value_to_get_positive_step_by_step_sum.py) [CPP](./Array&String/PrefixSum/CPP/minimum_value_to_get_positive_step_by_step_sum.cpp) |Easy|
-|1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | [Python](./Array&String/kids_with_the_greatest_number_of_candies.py) [CPP](./Array&String/CPP/kids_with_the_greatest_number_of_candies.cpp) |Easy|
+|1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | [Python](./Array&String/Python/kids_with_the_greatest_number_of_candies.py) [CPP](./Array&String/CPP/kids_with_the_greatest_number_of_candies.cpp) |Easy|
 |1436|[Destination City](https://leetcode.com/problems/destination-city/) | [Python](./Array&String/HashTable/destination_city.py) [CPP](./Array&String/HashTable/CPP/destination_city.cpp) |Easy|
 |1437|[Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/) | [Python](./Array&String/Python/check_if_all_1's_are_at_least_length_k_places_away.py) [CPP](./Array&String/CPP/check_if_all_1's_are_at_least_length_k_places_away.cpp) |Easy|
 |1444|[Number of Ways of Cutting a Pizza](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/) | [Python](./Unspecified/number_of_ways_of_cutting_a_pizza.py) |Hard|
