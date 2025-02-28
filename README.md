@@ -215,7 +215,7 @@
 |717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | [Python](./Array&String/Python/one_and_two_bit_characters.py) |Easy|
 |719|[Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) | [Python](./BinarySearch/find_kth_smallest_pair_distance.py) |Hard|
 |724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [Python](./Array&String/Python/find_pivot_index.py) |Easy|
-|728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | [Python](./Array&String/self_dividing_numbers.py) |Easy|
+|728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | [Python](./Array&String/Python/self_dividing_numbers.py) |Easy|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/) | [Python](./Queue%20&%20Stack/flood_fill.py) |Easy|
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Python](./Queue%20&%20Stack/daily_temperatures.py) |Medium|
 |744|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [Python](./BinarySearch/find_smallest_letter_greater_than_target.py) |Easy|
