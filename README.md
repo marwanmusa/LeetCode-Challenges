@@ -221,7 +221,7 @@
 |744|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [Python](./BinarySearch/find_smallest_letter_greater_than_target.py) |Easy|
 |746|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [Python](./BinarySearch/find_smallest_letter_greater_than_target.py) |Easy|
 |747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | [Python](./Array&String/Python/largest_number_at_least_twice_of_others.py) |Easy|
-|748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/) | [Python](./Array&String/shortest_completing_word.py) |Easy|
+|748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/) | [Python](./Array&String/Python/shortest_completing_word.py) |Easy|
 |752|[Open the Lock](https://leetcode.com/problems/open-the-lock/) | [Python](./Queue%20&%20Stack/open_the_lock.py) |Medium|
 |762|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | [Python](./Bits/prime_number_of_set_bits_in_binary_representation.py) |Easy|
 |766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | [Python](./Array&String/toeplitz_matrix.py) |Easy|
@@ -234,7 +234,7 @@
 |806|[Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/) | [Python](./Array&String/Python/number_of_lines_to_write_string.py) |Easy|
 |812|[Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/) | [Python](./Array&String/Python/largest_triangle_area.py) |Easy|
 |819|[Most Common Word](https://leetcode.com/problems/most-common-word/) | [Python](./Array&String/Python/most_common_word.py.py) |Easy|
-|821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | [Python](./Array&String/shortest_distance_to_a_char.py) |Easy|
+|821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | [Python](./Array&String/Python/shortest_distance_to_a_char.py) |Easy|
 |824|[Goat Latin](https://leetcode.com/problems/goat-latin/) | [Python](./Array&String/Python/goat_latin.py) [CPP](./Array&String/CPP/goat_latin.cpp)|Easy|
 |830|[Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | [Python](./Array&String/Python/positions_of_large_groups.py) [CPP](./Array&String/CPP/positions_of_large_groups.cpp)|Easy|
 |832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | [Python](./Array&String/Python/flipping_an_image.py) [CPP](./Array&String/CPP/flipping_an_image.cpp)|Easy|
