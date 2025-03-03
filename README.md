@@ -40,7 +40,7 @@
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Python](./Recursion-1/pow_x_n.py)|Medium|
 |52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/) | [Python](./Recursion-2/n_quenss_2.py)|Hard|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Python](./Unspecified/maximum_subarray.py)|Medium|
-|54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./Array&String/spiral_matrix.py)|Medium|
+|54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./Array&String/Python/spiral_matrix.py)|Medium|
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Python](./Unspecified/length_of_last_world.py)|Easy|
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/) | [Python](./LinkedList/rotate_list.py)|Medium|
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Python](./Unspecified/minimum_path_sum.py)|Medium|
@@ -201,7 +201,7 @@
 |671|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | [Python](./BinaryTree/second_minimum_node.py) |Easy|
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [Python](./Array&String/Python/longest_continuous_increasing_subsequence.py) |Easy|
 |677|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/) | [Python](./Trie/map_sum_pairs.py) |Medium|
-|680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Python](./Array&String/valid_palindrome2.py) |Easy|
+|680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Python](./Array&String/Python/valid_palindrome2.py) |Easy|
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Python](./Unspecified/max_area_of_island.py) |Medium|
 |696|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | [Python](./Array&String/Python/count_binary_strings.py) |Easy|
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Python](./Recursion-1/search_in_a_binary_search_tree.py) |Easy|
@@ -211,7 +211,7 @@
 |705|[Design HashSet](https://leetcode.com/problems/design-hashset/) | [Python]./Unspecified/(design_HashSet.py) |Easy|
 |706|[Design HashMap](https://leetcode.com/problems/design-hashmap/) | [Python](./Unspecified/design_HashMap.py) |Easy|
 |707|[Design Linked List](https://leetcode.com/problems/design-linked-list/) | [Python](./LinkedList/design_linked_list.py) |Medium|
-|709|[To Lower Case](https://leetcode.com/problems/to-lower-case/) | [Python](./Array&String/to_lowercase.py) |Easy|
+|709|[To Lower Case](https://leetcode.com/problems/to-lower-case/) | [Python](./Array&String/Python/to_lowercase.py) |Easy|
 |717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | [Python](./Array&String/Python/one_and_two_bit_characters.py) |Easy|
 |719|[Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) | [Python](./BinarySearch/find_kth_smallest_pair_distance.py) |Hard|
 |724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [Python](./Array&String/Python/find_pivot_index.py) |Easy|
@@ -224,13 +224,13 @@
 |748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/) | [Python](./Array&String/Python/shortest_completing_word.py) |Easy|
 |752|[Open the Lock](https://leetcode.com/problems/open-the-lock/) | [Python](./Queue%20&%20Stack/open_the_lock.py) |Medium|
 |762|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | [Python](./Bits/prime_number_of_set_bits_in_binary_representation.py) |Easy|
-|766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | [Python](./Array&String/toeplitz_matrix.py) |Easy|
+|766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | [Python](./Array&String/Python/toeplitz_matrix.py) |Easy|
 |769|[Rotate String](https://leetcode.com/problems/rotate-string/) | [Python](./Array&String/Python/rotate_string.py) |Easy|
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [Python](./Unspecified/jewels_and_stones.py) |Easy|
 |779|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/) | [Python](./Recursion-1/k_symbol_in_grammar.py) |Medium|
 |783|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [Python](./BinarySearch/minimum_distance_between_bst_nodes.py) |Easy|
 |784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | [Python](./Unspecified/letter_case_permutation.py) |Medium|
-|804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | [Python](./Array&String/unique_morse_code_words.py) |Easy|
+|804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | [Python](./Array&String/Python/unique_morse_code_words.py) |Easy|
 |806|[Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/) | [Python](./Array&String/Python/number_of_lines_to_write_string.py) |Easy|
 |812|[Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/) | [Python](./Array&String/Python/largest_triangle_area.py) |Easy|
 |819|[Most Common Word](https://leetcode.com/problems/most-common-word/) | [Python](./Array&String/Python/most_common_word.py.py) |Easy|
@@ -243,29 +243,30 @@
 |844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [Python](./Queue%20&%20Stack/backspace_string_compare.py) [CPP](./Queue%20&%20Stack/CPP/backspace_string_compare.cpp) |Easy|
 |859|[Buddy Strings](https://leetcode.com/problems/buddy-strings/) | [Python](./Array&String/String/buddy_strings.py) [CPP](./Array&String/String/CPP/buddy_strings.cpp) |Easy|
 |860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/) | [Python](./Array&String/Python/lemonade_change.py) [CPP](./Array&String/CPP/lemonade_change.cpp) |Easy|
-|867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | [Python](./Array&String/transpose_matrix.py) [CPP](./Array&String/CPP/transpose_matrix.cpp) |Easy|
+|867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | [Python](./Array&String/Python/transpose_matrix.py) [CPP](./Array&String/CPP/transpose_matrix.cpp) |Easy|
 |868|[Binary Gap](https://leetcode.com/problems/binary-gap/) | [Python](./Bits/binary_gap.py) [CPP](./Bits/CPP/binary_gap.cpp) |Easy|
 |872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | [Python](./BinaryTree/leaf_similar_trees.py) [CPP](./BinaryTree/CPP/leaf_similar_trees.cpp) |Easy|
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](./Unspecified/middle_of_linked_list.py) |Easy|
 |881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | [Python](./Unspecified/boats_to_save_people.py) |Medium|
-|884|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/) | [Python](./Array&String/uncommon_words_from_two_sentences.py) [CPP](./Array&String/CPP/uncommon_words_from_two_sentences.cpp) |Easy|
+|884|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/) | [Python](./Array&String/Python/uncommon_words_from_two_sentences.py) [CPP](./Array&String/CPP/uncommon_words_from_two_sentences.cpp) |Easy|
 |888|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | [Python](./Array&String/Python/fair_candy_swap.py) [CPP](./Array&String/CPP/fair_candy_swap.cpp) |Easy|
-|892|[Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/) | [Python](./Array&String/surface_of_3d_shapes.py) [CPP](./Array&String/CPP/surface_of_3d_shapes.cpp) |Easy|
+|892|[Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/) | [Python](./Array&String/Python/surface_of_3d_shapes.py) [CPP](./Array&String/CPP/surface_of_3d_shapes.cpp) |Easy|
 |896|[Monotonic Array](https://leetcode.com/problems/monotonic-array/) | [Python](./Array&String/Python/monotonic_array.py) [CPP](./Array&String/CPP/monotonic_array.cpp) |Easy|
 |897|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | [Python](./BinaryTree/increasing_order_search_tree.py) [CPP](./BinaryTree/CPP/increasing_order_search_tree.cpp) |Easy|
-|905|[Sort Array by Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Python](./Array&String/sort_array_by_parity.py) [CPP](./Array&String/CPP/sort_array_by_parity.cpp) |Easy|
-|908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/) | [Python](./Array&String/smallest_range1.py) [CPP](./Array&String/CPP/smallest_range1.cpp) |Easy|
+|905|[Sort Array by Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Python](./Array&String/Python/sort_array_by_parity.py) [CPP](./Array&String/CPP/sort_array_by_parity.cpp) |Easy|
+|908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/) | [Python](./Array&String/Python/smallest_range1.py) [CPP](./Array&String/CPP/smallest_range1.cpp) |Easy|
 |912|[Sort an Array](https://leetcode.com/problems/sort-an-array/) | [Python](./Recursion-2/sort_an_array.py) |Medium|
 |914|[X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/) | [Python](./Math/x_of_a_kind_in_card_deck.py) [CPP](./Math/CPP/x_of_a_kind_in_card_deck.cpp) |Easy|
 |917|[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | [Python](./Array&String/Python/reverse_only_letters.py) [CPP](./Array&String/CPP/reverse_only_letters.cpp) |Easy|
-|922|[Sort Array by Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/) | [Python](./Array&String/sort_array_by_parity2.py) [CPP](./Array&String/CPP/sort_array_by_parity2.cpp) |Easy|
+|922|[Sort Array by Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/) | [Python](./Array&String/Python/sort_array_by_parity2.py) [CPP](./Array&String/CPP/sort_array_by_parity2.cpp) |Easy|
 |925|[Long Pressed Name](https://leetcode.com/problems/long-pressed-name/) | [Python](./TwoPointers/long_pressed_name.py) [CPP](./TwoPointers/CPP/long_pressed_name.cpp) |Easy|
-|929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-adresses/) | [Python](./Array&String/unique_email_adresses.py) [CPP](./Array&String/CPP/unique_email_adresses.cpp) |Easy|
+|929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-adresses/) | [Python](./Array&String/Python/unique_email_adresses.py) [CPP](./Array&String/CPP/unique_email_adresses.cpp) |Easy|
 |933|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) | [Python](./Queue%20&%20Stack/number_of_recent_calls.py) [CPP](./Queue%20&%20Stack/CPP/number_of_recent_calls.cpp) |Easy|
 |938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Python](./BinarySearch/range_sum_of_bst.py)|Easy|
-|941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | [Python](./Array&String/valid_mountain_array.py) [CPP](./Array&String/CPP/valid_mountain_array.cpp) |Easy|
+|941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | [Python](./Array&String/Python/valid_mountain_array.py) [CPP](./Array&String/CPP/valid_mountain_array.cpp) |Easy|
 |942|[DI String Match](https://leetcode.com/problems/di-string-match/) | [Python](./TwoPointers/di_string_match.py) [CPP](./TwoPointers/CPP/di_string_match.cpp) |Easy|
 |944|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | [Python](./Array&String/Python/delete_columns_to_make_sorted.py) [CPP](./Array&String/CPP/delete_columns_to_make_sorted.cpp) |Easy|
+|953|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) | [Python](./Array&String/Python/verifying_an_alien_dictionary.py) [CPP](./Array&String/CPP/verifying_an_alien_dictionary.cpp) |Easy|
 |961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | [Python](./Array&String/Python/n_repeated_element_in_size_2n_array.py) [CPP](./Array&String/CPP/n_repeated_element_in_size_2n_array.cpp) |Easy|
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | [Python](./BinaryTree/univalued_binary_tree.py) [CPP](./BinaryTree/CPP/univalued_binary_tree.cpp) |Easy|
 |976|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | [Python](./Math/largest_perimeter_triangle.py) [CPP](./Math/CPP/largest_perimeter_triangle.cpp) |Easy|
@@ -305,7 +306,7 @@
 |1200|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | [Python](./Array&String/Sorting/minimum_absolute_difference.py) [CPP](./Array&String//Sorting/CPP/minimum_absolute_difference.cpp) |Easy|
 |1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | [Python](./Array&String/HashTable/unique_number_occurences.py) [CPP](./Array&String/HashTable/CPP/unique_number_occurences.cpp) |Easy|
 |1217|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/) | [Python](./Math/minimum_cost_to_move_chips_to_the_same_position.py) [CPP](./Math/CPP/minimum_cost_to_move_chips_to_the_same_position.cpp) |Easy|
-|1221|[Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | [Python](./Array&String/split_a_string_in_balanced_strings.py) [CPP](./Array&String/CPP/split_a_string_in_balanced_strings.cpp) |Easy|
+|1221|[Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | [Python](./Array&String/Python/split_a_string_in_balanced_strings.py) [CPP](./Array&String/CPP/split_a_string_in_balanced_strings.cpp) |Easy|
 |1232|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | [Python](./Math/check_if_it_is_a_straight_line.py) [CPP](./Math/CPP/check_if_it_is_a_straight_line.cpp) |Easy|
 |1252|[Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/) | [Python](./Math/cells_with_odd_values_in_a_matrix.py) [CPP](./Math/CPP/cells_with_odd_values_in_a_matrix.cpp) |Easy|
 |1254|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | [Python](./Unspecified/number_of_closed_islands.py) |Medium|
@@ -350,6 +351,7 @@
 |1502|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/) | [Python](./Array&String/Sorting/can_make_arithmetic_progression_from_sequence.py) [CPP](./Array&String/Sorting/CPP/can_make_arithmetic_progression_from_sequence.cpp) [JavaScript](./Array&String/Sorting/JS/can_make_arithmetic_progression_from_sequence.js) |Easy|
 |1512|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) | [Python](./Array&String/HashTable/number_of_good_pairs.py) [CPP](./Array&String/HashTable/CPP/number_of_good_pairs.cpp) [JavaScript](./Array&String/HashTable/JS/number_of_good_pairs.js) |Easy|
 |1523|[Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | [Python](./Math/count_odd_numbers_in_an_interval_range.py) [CPP](./Math/CPP/count_odd_numbers_in_an_interval_range.cpp) [JavaScript](./Math/JS/count_odd_numbers_in_an_interval_range.js) |Easy|
+|1528|[Shuffle String](https://leetcode.com/problems/shuffle-string/) | [Python](./Array&String/Python/shuffle_string.py) [CPP](./Array&String/CPP/shuffle_string.cpp) |Easy|
 |1550|[Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/) | [Python](./Array&String/Python/three_consecutive_odds.py) [CPP](./Array&String/CPP/three_consecutive_odds.cpp) [JavaScript](./Array&String/JS/three_consecutive_odds.js) |Easy|
 |1584|[Count Good Triplets](https://leetcode.com/problems/count-good-triplets/) | [Python](./Array&String/Python/count_good_triplets.py) [CPP](./Array&String/CPP/count_good_triplets.cpp) [JavaScript](./Array&String/JS/count_good_triplets.js) |Easy|
 |1672|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | [Python](./Unspecified/richest_customer_wealth.py) |Easy|
