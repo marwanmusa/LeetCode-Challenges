@@ -249,6 +249,7 @@
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](./Unspecified/middle_of_linked_list.py) |Easy|
 |881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | [Python](./Unspecified/boats_to_save_people.py) |Medium|
 |884|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/) | [Python](./Array&String/Python/uncommon_words_from_two_sentences.py) [CPP](./Array&String/CPP/uncommon_words_from_two_sentences.cpp) |Easy|
+|883|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/) | [Python](./Math/Python/projection_area_of_3d_shapes.py) [CPP](./Math/CPP/projection_area_of_3d_shapes.cpp) [JavaScript](./Math/JS/projection_area_of_3d_shapes.js) |Easy|
 |888|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | [Python](./Array&String/Python/fair_candy_swap.py) [CPP](./Array&String/CPP/fair_candy_swap.cpp) |Easy|
 |892|[Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/) | [Python](./Array&String/Python/surface_of_3d_shapes.py) [CPP](./Array&String/CPP/surface_of_3d_shapes.cpp) |Easy|
 |896|[Monotonic Array](https://leetcode.com/problems/monotonic-array/) | [Python](./Array&String/Python/monotonic_array.py) [CPP](./Array&String/CPP/monotonic_array.cpp) |Easy|
