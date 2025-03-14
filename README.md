@@ -276,6 +276,7 @@
 |989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | [Python](./Math/add_to_array_form_of_integer.py) [CPP](./Math/CPP/add_to_array_form_of_integer.cpp) |Easy|
 |993|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | [Python](./BinaryTree/cousins_in_binary_tree.py) [CPP](./BinaryTree/CPP/cousins_in_binary_tree.cpp) |Easy|
 |994|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/rotting-oranges/) | [Python](./Unspecified/rotting_oranges.py) |Medium|
+|997|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | [Python](./Array&String/HashTable/Python/find_the_town_judge.py) [CPP](./Array&String/HashTable/CPP/find_the_town_judge.cpp) [Javascript](./Array&String/HashTable/JS/find_the_town_judge.js) |Easy|
 |999|[Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) | [Python](./Array&String/Python/available_captures_for_rook.py) [CPP](./Array&String/CPP/available_captures_for_rook.cpp) |Easy|
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/) | [Python](./Array&String/Python/find_common_characters.py) |Easy|
 |1005|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | [Python](./Array&String/Sorting/maximize_sum_of_array_after_k_negations.py) [CPP](./Array&String/Sorting/CPP/maximize_sum_of_array_after_k_negations.cpp) |Easy|
