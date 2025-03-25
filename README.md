@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # ***Exploring LeetCode***
@@ -204,6 +203,7 @@
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Python](./Array&String/Python/valid_palindrome2.py) |Easy|
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Python](./Unspecified/Python/max_area_of_island.py) |Medium|
 |696|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | [Python](./Array&String/Python/count_binary_strings.py) |Easy|
+|697|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | [Python](./Array&String/HashTable/Python/degree_of_an_array.py) [CPP](./Array&String/HashTable/CPP/degree_of_an_array.cpp) [JavaScript](./Array&String/HashTable/JS/degree_of_an_array.js) |Easy|
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Python](./Recursion-1/Python/search_in_a_binary_search_tree.py) |Easy|
 |701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [Python](insert_into_a_binary_search_tree.py) |Medium|
 |703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [Python-bisort](./Array&String/Python/kth_largest_element_in_a_stream.py) [Python-heap](./Heap/kth_largest_element_in_a_stream.py) |Easy|
@@ -249,7 +249,7 @@
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](./Unspecified/Python/middle_of_linked_list.py) |Easy|
 |881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | [Python](./Unspecified/Python/boats_to_save_people.py) |Medium|
 |884|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/) | [Python](./Array&String/Python/uncommon_words_from_two_sentences.py) [CPP](./Array&String/CPP/uncommon_words_from_two_sentences.cpp) |Easy|
-|883|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/) | [Python](./Math/Python/projection_area_of_3d_shapes.py) [CPP](./Math/CPP/projection_area_of_3d_shapes.cpp) [JavaScript](./Math/JS/projection_area_of_3d_shapes.js) |Easy|
+|883|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/) | [Python](./Math/Python/projection_area_of_3d_shapes.py) [CPP](./Math/CPP/projection_area_of_3d_shapes.cpp) [JS](./Math/JS/projection_area_of_3d_shapes.js)|Easy|
 |888|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | [Python](./Array&String/Python/fair_candy_swap.py) [CPP](./Array&String/CPP/fair_candy_swap.cpp) |Easy|
 |892|[Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/) | [Python](./Array&String/Python/surface_of_3d_shapes.py) [CPP](./Array&String/CPP/surface_of_3d_shapes.cpp) |Easy|
 |896|[Monotonic Array](https://leetcode.com/problems/monotonic-array/) | [Python](./Array&String/Python/monotonic_array.py) [CPP](./Array&String/CPP/monotonic_array.cpp) |Easy|
