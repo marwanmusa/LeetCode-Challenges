@@ -9,6 +9,8 @@ pycryptodome = "*"
 numpy = "*"
 pwntools = "*"
 qrcode = "*"
+pandas = "*"
+openpyxl = "*"
 
 [dev-packages]
 
