@@ -336,6 +336,7 @@
 |1370|[Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/) | [Python](./Array&String/HashTable/Python/increasing_decreasing_string.py) [CPP](./Array&String/HashTable/CPP/increasing_decreasing_string.cpp) |Easy|
 |1379|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | [Python](./BinaryTree/Python/find_a_corresponding_node_of_a_binary_tree_in_a_clone_of_that_tree.py) [CPP](./BinaryTree/CPP/find_a_corresponding_node_of_a_binary_tree_in_a_clone_of_that_tree.cpp) |Easy|
 |1380|[Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) | [Python](./Array&String/Python/lucky_numbers_in_a_matrix.py) [CPP](./Array&String/CPP/lucky_numbers_in_a_matrix.cpp) |Easy|
+|1385|[Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/) | [Python](./BinarySearch/Python/find_the_distance_value_between_two_arrays.py) [CPP](./BinarySearch/CPP/find_the_distance_value_between_two_arrays.cpp) [JavaScript](./BinarySearch/JS/find_the_distance_value_between_two_arrays.js) |Easy|
 |1394|[Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/) | [Python](./Array&String/HashTable/Python/find_lucky_integer_in_an_array.py) [CPP](./Array&String/HashTable/CPP/find_lucky_integer_in_an_array.cpp) |Easy|
 |1399|[Count Largest Group](https://leetcode.com/problems/count-largest-group/) | [Python](./Array&String/HashTable/Python/count_largest_group.py) [CPP](./Array&String/HashTable/CPP/count_largest_group.cpp) |Easy|
 |1402|[Reducing Dishes](https://leetcode.com/problems/reducing-dishes/) | [Python](./Unspecified/Python/reducing_dishes.py) |Hard|
@@ -371,4 +372,7 @@
 |2405|[Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/) | [Python](./Unspecified/Python/optimal_partition_of_string.py)|Medium|
 |2439|[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/) | [Python](./Unspecified/Python/minimize_maximum_of_array.py)|Medium|
 |2492|[Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | [Python](./Unspecified/Python/minimum_score_of_a_path_between_two_cities.py)|Medium|
+|1536|[Minimum Swaps to Arrange a Binary Grid](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/) | [Python](./Array&String/Python/minimum_swaps_to_arrange_a_binary_grid.py) |Medium|
+|1539|[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/) | [Python](./BinarySearch/Python/kth_missing_positive_number.py) [CPP](./BinarySearch/CPP/kth_missing_positive_number.cpp) [JavaScript](./BinarySearch/JS/kth_missing_positive_number.js) |Easy|
+|1540|[Can Convert String in K Moves](https://leetcode.com/problems/can-convert-string-in-k-moves/) | [Python](./Array&String/Python/can_convert_string_in_k_moves.py) |Medium|
 </details>
