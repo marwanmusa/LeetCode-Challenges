@@ -1,7 +1,7 @@
-#include <string>
-#include <cmath>
 #include <algorithm>
-
+#include <cmath>
+#include <iostream>
+#include <string>
 using namespace std;
 
 class Solution {
@@ -9,10 +9,7 @@ public:
     string reformat(string s) {
         string digit = "", alpha = "", ans = "";
 
-        for (char x : s) {
-            if (isdigit(x)) digit += x;
-            else alpha += x;
-        }
+        for (char x : s) isdigit(x) ? digit += x : alpha += x;
 
         int p = digit.size(), q = alpha.size();
         if (abs(p - q) > 1) return "";
@@ -21,6 +18,7 @@ public:
             swap(digit, alpha);
             swap(p, q);
         }
+
         ans.reserve(s.size());
 
         for (size_t  i = 0; i < q; ++i) {
@@ -35,3 +33,10 @@ public:
         return ans;
     }
 };
+
+int main() {
+    Solution solution;
+    string s = "a0b1c2";
+    cout << solution.reformat(s) << endl;
+    return 0;
+}
