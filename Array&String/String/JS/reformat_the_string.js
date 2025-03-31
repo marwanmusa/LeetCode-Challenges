@@ -6,8 +6,7 @@ var reformat = function(s) {
     let digit = "", alpha = "", ans = "";
 
     for (const x of s) {
-        if (/^\d$/.test(x)) digit += x;
-        else alpha += x;
+        (/^\d$/.test(x)) ? digit += x : alpha += x;
     }
 
     if (Math.abs(alpha.length - digit.length) > 1) return "";
