@@ -182,6 +182,8 @@
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [Python](./Unspecified/Python/permutation_in_string.py) |Medium|
 |572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [Python](./BinaryTree/Python/subtree_of_another_tree.py) |Easy|
 |575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/) | [Python](./Unspecified/Python/distribute_candies.py) |Easy|
+|589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | [Python](./NaryTree/Python/n-ary_tree_preorder_traversal.py) |Easy|
+|590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | [Python](./NaryTree/Python/n-ary_tree_postorder_traversal.py) [C++](./NaryTree/CPP/n-ary_tree_postorder_traversal.c++) [JavaScript](./NaryTree/JS/n-ary_tree_postorder_traversal.js) |Easy|
 |594|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/) | [Python](./Array&String/Python/longest_harmonious_subsequence.py) |Easy|
 |598|[Range Addition II](https://leetcode.com/problems/range-addition-ii/) | [Python](./Array&String/Python/range_addition2.py) |Easy|
 |599|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | [Python](./Unspecified/Python/minimum_index_sum_of_two_lists.py) |Easy|
@@ -378,4 +380,12 @@
 |1536|[Minimum Swaps to Arrange a Binary Grid](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/) | [Python](./Array&String/Python/minimum_swaps_to_arrange_a_binary_grid.py) |Medium|
 |1539|[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/) | [Python](./BinarySearch/Python/kth_missing_positive_number.py) [CPP](./BinarySearch/CPP/kth_missing_positive_number.cpp) [JavaScript](./BinarySearch/JS/kth_missing_positive_number.js) |Easy|
 |1540|[Can Convert String in K Moves](https://leetcode.com/problems/can-convert-string-in-k-moves/) | [Python](./Array&String/Python/can_convert_string_in_k_moves.py) |Medium|
+|585|[Investments in 2016](https://leetcode.com/problems/investments-in-2016/) | [Python](./Database/Python/investments_in_2016.py) |Medium|
+|586|[Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/) | [Python](./Database/Python/customer_placing_the_largest_number_of_orders.py) |Easy|
+|587|[Erect the Fence](https://leetcode.com/problems/erect-the-fence/) | [Python](./Array&String/Python/erect_the_fence.py) |Hard|
+|588|[Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/) | [Python](./Array&String/Python/design_in_memory_file_system.py) |Hard|
+|589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | [Python](./NARYTREE/Python/n-ary_tree_preorder_traversal.py) |Easy|
+|590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | [Python](./NARYTREE/Python/n-ary_tree_postorder_traversal.py) [C++](./NARYTREE/CPP/n-ary_tree_postorder_traversal.c++) [JavaScript](./NARYTREE/JS/n-ary_tree_postorder_traversal.js) |Easy|
+|591|[Tag Validator](https://leetcode.com/problems/tag-validator/) | [Python](./Stack/Python/tag_validator.py) |Hard|
+|592|[Fraction Addition and Subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction/) | [Python](./Math/Python/fraction_addition_and_subtraction.py) |Medium|
 </details>
