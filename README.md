@@ -247,7 +247,7 @@ This repository contains my solutions to various LeetCode problems, organized by
 |701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [Python](insert_into_a_binary_search_tree.py) |Medium|
 |703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [Python-bisort](./Array&String/Python/kth_largest_element_in_a_stream.py) [Python-heap](./Heap/kth_largest_element_in_a_stream.py) |Easy|
 |704|[Binary Search](https://leetcode.com/problems/binary-search/) | [Python](./BinarySearch/Python/binary_search.py) |Easy|
-|705|[Design HashSet](https://leetcode.com/problems/design-hashset/) | [Python]./Unspecified/(design_HashSet.py) |Easy|
+|705|[Design HashSet](https://leetcode.com/problems/design-hashset/) | [Python](./Unspecified/design_HashSet.py) |Easy|
 |706|[Design HashMap](https://leetcode.com/problems/design-hashmap/) | [Python](./Unspecified/Python/design_HashMap.py) |Easy|
 |707|[Design Linked List](https://leetcode.com/problems/design-linked-list/) | [Python](./LinkedList/Python/design_linked_list.py) |Medium|
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/) | [Python](./Array&String/Python/to_lowercase.py) |Easy|
