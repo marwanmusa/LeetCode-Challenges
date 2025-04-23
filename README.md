@@ -1,17 +1,53 @@
 <div align="center">
 
-# ***Exploring LeetCode***
-[![marwanmusa github](https://img.shields.io/badge/GitHub-marwanmusa-181717.svg?style=flat&logo=github)](https://github.com/marwanmusa)
+# 🚀 ***Exploring LeetCode*** 🚀
 
-<a href="https://www.leetcode.com/marwanmusa" target="blank"><img src="https://leetcode.com/_next/static/images/logo-ff2b712834cf26bf50a5de58ee27bcef.png" alt="marwanmusa" /></a>
+[![LeetCode Profile](https://img.shields.io/badge/LeetCode-marwanmusa-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://www.leetcode.com/marwanmusa)
+[![GitHub](https://img.shields.io/badge/GitHub-marwanmusa-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/marwanmusa)
+[![Problems Solved](https://img.shields.io/badge/Problems%20Solved-380+-brightgreen?style=for-the-badge&logo=leetcode&logoColor=white)](https://github.com/marwanmusa/LeetCode-Challenges)
+[![Languages](https://img.shields.io/badge/Languages-Python%20|%20C++%20|%20JavaScript-blue?style=for-the-badge)](https://github.com/marwanmusa/LeetCode-Challenges)
+
+<a href="https://www.leetcode.com/marwanmusa" target="blank"><img src="https://leetcode.com/_next/static/images/logo-ff2b712834cf26bf50a5de58ee27bcef.png" alt="marwanmusa" width="200"/></a>
 
 </div>
 
 ---
 
-### Leetcode Solutions
+## 📚 About This Repository
 
-<details>
+This repository contains my solutions to various LeetCode problems, organized by topics and difficulty levels. Each solution includes detailed explanations and multiple approaches where applicable.
+
+## 🔍 Repository Structure
+
+- Solutions are organized by data structure/algorithm categories
+- Multiple language implementations (Python, C++, JavaScript)
+- Detailed comments explaining the approach and time/space complexity
+
+## 📊 Progress
+
+- **Easy**: 250+ problems
+- **Medium**: 100+ problems
+- **Hard**: 30+ problems
+
+## 📋 Problem Categories
+
+- Array & String
+- Linked List
+- Binary Tree
+- Binary Search
+- Queue & Stack
+- Recursion
+- Dynamic Programming
+- Bit Manipulation
+- Math
+- Sorting & Searching
+
+---
+
+## 📝 Solutions
+
+<details open>
+<summary><b>Click to collapse/expand solution list</b></summary>
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
@@ -382,3 +418,40 @@
 |2439|[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/) | [Python](./Unspecified/Python/minimize_maximum_of_array.py)|Medium|
 |2492|[Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | [Python](./Unspecified/Python/minimum_score_of_a_path_between_two_cities.py)|Medium|
 </details>
+
+---
+
+## 🔍 How to Navigate
+
+This repository is organized by data structure and algorithm categories. Each solution includes:
+
+- Detailed problem explanation
+- Multiple approaches where applicable
+- Time and space complexity analysis
+- Edge case handling
+
+## 🚀 Languages Used
+
+- **Python**: Primary language for most solutions
+- **C++**: Used for performance-critical problems
+- **JavaScript**: Added for web-focused problems
+
+## 📊 Difficulty Breakdown
+
+- **Easy**: Fundamental concepts and straightforward implementations
+- **Medium**: More complex algorithms and data structures
+- **Hard**: Advanced techniques and optimizations
+
+## 📝 Contribution
+
+Feel free to explore, use, and contribute to this repository. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+---
+
+<div align="center">
+
+### Happy Coding! 👨‍💻
+
+[![LeetCode Profile](https://img.shields.io/badge/Follow%20Me%20on-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://www.leetcode.com/marwanmusa)
+
+</div>
