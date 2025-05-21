@@ -200,7 +200,7 @@ This repository contains my solutions to various LeetCode problems, organized by
 |463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/) | [Python](./Unspecified/Python/island_perimeter.py) |Easy|
 |467|[Number Complement](https://leetcode.com/problems/number-complement/) | [Python](./Unspecified/Python/number_complement.py) |Easy|
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [Python](./Unspecified/Python/max_consecutive_ones.py) |Easy|
-|494|[Target Sum](https://leetcode.com/problems/target-sum/) | [Python](./Queue%20&%20Stack/Python/target_sum.py.py) |Medium|
+|494|[Target Sum](https://leetcode.com/problems/target-sum/) | [Python](./Queue%20&%20Stack/Python/target_sum.py) |Medium|
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Python](./Array&String/Python/diagonal_traverse.py) |Medium|
 |501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/) | [Python](./BinarySearch/Python/find_mode_in_bst.py) |Easy|
 |506|[Relative Ranks](https://leetcode.com/problems/relative-ranks/) | [Python](./Unspecified/Python/relative_ranks.py) |Easy|
@@ -362,7 +362,7 @@ This repository contains my solutions to various LeetCode problems, organized by
 |1304|[Find N Unique Integers Sum up to Zero solution](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | [Python](./Math/Python/find_n_unique_integers_sum_up_to_zero.py) [CPP](./Math/CPP/find_n_unique_integers_sum_up_to_zero.cpp) |Easy|
 |1309|[Decrypt String from Alphabet to Integer Mapping solution](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | [Python](./Array&String/Python/decrypt_string_from_alphabet_to_integer_mapping.py) [CPP](./Array&String/CPP/decrypt_string_from_alphabet_to_integer_mapping.cpp) |Easy|
 |1313|[Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) | [Python](./Array&String/Python/decompress_run-length_encoded_list.py) [CPP](./Array&String/CPP/decompress_run-length_encoded_list.cpp) |Easy|
-|1317|[Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | [Python](./Math/Python/convert_integer_to_the_sum_of_two_no-zero_integers.py) [CPP](./Math/convert_integer_to_the_sum_of_two_no-zero_integers.py) |Easy|
+|1317|[Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | [Python](./Math/Python/convert_integer_to_the_sum_of_two_no-zero_integers.py) [CPP](./Math/CPP/convert_integer_to_the_sum_of_two_no-zero_integers.cpp) |Easy|
 |1323|[Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | [Python](./Math/Python/maximum_69_number.py) [CPP](./Math/CPP/maximum_69_number.cpp) |Easy|
 |1331|[Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/) | [Python](./Array&String/HashTable/Python/rank_transform_of_an_array.py) [CPP](./Array&String/HashTable/CPP/rank_transform_of_an_array.cpp) |Easy|
 |1337|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/) | [Python](./Array&String/Sorting/Python/the_k_weakest_rows_in_a_matrix.py) [CPP](./Array&String/Sorting/CPP/the_k_weakest_rows_in_a_matrix.cpp) |Easy|
